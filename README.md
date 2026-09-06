@@ -17,10 +17,14 @@
   <img src="https://img.shields.io/badge/CODENAME-CODEXANJAN-0b0d10?style=for-the-badge&labelColor=0b0d10&color=eab308" alt="Codename: codexanjan" />
   <img src="https://img.shields.io/badge/STATUS-ONLINE-0b0d10?style=for-the-badge&labelColor=0b0d10&color=22c55e&logo=statuspal&logoColor=22c55e" alt="Status: Online" />
   <img src="https://img.shields.io/badge/HQ-BATCAVE-0b0d10?style=for-the-badge&labelColor=0b0d10&color=facc15" alt="HQ: Batcave" />
-  <img src="https://img.shields.io/badge/CLEARANCE-LEVEL%2010-0b0d10?style=for-the-badge&labelColor=0b0d10&color=eab308" alt="Clearance: Level 10" />
 </p>
 
 </div>
+
+<!-- GOTHAM VISITOR COUNTER -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=codexanjan&color=facc15&style=for-the-badge&label=🦇+GOTHAM+VISITORS" alt="Gotham Profile Visitors" />
+</p>
 
 ## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> THE BAT-SIGNAL
 
@@ -232,6 +236,12 @@ Customizable personal scheduling platform built for calendar optimization, event
   </a>
 </p>
 
+<br>
+
+<p align="center">
+  <code>🦇 ANJAN SHETTY</code> &nbsp;•&nbsp; <code>codexanjan</code> &nbsp;•&nbsp; <code>Building in the dark. Shipping into the light.</code>
+</p>
+
 </div>
 
 ## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM TELEMETRY
@@ -247,10 +257,10 @@ Telemetry and code activity monitored through GitHub's analytical services:
         <img src="https://github-readme-stats-fast.vercel.app/api?username=codexanjan&show_icons=true&theme=tokyonight&bg_color=0b0d10&title_color=facc15&icon_color=eab308&text_color=cbd5e1&border_color=eab30833" alt="Gotham Core Stats" />
       </a>
     </td>
-    <td>
-      <a href="https://github.com/codexanjan">
-        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=codexanjan&layout=compact&theme=tokyonight&bg_color=0b0d10&title_color=facc15&icon_color=eab308&text_color=cbd5e1&border_color=eab30833" alt="Top Languages" />
-      </a>
+    <td align="center" valign="middle">
+      <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&pause=800&color=FACC15&center=true&vCenter=true&width=340&lines=JavaScript+%F0%9F%94%A5;TypeScript+%E2%9A%A1;Python+%F0%9F%90%8D;Java+%E2%98%95;C%2B%2B+%F0%9F%9B%A1%EF%B8%8F;React+%26+Next.js+%F0%9F%8C%9F;Node.js+%26+Express+%F0%9F%9A%80;SQL+%26+MongoDB+%F0%9F%97%84%EF%B8%8F" alt="Animated Most Used Languages" />
+      <br/>
+      <sub><code>⚡ MOST USED LANGUAGES</code></sub>
     </td>
   </tr>
 </table>
@@ -372,20 +382,24 @@ Connect across developer networks and platforms:
 ## <img src="https://media.tenor.com/yN7BX6R5mawAAAAM/batman-bat.gif" width="34" height="34" align="center" alt="Bat" /> BATCAVE TERMINAL
 
 ```bash
-$ whoami
-anjan@batcave
+┌──(batcave㉿gotham)-[~]
+└─$ whoami
+anjan shetty // codexanjan
 
-$ mission
-build useful software
+┌──(batcave㉿gotham)-[~]
+└─$ mission
+build useful software. ship into the light.
 
-$ status
-learning...
+┌──(batcave㉿gotham)-[~]
+└─$ status
 
-$ favorite_command
-git commit -m "make it better"
+Still building.
+Still learning.
+Still in the shadows.
 
-$ exit
-See you in Gotham.
+┌──(batcave㉿gotham)-[~]
+└─$ exit
+See you in Gotham. 🦇
 ```
 
 <br>
@@ -396,13 +410,6 @@ See you in Gotham.
 
 <br><br>
 
-**Anjan Shetty • `codexanjan`**
-
-<br><br>
-
-<!-- GOTHAM PROFILE VISITOR COUNTER -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=codexanjan&color=facc15&style=flat-square&label=🦇+GOTHAM+VISITORS" alt="Gotham Profile Visitors" />
-</p>
+<img src="https://media.tenor.com/JRpwjBo-qsQAAAAM/batman-logo.gif" width="40" alt="Batman" />
 
 </div>
