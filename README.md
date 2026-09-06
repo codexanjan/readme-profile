@@ -323,7 +323,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 <!-- Gotham Activity Line Graph -->
 <a href="https://github.com/codexanjan">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=codexanjan&theme=react-dark&bg_color=0b0d10&color=eab308&line=facc15&point=ffffff&area=true&hide_border=true" width="95%" alt="Gotham Activity Graph" />
+  <img src="https://activity-graph.vercel.app/graph?username=codexanjan&theme=react-dark&bg_color=0b0d10&color=eab308&line=facc15&point=ffffff&area=true&hide_border=true" width="95%" alt="Gotham Activity Graph" />
 </a>
 
 <br><br>
@@ -356,7 +356,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 <div align="center">
 
 <a href="https://github.com/codexanjan">
-  <img src="https://github-profile-trophy.vercel.app/?username=codexanjan&theme=darkhub&no-frame=true&margin-w=10" alt="Gotham Profile Trophies" />
+  <img src="https://github-profile-trophies.vercel.app/?username=codexanjan&theme=darkhub&no-frame=true&margin-w=10" alt="Gotham Profile Trophies" />
 </a>
 
 </div>
@@ -370,18 +370,6 @@ Telemetry and code activity monitored through GitHub's analytical services:
 > **"It's not who I am underneath, but what I do that defines me."**
 > 
 > *In software development, ideas matter far less than what you actually architect, test, and ship.*
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
-
-## <img src="https://media.tenor.com/48q1GKDifsMAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Developer Philosophy
-
-- **Detect**: Understand the core problem and requirements deeply before writing a single line of code.
-- **Build**: Turn abstract specifications into reliable, resilient working systems.
-- **Investigate**: Debug with telemetry and hypothesis testing rather than guesswork.
-- **Iterate**: Refactor and improve continuously through small, verified, atomic commits.
-- **Ship**: A finished, working project delivers infinitely more value than an unfinished blueprint.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
@@ -476,15 +464,6 @@ See you in Gotham.
 <br>
 
 <div align="center">
-
-```text
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-        BUILD IN THE DARK.
-        SHIP INTO THE LIGHT.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
 
 <h3>Thanks for visiting the Batcave.</h3>
 
