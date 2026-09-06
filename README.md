@@ -46,7 +46,7 @@ Whether architecting full-stack web applications or automating complex developer
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="./assets/lanyard.svg?v=4" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
+<img src="./assets/lanyard.svg?v=5" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
 
 </td>
 <td width="50%" valign="top">
@@ -281,16 +281,20 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=19&pause=1000&color=FACC15&center=true&vCenter=true&width=750&lines=%E2%9A%A1+GOTHAM+TELEMETRY+MAINFRAME+%7C+LIVE+METRICS;%F0%9F%94%A5+TOTAL+CONTRIBUTIONS%3A+88+%7C+CURRENT+STREAK%3A+ACTIVE;%F0%9F%A6%87+COMMITS%3A+79+%7C+STARS%3A+73+%E2%AD%90+%7C+GRADE%3A+B-;%F0%9F%9B%A1%EF%B8%8F+BATCAVE+CODE+ENGINE%3A+OPERATIONAL" alt="Animated Batcave Telemetry HUD" />
+
+<br><br>
+
 <table border="0" width="100%">
   <tr align="center">
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=codexanjan&show_icons=true&theme=tokyonight&bg_color=0b0d10&title_color=facc15&icon_color=eab308&text_color=cbd5e1&border_color=eab30833&custom_title=BATCAVE%20METRICS" width="100%" alt="Gotham Core Stats" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=codexanjan&show_icons=true&theme=tokyonight&bg_color=0b0d10&title_color=facc15&icon_color=eab308&text_color=cbd5e1&border_color=facc1555&custom_title=BATCAVE%20METRICS&include_all_commits=true" width="100%" alt="Gotham Core Stats" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="https://streak-stats.demolab.com?user=codexanjan&theme=tokyonight&border=eab30833&background=0B0D10&ring=FACC15&fire=EAB308&currStreakLabel=FACC15&sideNums=cbd5e1&sideLabels=cbd5e1&dates=94a3b8" width="100%" alt="Gotham Developer Streak" />
+        <img src="https://streak-stats.demolab.com?user=codexanjan&theme=tokyonight&border=facc1555&background=0B0D10&ring=FACC15&fire=EAB308&currStreakLabel=FACC15&sideNums=cbd5e1&sideLabels=cbd5e1&dates=94a3b8" width="100%" alt="Gotham Developer Streak" />
       </a>
     </td>
   </tr>
