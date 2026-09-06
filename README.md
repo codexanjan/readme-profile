@@ -220,37 +220,49 @@ Customizable personal scheduling platform built for calendar optimization, event
 <div align="center">
 
 <table border="0" width="100%">
-  <tr align="center">
+<tr>
 
-    <!-- Certificate 1: SQL Basic -->
-    <td width="50%" align="center" valign="top">
-      <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-        <img src="./assets/sql-basic-certificate.png" width="95%" alt="HackerRank SQL (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
-      </a>
-      <br><br>
-      <b>HackerRank Certified • SQL (Basic)</b><br>
-      <sub>ID: <code>43477C74733F</code> • Anjan N Shetty</sub>
-      <br><br>
-      <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-        <img src="https://img.shields.io/badge/VERIFY-SQL%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify SQL Credential" />
-      </a>
-    </td>
+<td width="50%" align="center" valign="top">
 
-    <!-- Certificate 2: Java Basic -->
-    <td width="50%" align="center" valign="top">
-      <a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
-        <img src="./assets/java-basic-certificate.png" width="95%" alt="HackerRank Java (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
-      </a>
-      <br><br>
-      <b>HackerRank Certified • Java (Basic)</b><br>
-      <sub>ID: <code>8A4745B17FFA</code> • Anjan N Shetty</sub>
-      <br><br>
-      <a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
-        <img src="https://img.shields.io/badge/VERIFY-JAVA%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify Java Credential" />
-      </a>
-    </td>
+<!-- Certificate 1: SQL Basic -->
+<a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
+  <img src="./assets/sql-basic-certificate.png" width="95%" alt="HackerRank SQL (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+</a>
 
-  </tr>
+<br><br>
+
+<b>HackerRank Certified • SQL (Basic)</b><br>
+<sub>ID: <code>43477C74733F</code> • Anjan N Shetty</sub>
+
+<br><br>
+
+<a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
+  <img src="https://img.shields.io/badge/VERIFY-SQL%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify SQL Credential" />
+</a>
+
+</td>
+
+<td width="50%" align="center" valign="top">
+
+<!-- Certificate 2: Java Basic -->
+<a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
+  <img src="./assets/java-basic-certificate.png" width="95%" alt="HackerRank Java (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+</a>
+
+<br><br>
+
+<b>HackerRank Certified • Java (Basic)</b><br>
+<sub>ID: <code>8A4745B17FFA</code> • Anjan N Shetty</sub>
+
+<br><br>
+
+<a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
+  <img src="https://img.shields.io/badge/VERIFY-JAVA%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify Java Credential" />
+</a>
+
+</td>
+
+</tr>
 </table>
 
 <br>
