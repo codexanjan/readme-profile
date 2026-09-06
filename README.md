@@ -213,32 +213,82 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 
 
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> CERTIFICATIONS
+
+> *"Credentials forged in discipline. Knowledge deployed in the shadows."*
+
+<div align="center">
+
+<table border="0" width="100%">
+  <tr align="center">
+
+    <!-- Certificate 1: SQL Basic -->
+    <td width="50%" align="center" valign="top">
+      <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
+        <img src="./assets/sql-basic-certificate.png" width="95%" alt="HackerRank SQL (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+      </a>
+      <br><br>
+      <b>HackerRank Certified • SQL (Basic)</b><br>
+      <sub>ID: <code>43477C74733F</code> • Anjan N Shetty</sub>
+      <br><br>
+      <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
+        <img src="https://img.shields.io/badge/VERIFY-SQL%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify SQL Credential" />
+      </a>
+    </td>
+
+    <!-- Certificate 2: Java Basic -->
+    <td width="50%" align="center" valign="top">
+      <a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
+        <img src="./assets/java-basic-certificate.png" width="95%" alt="HackerRank Java (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+      </a>
+      <br><br>
+      <b>HackerRank Certified • Java (Basic)</b><br>
+      <sub>ID: <code>8A4745B17FFA</code> • Anjan N Shetty</sub>
+      <br><br>
+      <a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
+        <img src="https://img.shields.io/badge/VERIFY-JAVA%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify Java Credential" />
+      </a>
+    </td>
+
+  </tr>
+</table>
+
+<br>
+
+<p align="center">
+  <a href="https://www.hackerrank.com/anjanshetty" target="_blank">
+    <img src="https://img.shields.io/badge/VIEW%20ALL%20CREDENTIALS-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="View All Credentials" />
+  </a>
+</p>
+
+</div>
+
 ## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM TELEMETRY
 
 Telemetry and code activity monitored through GitHub's analytical services:
 
 <div align="center">
 
-<table border="0" align="center">
+<table border="0" width="100%">
   <tr align="center">
-    <td>
+    <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=codexanjan&show_icons=true&theme=tokyonight&bg_color=0b0d10&title_color=facc15&icon_color=eab308&text_color=cbd5e1&border_color=eab30833" alt="Gotham Core Stats" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=codexanjan&show_icons=true&theme=tokyonight&bg_color=0b0d10&title_color=facc15&icon_color=eab308&text_color=cbd5e1&border_color=eab30833&custom_title=BATCAVE%20METRICS" width="100%" alt="Gotham Core Stats" />
       </a>
     </td>
-    <td align="center" valign="middle">
-      <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&pause=800&color=FACC15&center=true&vCenter=true&width=340&lines=JavaScript+%F0%9F%94%A5;TypeScript+%E2%9A%A1;Python+%F0%9F%90%8D;Java+%E2%98%95;C%2B%2B+%F0%9F%9B%A1%EF%B8%8F;React+%26+Next.js+%F0%9F%8C%9F;Node.js+%26+Express+%F0%9F%9A%80;SQL+%26+MongoDB+%F0%9F%97%84%EF%B8%8F" alt="Animated Most Used Languages" />
-      <br/>
-      <sub><code>⚡ MOST USED LANGUAGES</code></sub>
+    <td width="50%" align="center" valign="middle">
+      <a href="https://github.com/codexanjan">
+        <img src="https://streak-stats.demolab.com?user=codexanjan&theme=tokyonight&border=eab30833&background=0B0D10&ring=FACC15&fire=EAB308&currStreakLabel=FACC15&sideNums=cbd5e1&sideLabels=cbd5e1&dates=94a3b8" width="100%" alt="Gotham Developer Streak" />
+      </a>
     </td>
   </tr>
 </table>
 
 <br>
 
-<a href="https://github.com/codexanjan">
-  <img src="https://streak-stats.demolab.com?user=codexanjan&theme=tokyonight&hide_border=true&background=0B0D10&ring=FACC15&fire=EAB308&currStreakLabel=FACC15" alt="Gotham Developer Streak" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=16&pause=800&color=FACC15&center=true&vCenter=true&width=550&lines=JavaScript+%E2%9A%A1;TypeScript+%F0%9F%94%A5;Python+%F0%9F%90%8D;Java+%E2%98%95;C%2B%2B+%F0%9F%9B%A1%EF%B8%8F;React+%26+Next.js+%F0%9F%8C%9F;Node.js+%26+Express+%F0%9F%9A%80;SQL+%26+MongoDB+%F0%9F%97%84%EF%B8%8F" alt="Animated Most Used Languages" />
+<br/>
+<sub><code>⚡ ACTIVE BATCAVE RUNTIMES & LANGUAGES</code></sub>
 
 </div>
 
