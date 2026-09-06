@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="./assets/aj.gif" width="100%" alt="The Batman Cinematic Banner" />
+<img src="./assets/banner.jpg" width="100%" alt="ANJAN SHETTY // Gotham's Shadow Architect" style="border-radius: 10px; border: 1px solid #facc1544;" />
 
 <br><br>
 
@@ -22,7 +22,7 @@
 
 </div>
 
-## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> The Bat-Signal
+## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> THE BAT-SIGNAL // MISSION CONTROL
 
 > *"When that light hits the sky, it's not just a call. It's a warning."*
 
@@ -34,42 +34,51 @@ Whether architecting full-stack web applications or automating complex developer
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&pause=1000&color=FACC15&center=true&vCenter=true&width=900&lines=FULL+STACK+DEVELOPER;AI+%7C+ML+ENTHUSIAST;OPEN+SOURCE+CONTRIBUTOR;BUILD.+CREATE.+INNOVATE.;WELCOME+TO+THE+BATCAVE" alt="Typing SVG" />
 </div>
 
-## <img src="https://media.tenor.com/Z7VsDOTD9coAAAAM/batman-thebatman.gif" width="34" height="34" align="center" alt="Bat" /> About Me
+## <img src="https://media.tenor.com/Z7VsDOTD9coAAAAM/batman-thebatman.gif" width="34" height="34" align="center" alt="Bat" /> ABOUT ME // SHADOW ARCHITECT
 
 > *"Somewhere between an idea and a working product, there is a lot of debugging."*
 
 <table border="0" width="100%">
 <tr>
-<td width="48%" align="center" valign="middle">
+<td width="50%" align="center" valign="middle">
 
-<img src="./assets/lanyard.svg?v=2" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
+<img src="./assets/lanyard.svg?v=3" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
 
 </td>
-<td width="52%" valign="top">
+<td width="50%" valign="top">
 
 ```yaml
+Wayne Enterprises Security Clearance:
+  Operative: Anjan Shetty
+  Codename: codexanjan
+  Clearance: Level 10 // Omega
+  Division: Applied Sciences & Architecture
+
 Role:
-  - Student
+  - Engineering Student
   - Full Stack Developer
-  - AI/ML Enthusiast
+  - AI/ML Solutions Architect
 
 Currently Learning:
-  - MERN Stack
-  - AI Integrations
-  - Cloud & DevOps
+  - MERN Stack Architecture
+  - Agentic AI & LLM Pipelines
+  - Cloud Infrastructure & DevOps
 
-Interests:
-  - Web Development
-  - Open Source
-  - UI/UX Designing
-  - AI/ML Research
+Interests & Focus:
+  - Scalable Web Applications
+  - Open Source Engineering
+  - High-Fidelity UI/UX Systems
+  - Applied AI/ML Research
+
+Operative Creed:
+  "Building in the dark. Shipping into the light."
 ```
 
 </td>
 </tr>
 </table>
 
-## <img src="https://media.tenor.com/UBDMhOsO6uIAAAAM/batman-batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Current Mission
+## <img src="https://media.tenor.com/UBDMhOsO6uIAAAAM/batman-batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> CURRENT MISSION // ACTIVE OBJECTIVES
 
 <table border="0" width="100%">
 <tr>
@@ -91,7 +100,7 @@ Current investigative objectives:
 </tr>
 </table>
 
-## <img src="https://media.tenor.com/EXFWK1g8pBYAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Currently Building
+## <img src="https://media.tenor.com/EXFWK1g8pBYAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> CURRENTLY BUILDING // ARCHITECTURAL LABS
 
 <table border="0" width="100%">
 <tr>
@@ -128,11 +137,7 @@ Community utilities, documentation & shipping real tools
 
 <br>
 
-<div align="center">
-  <img src="https://media1.tenor.com/m/z5fHWNdU06kAAAAC/batman-batcomputer.gif" width="100%" alt="Batcomputer System Pipeline" style="border-radius: 8px; border: 1px solid #eab30833;" />
-</div>
-
-## <img src="https://media.tenor.com/7L8d8aMSSOsAAAAM/batman-batarang.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Arsenal
+## <img src="https://media.tenor.com/7L8d8aMSSOsAAAAM/batman-batarang.gif" width="34" height="34" align="center" alt="Bat" /> BATCAVE ARSENAL // TECH STACK & WEAPONRY
 
 A curated inventory of the languages, frameworks, and tools deployed across missions:
 
@@ -184,7 +189,7 @@ A curated inventory of the languages, frameworks, and tools deployed across miss
   <img src="https://img.shields.io/badge/Postman-0b0d10?style=for-the-badge&logo=postman&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="Postman" />
 </p>
 
-## <img src="https://media.tenor.com/nPu5YH2SrS0AAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Batcomputer // Project Database
+## <img src="https://media.tenor.com/nPu5YH2SrS0AAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> BATCOMPUTER // PROJECT REPOSITORY DATABASE
 
 <table border="0" width="100%">
 <tr>
@@ -239,33 +244,33 @@ Customizable personal scheduling platform built for calendar optimization, event
   </a>
 </p>
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> Certification Vault
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> CERTIFICATION VAULT // VERIFIED CREDENTIALS
 
 <div align="center">
 
 <table border="0" width="100%">
-  <tr>
-    <td width="33.3%" align="center">
-      <a href="https://www.hackerrank.com/certificates/2534a5a1f56d" target="_blank">
-        <img src="https://downloads.hackerrank.com/certificates/2534a5a1f56d" width="100%" alt="Frontend Developer (React) Certificate" style="border-radius: 6px;" />
-      </a>
-    </td>
-    <td width="33.3%" align="center">
-      <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-        <img src="https://downloads.hackerrank.com/certificates/43477c74733f" width="100%" alt="HackerRank SQL (Basic) Certificate" style="border-radius: 6px;" />
-      </a>
-    </td>
-    <td width="33.3%" align="center">
-      <a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
-        <img src="https://downloads.hackerrank.com/certificates/8a4745b17ffa" width="100%" alt="HackerRank Java (Basic) Certificate" style="border-radius: 6px;" />
-      </a>
-    </td>
-  </tr>
+<tr>
+<td width="33.3%" align="center">
+<a href="https://www.hackerrank.com/certificates/2534a5a1f56d" target="_blank">
+<img src="./assets/certificate-frontend-react.png" width="100%" alt="Frontend Developer (React) Certificate" style="border-radius: 6px; border: 1px solid #facc1533;" />
+</a>
+</td>
+<td width="33.3%" align="center">
+<a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
+<img src="./assets/certificate-sql-basic.png" width="100%" alt="HackerRank SQL (Basic) Certificate" style="border-radius: 6px; border: 1px solid #facc1533;" />
+</a>
+</td>
+<td width="33.3%" align="center">
+<a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
+<img src="./assets/certificate-java-basic.png" width="100%" alt="HackerRank Java (Basic) Certificate" style="border-radius: 6px; border: 1px solid #facc1533;" />
+</a>
+</td>
+</tr>
 </table>
 
 </div>
 
-## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Intelligence
+## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM INTELLIGENCE // ANALYTICAL TELEMETRY
 
 Telemetry and code activity monitored through GitHub's analytical services:
 
@@ -294,7 +299,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/WG7Av1qK5UEAAAAM/the-dark-knight-bat-tumbler.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Activity
+## <img src="https://media.tenor.com/WG7Av1qK5UEAAAAM/the-dark-knight-bat-tumbler.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM ACTIVITY // COMMIT RADAR
 
 <div align="center">
 
@@ -307,7 +312,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/PZt9Snxgh6cAAAAM/batman.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Contribution Snake
+## <img src="https://media.tenor.com/PZt9Snxgh6cAAAAM/batman.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM PATROL // CONTRIBUTION SNAKE MATRIX
 
 <div align="center">
 
@@ -335,7 +340,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/SU3l1PF5_YcAAAAM/batman-beyond-power.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Trophy Room
+## <img src="https://media.tenor.com/SU3l1PF5_YcAAAAM/batman-beyond-power.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM TROPHY ROOM // BADGES OF VALOR
 
 <div align="center">
 
@@ -345,13 +350,13 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/rQg6E7wBo6QAAAAM/the-batman-bruce-wayne.gif" width="34" height="34" align="center" alt="Bat" /> The Dark Knight's Code
+## <img src="https://media.tenor.com/rQg6E7wBo6QAAAAM/the-batman-bruce-wayne.gif" width="34" height="34" align="center" alt="Bat" /> THE DARK KNIGHT\'S CODE // ENGINEERING PHILOSOPHY
 
 > **"It's not who I am underneath, but what I do that defines me."**
 > 
 > *In software development, ideas matter far less than what you actually architect, test, and ship.*
 
-## <img src="https://media.tenor.com/M9MZYFuHCtUAAAAM/throwing-batarang-batman.gif" width="34" height="34" align="center" alt="Bat" /> Currently Learning
+## <img src="https://media.tenor.com/M9MZYFuHCtUAAAAM/throwing-batarang-batman.gif" width="34" height="34" align="center" alt="Bat" /> SYSTEM UPGRADES // SKILL ACQUISITION ROADMAP
 
 - [ ] Advanced distributed system design & concurrency patterns
 - [ ] Scalable backend microservice architecture
@@ -360,7 +365,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 - [ ] Sustained open-source contribution & peer code review
 - [ ] Comprehensive test-driven design (TDD) & end-to-end integration testing
 
-## <img src="https://media.tenor.com/JjLa1-uyF_cAAAAM/batman-signal-aura-dark.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Command Center
+## <img src="https://media.tenor.com/JjLa1-uyF_cAAAAM/batman-signal-aura-dark.gif" width="34" height="34" align="center" alt="Bat" /> BATCAVE COMMAND CENTER // ENCRYPTED COMMS
 
 Connect across developer networks and platforms:
 
@@ -410,7 +415,7 @@ Connect across developer networks and platforms:
 
 </div>
 
-## <img src="https://media.tenor.com/yN7BX6R5mawAAAAM/batman-bat.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Terminal
+## <img src="https://media.tenor.com/yN7BX6R5mawAAAAM/batman-bat.gif" width="34" height="34" align="center" alt="Bat" /> BATCAVE TERMINAL // COMMAND LINE INTERFACE
 
 ```bash
 $ whoami
