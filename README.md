@@ -151,7 +151,7 @@ A curated inventory of the languages, frameworks, and tools deployed across miss
 <p>
   <img src="https://img.shields.io/badge/Git-0b0d10?style=for-the-badge&logo=git&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-0b0d10?style=for-the-badge&logo=github&logoColor=eab308&labelColor=0b0d10&color=eab308" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-0b0d10?style=for-the-badge&logo=visualstudiocode&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="VS Code" />
+
   <img src="https://img.shields.io/badge/Linux-0b0d10?style=for-the-badge&logo=linux&logoColor=eab308&labelColor=0b0d10&color=eab308" alt="Linux" />
   <img src="https://img.shields.io/badge/Postman-0b0d10?style=for-the-badge&logo=postman&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="Postman" />
 </p>
