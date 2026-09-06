@@ -23,7 +23,7 @@
 
 <!-- GOTHAM VISITOR COUNTER -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=codexanjan&color=facc15&style=for-the-badge&label=🦇+GOTHAM+VISITORS" alt="Gotham Profile Visitors" />
+  <img src="https://komarev.com/ghpvc/?username=codexanjan&color=facc15&style=for-the-badge&label=GOTHAM+VISITORS" alt="Gotham Profile Visitors" />
 </p>
 
 ## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> THE BAT-SIGNAL
@@ -215,6 +215,7 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 <div align="center">
 
+<!-- Certificate 1: SQL Basic -->
 <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
   <img src="./assets/sql-basic-certificate.png" width="65%" alt="HackerRank SQL (Basic) Certificate - Anjan N Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
 </a>
@@ -228,11 +229,31 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 <p align="center">
   <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-    <img src="https://img.shields.io/badge/VERIFY%20CREDENTIAL-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify HackerRank Credential" />
+    <img src="https://img.shields.io/badge/VERIFY%20CREDENTIAL-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify HackerRank SQL Credential" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.hackerrank.com/anjanshetty" target="_blank">
     <img src="https://img.shields.io/badge/VIEW%20ALL%20CERTIFICATIONS-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="View All Certifications" />
+  </a>
+</p>
+
+<br><br>
+
+<!-- Certificate 2: Java Basic -->
+<a href="https://www.hackerrank.com/anjanshetty" target="_blank">
+  <img src="./assets/java-basic-certificate.png" width="65%" alt="HackerRank Java (Basic) Certificate - Anjan N Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+</a>
+
+<br><br>
+
+<p align="center">
+  <b>HackerRank Certified • Java (Basic)</b><br>
+  <sub>Issued: 18 Aug, 2025 • Recipient: <b>Anjan N Shetty</b> • Issued by HackerRank</sub>
+</p>
+
+<p align="center">
+  <a href="https://www.hackerrank.com/anjanshetty" target="_blank">
+    <img src="https://img.shields.io/badge/VERIFY%20CREDENTIAL-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify HackerRank Java Credential" />
   </a>
 </p>
 
@@ -410,6 +431,6 @@ See you in Gotham. 🦇
 
 <br><br>
 
-<img src="https://media.tenor.com/JRpwjBo-qsQAAAAM/batman-logo.gif" width="40" alt="Batman" />
+
 
 </div>
