@@ -24,8 +24,6 @@
   <img src="https://img.shields.io/badge/CLEARANCE-LEVEL%2010-0b0d10?style=for-the-badge&labelColor=0b0d10&color=eab308" alt="Clearance: Level 10" />
 </p>
 
-<img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-
 </div>
 
 ## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> The Bat-Signal
@@ -35,10 +33,6 @@
 I am **Anjan Shetty**, an engineering student and developer focused on turning conceptual problems into resilient, working software. My journey centers around building developer tools, engineering scalable backend architectures, exploring intelligent systems, and learning practical system design.
 
 Whether architecting full-stack web applications or automating complex developer workflows, my philosophy is grounded in understanding fundamentals, writing clean code, and shipping into the real world.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&pause=1000&color=FACC15&center=true&vCenter=true&width=900&lines=FULL+STACK+DEVELOPER;AI+%7C+ML+ENTHUSIAST;OPEN+SOURCE+CONTRIBUTOR;BUILD.+CREATE.+INNOVATE.;WELCOME+TO+THE+BATCAVE" alt="Typing SVG" />
@@ -70,15 +64,11 @@ Interests:
   - AI/ML Research
 ```
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
-
 ## <img src="https://media.tenor.com/UBDMhOsO6uIAAAAM/batman-batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Current Mission
 
-```text
-[✓] Learn   ➔   [✓] Build   ➔   [✓] Experiment   ➔   [→] Improve   ➔   [→] Ship   ➔   [→] Repeat
-```
+<table border="0" width="100%">
+<tr>
+<td width="60%" valign="top">
 
 Current investigative objectives:
 - **Full-Stack Development**: Engineering robust web architectures with React, Next.js, and modern TypeScript.
@@ -87,9 +77,14 @@ Current investigative objectives:
 - **Developer Tooling**: Building lightweight CLI utilities that streamline developer productivity.
 - **System Design & Cloud**: Exploring distributed systems, container orchestration, and automated CI/CD pipelines.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
+</td>
+<td width="40%" align="center" valign="middle">
+
+<img src="https://media.tenor.com/nbjeYjLy-vQAAAAC/batman-batman-arkham-knight.gif" width="100%" alt="Batman Mission" />
+
+</td>
+</tr>
+</table>
 
 ## <img src="https://media.tenor.com/EXFWK1g8pBYAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Currently Building
 
@@ -135,8 +130,6 @@ Community utilities, documentation & shipping real tools
      DESIGN  ───►  BUILD  ───►  TEST  ───►  DEPLOY  ───►  MONITOR
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
-
-<img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
 </div>
 
 ## <img src="https://media.tenor.com/48q1GKDifsMAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Arsenal
@@ -190,10 +183,6 @@ A curated inventory of the languages, frameworks, and tools deployed across miss
   <img src="https://img.shields.io/badge/Linux-0b0d10?style=for-the-badge&logo=linux&logoColor=eab308&labelColor=0b0d10&color=eab308" alt="Linux" />
   <img src="https://img.shields.io/badge/Postman-0b0d10?style=for-the-badge&logo=postman&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="Postman" />
 </p>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
 
 ## <img src="https://media.tenor.com/nPu5YH2SrS0AAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Batcomputer // Project Database
 
@@ -250,10 +239,6 @@ Customizable personal scheduling platform built for calendar optimization, event
   </a>
 </p>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
-
 ## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> Certification Vault
 
 <div align="center">
@@ -278,10 +263,6 @@ Customizable personal scheduling platform built for calendar optimization, event
   </tr>
 </table>
 
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
 </div>
 
 ## <img src="https://media.tenor.com/JRpwjBo-qsQAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Intelligence
@@ -313,10 +294,6 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
-
 ## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Activity
 
 <div align="center">
@@ -335,20 +312,12 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
-
 ## <img src="https://media.tenor.com/EeN3jAHBDSoAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Contribution Snake
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-contribution-snake.gif" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
 
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
 </div>
 
 ## <img src="https://media.tenor.com/EXFWK1g8pBYAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Trophy Room
@@ -361,19 +330,11 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
-
 ## <img src="https://media.tenor.com/UBDMhOsO6uIAAAAM/batman-batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> The Dark Knight's Code
 
 > **"It's not who I am underneath, but what I do that defines me."**
 > 
 > *In software development, ideas matter far less than what you actually architect, test, and ship.*
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
 
 ## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> Currently Learning
 
@@ -383,10 +344,6 @@ Telemetry and code activity monitored through GitHub's analytical services:
 - [ ] Applied AI engineering & autonomous agent orchestration
 - [ ] Sustained open-source contribution & peer code review
 - [ ] Comprehensive test-driven design (TDD) & end-to-end integration testing
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
-</div>
 
 ## <img src="https://media.tenor.com/nPu5YH2SrS0AAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Command Center
 
@@ -436,10 +393,6 @@ Connect across developer networks and platforms:
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" alt="Buy Me A Coffee" />
 </a>
 
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-divider.gif" width="100%" alt="divider" />
 </div>
 
 ## <img src="https://media.tenor.com/yN7BX6R5mawAAAAM/batman-bat.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Terminal
