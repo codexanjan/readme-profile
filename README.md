@@ -265,14 +265,6 @@ Customizable personal scheduling platform built for calendar optimization, event
 </tr>
 </table>
 
-<br>
-
-<p align="center">
-  <a href="https://www.hackerrank.com/anjanshetty" target="_blank">
-    <img src="https://img.shields.io/badge/VIEW%20ALL%20CREDENTIALS-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="View All Credentials" />
-  </a>
-</p>
-
 </div>
 
 ## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM TELEMETRY
