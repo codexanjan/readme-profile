@@ -211,39 +211,7 @@ Customizable personal scheduling platform built for calendar optimization, event
   </a>
 </p>
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> CERTIFICATION VAULT
 
-<div align="center">
-
-<!-- Java Basic Certificate -->
-<a href="https://www.hackerrank.com/certificates/8a4745317ffa" target="_blank">
-  <img src="./assets/java-basic-certificate.png" width="65%" alt="HackerRank Java (Basic) Certificate - Anjan N Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
-</a>
-
-<br><br>
-
-<p align="center">
-  <b>HackerRank Certified • Java (Basic)</b><br>
-  <sub>Credential ID: <code>8A4745317FFA</code> • Earned: <b>18 Aug, 2026</b> • Recipient: <b>Anjan N Shetty</b></sub>
-</p>
-
-<p align="center">
-  <a href="https://www.hackerrank.com/certificates/8a4745317ffa" target="_blank">
-    <img src="https://img.shields.io/badge/VERIFY%20CREDENTIAL-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify HackerRank Java Credential" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.hackerrank.com/anjanshetty" target="_blank">
-    <img src="https://img.shields.io/badge/VIEW%20ALL%20CERTIFICATIONS-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="View All Certifications" />
-  </a>
-</p>
-
-<br>
-
-<p align="center">
-  <code>🦇 ANJAN SHETTY</code> &nbsp;•&nbsp; <code>codexanjan</code> &nbsp;•&nbsp; <code>Building in the dark. Shipping into the light.</code>
-</p>
-
-</div>
 
 ## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM TELEMETRY
 
