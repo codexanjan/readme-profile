@@ -1,0 +1,408 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 170" width="100%" height="170" fill="none">
+  <defs>
+    <linearGradient id="gridBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080a0d" />
+      <stop offset="100%" stop-color="#0f1318" />
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .c-dot { rx: 2.5; ry: 2.5; }
+      @keyframes batFly {
+        0% { transform: translate(45px, 35px); }
+        25% { transform: translate(260px, 85px); }
+        50% { transform: translate(520px, 45px); }
+        75% { transform: translate(750px, 95px); }
+        100% { transform: translate(840px, 55px); }
+      }
+      .bat-chaser {
+        animation: batFly 10s ease-in-out infinite alternate;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="166" rx="10" fill="url(#gridBg)" stroke="#eab308" stroke-width="1.2" stroke-opacity="0.35" />
+
+  <!-- Header Text -->
+  <text x="25" y="28" fill="#facc15" font-family="monospace, sans-serif" font-size="12" font-weight="bold" letter-spacing="1.5">🦇 GOTHAM GRID // VIGILANTE CONTRIBUTION PATROL</text>
+  <text x="710" y="28" fill="#94a3b8" font-family="monospace, sans-serif" font-size="10">STATUS: SURVEILLANCE</text>
+
+  <!-- Simulated Contribution Matrix Dots -->
+  <g transform="translate(25, 45)">
+    <rect class="c-dot" x="0" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="0" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="0" y="30" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="0" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="0" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="0" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="0" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="16" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="16" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="16" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="16" y="45" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="16" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="16" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="16" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="32" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="32" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="32" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="32" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="32" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="32" y="75" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="32" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="48" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="48" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="48" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="48" y="45" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="48" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="48" y="75" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="48" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="64" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="64" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="64" y="30" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="64" y="45" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="64" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="64" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="64" y="90" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="80" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="80" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="80" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="80" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="80" y="60" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="80" y="75" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="80" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="96" y="0" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="96" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="96" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="96" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="96" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="96" y="75" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="96" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="112" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="112" y="15" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="112" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="112" y="45" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="112" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="112" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="112" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="128" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="128" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="128" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="128" y="45" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="128" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="128" y="75" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="128" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="144" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="144" y="15" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="144" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="144" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="144" y="60" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="144" y="75" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="144" y="90" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="160" y="0" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="160" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="160" y="30" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="160" y="45" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="160" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="160" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="160" y="90" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="176" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="176" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="176" y="30" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="176" y="45" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="176" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="176" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="176" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="192" y="0" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="192" y="15" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="192" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="192" y="45" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="192" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="192" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="192" y="90" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="208" y="0" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="208" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="208" y="30" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="208" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="208" y="60" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="208" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="208" y="90" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="224" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="224" y="15" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="224" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="224" y="45" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="224" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="224" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="224" y="90" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="240" y="0" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="240" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="240" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="240" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="240" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="240" y="75" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="240" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="256" y="0" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="256" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="256" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="256" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="256" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="256" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="256" y="90" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="272" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="272" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="272" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="272" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="272" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="272" y="75" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="272" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="288" y="0" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="288" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="288" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="288" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="288" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="288" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="288" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="304" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="304" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="304" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="304" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="304" y="60" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="304" y="75" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="304" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="320" y="0" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="320" y="15" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="320" y="30" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="320" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="320" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="320" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="320" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="336" y="0" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="336" y="15" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="336" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="336" y="45" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="336" y="60" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="336" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="336" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="352" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="352" y="15" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="352" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="352" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="352" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="352" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="352" y="90" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="368" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="368" y="15" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="368" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="368" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="368" y="60" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="368" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="368" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="384" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="384" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="384" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="384" y="45" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="384" y="60" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="384" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="384" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="400" y="0" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="400" y="15" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="400" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="400" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="400" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="400" y="75" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="400" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="416" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="416" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="416" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="416" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="416" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="416" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="416" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="432" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="432" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="432" y="30" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="432" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="432" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="432" y="75" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="432" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="448" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="448" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="448" y="30" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="448" y="45" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="448" y="60" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="448" y="75" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="448" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="464" y="0" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="464" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="464" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="464" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="464" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="464" y="75" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="464" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="480" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="480" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="480" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="480" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="480" y="60" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="480" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="480" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="496" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="496" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="496" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="496" y="45" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="496" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="496" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="496" y="90" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="512" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="512" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="512" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="512" y="45" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="512" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="512" y="75" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="512" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="528" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="528" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="528" y="30" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="528" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="528" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="528" y="75" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="528" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="544" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="544" y="15" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="544" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="544" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="544" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="544" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="544" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="560" y="0" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="560" y="15" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="560" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="560" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="560" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="560" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="560" y="90" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="576" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="576" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="576" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="576" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="576" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="576" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="576" y="90" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="592" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="592" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="592" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="592" y="45" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="592" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="592" y="75" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="592" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="608" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="608" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="608" y="30" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="608" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="608" y="60" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="608" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="608" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="624" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="624" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="624" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="624" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="624" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="624" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="624" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="640" y="0" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="640" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="640" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="640" y="45" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="640" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="640" y="75" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="640" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="656" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="656" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="656" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="656" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="656" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="656" y="75" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="656" y="90" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="672" y="0" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="672" y="15" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="672" y="30" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="672" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="672" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="672" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="672" y="90" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="688" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="688" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="688" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="688" y="45" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="688" y="60" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="688" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="688" y="90" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="704" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="704" y="15" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="704" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="704" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="704" y="60" width="11" height="11" fill="#ca8a04" />
+    <rect class="c-dot" x="704" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="704" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="720" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="720" y="15" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="720" y="30" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="720" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="720" y="60" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="720" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="720" y="90" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="736" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="736" y="15" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="736" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="736" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="736" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="736" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="736" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="752" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="752" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="752" y="30" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="752" y="45" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="752" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="752" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="752" y="90" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="768" y="0" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="768" y="15" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="768" y="30" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="768" y="45" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="768" y="60" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="768" y="75" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="768" y="90" width="11" height="11" fill="#facc15" />
+    <rect class="c-dot" x="784" y="0" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="784" y="15" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="784" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="784" y="45" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="784" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="784" y="75" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="784" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="800" y="0" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="800" y="15" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="800" y="30" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="800" y="45" width="11" height="11" fill="#3b3207" />
+    <rect class="c-dot" x="800" y="60" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="800" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="800" y="90" width="11" height="11" fill="#715c0a" />
+    <rect class="c-dot" x="816" y="0" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="816" y="15" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="816" y="30" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="816" y="45" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="816" y="60" width="11" height="11" fill="#eab308" />
+    <rect class="c-dot" x="816" y="75" width="11" height="11" fill="#161b22" />
+    <rect class="c-dot" x="816" y="90" width="11" height="11" fill="#eab308" />
+  </g>
+
+  <!-- Patrolling Bat Silhouette -->
+  <g class="bat-chaser" filter="url(#goldGlow)">
+    <path d="M 0,-6 L 2,-3 L 6,-6 L 5,-1 C 10,-3 15,0 17,4 C 13,3 9,4 7,7 C 4,5 2,6 0,8 C -2,6 -4,5 -7,7 C -9,4 -13,3 -17,4 C -15,0 -10,-3 -5,-1 L -6,-6 L -2,-3 Z" fill="#facc15" />
+  </g>
+</svg>

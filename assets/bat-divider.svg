@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 28" width="100%" height="28" fill="none">
+  <defs>
+    <linearGradient id="batGradLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0" />
+      <stop offset="70%" stop-color="#facc15" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#eab308" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="batGradRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eab308" stop-opacity="0.9" />
+      <stop offset="30%" stop-color="#facc15" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0" />
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Left & Right Gold Beams -->
+  <line x1="40" y1="14" x2="420" y2="14" stroke="url(#batGradLeft)" stroke-width="1.5" filter="url(#goldGlow)" />
+  <line x1="480" y1="14" x2="860" y2="14" stroke="url(#batGradRight)" stroke-width="1.5" filter="url(#goldGlow)" />
+
+  <!-- Precision Technical Markers -->
+  <circle cx="60" cy="14" r="1.5" fill="#facc15" opacity="0.6" />
+  <circle cx="840" cy="14" r="1.5" fill="#facc15" opacity="0.6" />
+  <line x1="140" y1="11" x2="140" y2="17" stroke="#eab308" stroke-width="1" opacity="0.4" />
+  <line x1="760" y1="11" x2="760" y2="17" stroke="#eab308" stroke-width="1" opacity="0.4" />
+
+  <!-- Center Bat Silhouette Emblem -->
+  <g transform="translate(450, 13)" filter="url(#goldGlow)">
+    <path d="M 0,-7 L 3,-4 L 7,-7 L 6,-2 C 12,-4 18,-1 20,4 C 15,3 11,5 9,8 C 5,6 2,7 0,10 C -2,7 -5,6 -9,8 C -11,5 -15,3 -20,4 C -18,-1 -12,-4 -6,-2 L -7,-7 L -3,-4 Z" fill="#eab308" stroke="#facc15" stroke-width="0.7" />
+  </g>
+</svg>

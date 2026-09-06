@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 28" width="100%" height="28" fill="none">
+  <defs>
+    <linearGradient id="divGradLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0" />
+      <stop offset="70%" stop-color="#22d3ee" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="divGradRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="1" />
+      <stop offset="30%" stop-color="#c084fc" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    </linearGradient>
+    <filter id="divGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Main Laser Beam Lines -->
+  <line x1="40" y1="14" x2="425" y2="14" stroke="url(#divGradLeft)" stroke-width="1.8" filter="url(#divGlow)" />
+  <line x1="475" y1="14" x2="860" y2="14" stroke="url(#divGradRight)" stroke-width="1.8" filter="url(#divGlow)" />
+  
+  <!-- Subtle Outer Precision Markers -->
+  <circle cx="50" cy="14" r="1.5" fill="#22d3ee" opacity="0.8" />
+  <circle cx="850" cy="14" r="1.5" fill="#c084fc" opacity="0.8" />
+  <line x1="120" y1="11" x2="120" y2="17" stroke="#22d3ee" stroke-width="1" opacity="0.5" />
+  <line x1="780" y1="11" x2="780" y2="17" stroke="#c084fc" stroke-width="1" opacity="0.5" />
+
+  <!-- Center HUD Diamond Node -->
+  <g transform="translate(450, 14)">
+    <!-- Outer Diamond -->
+    <polygon points="0,-9 9,0 0,9 -9,0" fill="#0d1117" stroke="#22d3ee" stroke-width="1.5" filter="url(#divGlow)" />
+    <!-- Inner Core Diamond -->
+    <polygon points="0,-4.5 4.5,0 0,4.5 -4.5,0" fill="#c084fc" />
+    <!-- Flanking Mini Chevrons -->
+    <path d="M -16,-5 L -21,0 L -16,5" stroke="#22d3ee" stroke-width="1.2" fill="none" opacity="0.8" />
+    <path d="M 16,-5 L 21,0 L 16,5" stroke="#c084fc" stroke-width="1.2" fill="none" opacity="0.8" />
+  </g>
+</svg>
