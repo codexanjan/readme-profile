@@ -261,15 +261,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 <img src="./assets/bat-contribution-snake.svg" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
 
-<p align="center">
-  <img src="./assets/batman-logo.gif" width="28" height="28" align="center" alt="Batman Logo" />
-  &nbsp;&nbsp;
-  <code>THE NIGHT IS DARK. THE CODE IS BRIGHT.</code>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <b>BUILD. BREAK. LEARN. SHIP.</b>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <code>— CODEXANJAN</code>
-</p>
+
 
 </div>
 
