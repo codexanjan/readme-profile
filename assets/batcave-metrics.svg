@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495px" height="195px">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
+
+      * { box-sizing: border-box; }
+      text { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; user-select: none; }
+
+      .card-title {
+        font-family: 'Orbitron', 'Plus Jakarta Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        fill: #facc15;
+        letter-spacing: 1.5px;
+      }
+      .metric-label {
+        font-size: 13px;
+        font-weight: 600;
+        fill: #cbd5e1;
+        letter-spacing: 0.3px;
+      }
+      .metric-value {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 13.5px;
+        font-weight: 800;
+        fill: #ffffff;
+        letter-spacing: 0.5px;
+      }
+      .rank-letter {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        fill: #f8fafc;
+      }
+      .rank-sub {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        font-weight: 700;
+        fill: #facc15;
+        letter-spacing: 1px;
+      }
+
+      /* Animations */
+      .rotate-ring {
+        transform-origin: 395px 105px;
+        animation: rotateGauge 8s linear infinite;
+      }
+      @keyframes rotateGauge {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .pulse-glow {
+        animation: glowPulse 3s ease-in-out infinite;
+      }
+      @keyframes glowPulse {
+        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 2px #facc15); }
+        50% { opacity: 1; filter: drop-shadow(0 0 8px #eab308); }
+      }
+
+      .radar-blip {
+        animation: blipFade 2s ease-in-out infinite;
+      }
+      @keyframes blipFade {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+
+      .holo-sweep {
+        animation: sweepAnim 4.5s ease-in-out infinite;
+      }
+      @keyframes sweepAnim {
+        0% { transform: translateX(-400px) skewX(-25deg); opacity: 0; }
+        15% { opacity: 0.45; }
+        45% { transform: translateX(550px) skewX(-25deg); opacity: 0.45; }
+        60%, 100% { transform: translateX(550px) skewX(-25deg); opacity: 0; }
+      }
+
+      .border-pulse {
+        animation: borderPulseAnim 4s ease-in-out infinite;
+      }
+      @keyframes borderPulseAnim {
+        0%, 100% { stroke: rgba(250, 204, 21, 0.35); }
+        50% { stroke: rgba(250, 204, 21, 0.75); }
+      }
+    </style>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d" />
+      <stop offset="60%" stop-color="#0b0d10" />
+      <stop offset="100%" stop-color="#07090c" />
+    </linearGradient>
+
+    <linearGradient id="goldArc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#facc15" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="cardMetricsClip">
+      <rect x="0" y="0" width="495" height="195" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardMetricsClip)">
+    <!-- Background Card -->
+    <rect x="1" y="1" width="493" height="193" rx="9.5" fill="url(#cardBg)" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1.5" class="border-pulse" />
+
+    <!-- Subtle Tech Grid Lines -->
+    <line x1="25" y1="46" x2="470" y2="46" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="320" y1="46" x2="320" y2="180" stroke="#1e293b" stroke-width="1" stroke-dasharray="3 3" />
+
+    <!-- Header Section -->
+    <g transform="translate(25, 30)">
+      <!-- Animated Radar Blip -->
+      <circle cx="0" cy="-4" r="5.5" fill="#22c55e" class="radar-blip" />
+      <circle cx="0" cy="-4" r="9" fill="none" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4" class="radar-blip" />
+      <text x="18" y="0" class="card-title">BATCAVE METRICS</text>
+    </g>
+
+    <!-- METRICS ITEMS (LEFT COLUMN) -->
+    <!-- 1. Total Stars -->
+    <g transform="translate(25, 68)">
+      <!-- Star Icon -->
+      <path d="M7 0 L9 4.5 L14 5.2 L10.5 8.6 L11.3 13.5 L7 11.2 L2.7 13.5 L3.5 8.6 L0 5.2 L5 4.5 Z" fill="#eab308" class="pulse-glow" />
+      <text x="24" y="11" class="metric-label">Total Stars Earned:</text>
+      <text x="280" y="11" text-anchor="end" class="metric-value">73</text>
+    </g>
+
+    <!-- 2. Total Commits -->
+    <g transform="translate(25, 93)">
+      <!-- Commit / Clock Icon -->
+      <circle cx="7" cy="7" r="6" fill="none" stroke="#eab308" stroke-width="1.6" />
+      <path d="M7 4 L7 7 L9.5 8.5" stroke="#eab308" stroke-width="1.5" stroke-linecap="round" />
+      <text x="24" y="11" class="metric-label">Total Commits (2026):</text>
+      <text x="280" y="11" text-anchor="end" class="metric-value">80</text>
+    </g>
+
+    <!-- 3. Total PRs -->
+    <g transform="translate(25, 118)">
+      <!-- PR Icon -->
+      <circle cx="4" cy="4" r="2.5" fill="none" stroke="#eab308" stroke-width="1.5" />
+      <circle cx="10" cy="10" r="2.5" fill="none" stroke="#eab308" stroke-width="1.5" />
+      <path d="M4 6.5 L4 10.5 M10 4 L10 7.5" stroke="#eab308" stroke-width="1.5" stroke-linecap="round" />
+      <text x="24" y="11" class="metric-label">Total PRs:</text>
+      <text x="280" y="11" text-anchor="end" class="metric-value">0</text>
+    </g>
+
+    <!-- 4. Total Issues -->
+    <g transform="translate(25, 143)">
+      <!-- Issue Icon -->
+      <circle cx="7" cy="7" r="6" fill="none" stroke="#eab308" stroke-width="1.6" />
+      <circle cx="7" cy="7" r="1.8" fill="#eab308" />
+      <text x="24" y="11" class="metric-label">Total Issues:</text>
+      <text x="280" y="11" text-anchor="end" class="metric-value">0</text>
+    </g>
+
+    <!-- 5. Contributed To -->
+    <g transform="translate(25, 168)">
+      <!-- Contributed Icon -->
+      <rect x="2" y="2" width="10" height="10" rx="2" fill="none" stroke="#eab308" stroke-width="1.5" />
+      <path d="M5 2 L5 12" stroke="#eab308" stroke-width="1.2" />
+      <text x="24" y="11" class="metric-label">Contributed to (last year):</text>
+      <text x="280" y="11" text-anchor="end" class="metric-value">0</text>
+    </g>
+
+    <!-- RANK GAUGE (RIGHT COLUMN) -->
+    <g transform="translate(395, 105)">
+      <!-- Track Ring -->
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#1e2430" stroke-width="6.5" />
+
+      <!-- Active Gold Arc -->
+      <circle cx="0" cy="0" r="42" fill="none" stroke="url(#goldArc)" stroke-width="6.5" stroke-dasharray="190 75" stroke-linecap="round" class="pulse-glow" />
+
+      <!-- Rotating Energy Indicator Dots -->
+      <circle cx="0" cy="0" r="47" fill="none" stroke="#facc15" stroke-width="1.5" stroke-dasharray="4 12" class="rotate-ring" opacity="0.65" />
+
+      <!-- Inner Rank Text -->
+      <text x="0" y="8" text-anchor="middle" class="rank-letter">B-</text>
+      <text x="0" y="24" text-anchor="middle" class="rank-sub">RANK</text>
+    </g>
+
+    <!-- Holographic Sheen Sweep -->
+    <rect x="0" y="0" width="160" height="220" fill="url(#sheen)" class="holo-sweep" pointer-events="none" />
+  </g>
+</svg>

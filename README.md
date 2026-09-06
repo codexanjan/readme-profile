@@ -281,12 +281,12 @@ Telemetry and code activity monitored through GitHub's analytical services:
   <tr align="center">
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=codexanjan&show_icons=true&theme=tokyonight&bg_color=0b0d10&title_color=facc15&icon_color=eab308&text_color=cbd5e1&border_color=facc1555&custom_title=BATCAVE%20METRICS&include_all_commits=true" width="100%" alt="Gotham Core Stats" />
+        <img src="./assets/batcave-metrics.svg" width="100%" alt="Gotham Batcave Metrics" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="https://streak-stats.demolab.com?user=codexanjan&theme=tokyonight&border=facc1555&background=0B0D10&ring=FACC15&fire=EAB308&currStreakLabel=FACC15&sideNums=cbd5e1&sideLabels=cbd5e1&dates=94a3b8" width="100%" alt="Gotham Developer Streak" />
+        <img src="./assets/batcave-streak.svg" width="100%" alt="Gotham Developer Streak" />
       </a>
     </td>
   </tr>

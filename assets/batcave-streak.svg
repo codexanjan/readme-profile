@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495px" height="195px">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800;900&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=JetBrains+Mono:wght@700;800&amp;display=swap');
+
+      * { box-sizing: border-box; }
+      text { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; user-select: none; }
+
+      .big-num {
+        font-family: 'JetBrains Mono', 'Plus Jakarta Sans', monospace;
+        font-size: 32px;
+        font-weight: 800;
+        fill: #f8fafc;
+        letter-spacing: 0.5px;
+      }
+      .streak-hero-num {
+        font-family: 'Orbitron', 'JetBrains Mono', sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        fill: #bf91f3;
+        letter-spacing: 1px;
+      }
+      .col-label {
+        font-size: 13.5px;
+        font-weight: 600;
+        fill: #cbd5e1;
+        letter-spacing: 0.2px;
+      }
+      .col-label-hero {
+        font-family: 'Orbitron', 'Plus Jakarta Sans', sans-serif;
+        font-size: 13.5px;
+        font-weight: 800;
+        fill: #facc15;
+        letter-spacing: 1.2px;
+      }
+      .col-dates {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #94a3b8;
+        letter-spacing: 0.5px;
+      }
+
+      /* Animated Flame */
+      .flame-anim {
+        transform-origin: 247.5px 42px;
+        animation: flameFlicker 1.8s ease-in-out infinite alternate;
+      }
+      @keyframes flameFlicker {
+        0% { transform: scale(1) rotate(-2deg); filter: drop-shadow(0 0 3px #eab308); }
+        50% { transform: scale(1.12) rotate(2deg); filter: drop-shadow(0 0 8px #facc15); }
+        100% { transform: scale(0.96) rotate(-1deg); filter: drop-shadow(0 0 4px #eab308); }
+      }
+
+      /* Rotating Hero Ring */
+      .hero-ring-rotate {
+        transform-origin: 247.5px 78px;
+        animation: ringRotateAnim 10s linear infinite;
+      }
+      @keyframes ringRotateAnim {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .pulse-glow-hero {
+        animation: heroPulse 2.8s ease-in-out infinite;
+      }
+      @keyframes heroPulse {
+        0%, 100% { filter: drop-shadow(0 0 4px rgba(250, 204, 21, 0.4)); opacity: 0.95; }
+        50% { filter: drop-shadow(0 0 12px rgba(250, 204, 21, 0.85)); opacity: 1; }
+      }
+
+      .holo-sweep-streak {
+        animation: sweepAnimStreak 5s ease-in-out infinite;
+      }
+      @keyframes sweepAnimStreak {
+        0% { transform: translateX(-400px) skewX(-25deg); opacity: 0; }
+        15% { opacity: 0.45; }
+        45% { transform: translateX(550px) skewX(-25deg); opacity: 0.45; }
+        60%, 100% { transform: translateX(550px) skewX(-25deg); opacity: 0; }
+      }
+
+      .border-pulse-streak {
+        animation: borderPulseAnim2 4s ease-in-out infinite;
+      }
+      @keyframes borderPulseAnim2 {
+        0%, 100% { stroke: rgba(250, 204, 21, 0.35); }
+        50% { stroke: rgba(250, 204, 21, 0.75); }
+      }
+    </style>
+
+    <linearGradient id="streakCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d" />
+      <stop offset="60%" stop-color="#0b0d10" />
+      <stop offset="100%" stop-color="#07090c" />
+    </linearGradient>
+
+    <linearGradient id="streakSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#facc15" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="heroRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="40%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+
+    <clipPath id="cardStreakClip">
+      <rect x="0" y="0" width="495" height="195" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardStreakClip)">
+    <!-- Background Card -->
+    <rect x="1" y="1" width="493" height="193" rx="9.5" fill="url(#streakCardBg)" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1.5" class="border-pulse-streak" />
+
+    <!-- Two Vertical Dividers -->
+    <line x1="165" y1="30" x2="165" y2="165" stroke="#334155" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="330" y1="30" x2="330" y2="165" stroke="#334155" stroke-width="1" stroke-dasharray="4 4" />
+
+    <!-- ================= COLUMN 1: TOTAL CONTRIBUTIONS ================= -->
+    <g transform="translate(82.5, 75)">
+      <text x="0" y="0" text-anchor="middle" class="big-num">88</text>
+      <text x="0" y="32" text-anchor="middle" class="col-label">Total Contributions</text>
+      <text x="0" y="58" text-anchor="middle" class="col-dates">Apr 20 - Present</text>
+    </g>
+
+    <!-- ================= COLUMN 2: CURRENT STREAK (HERO) ================= -->
+    <g transform="translate(247.5, 0)">
+      <!-- Animated Burning Flame Icon -->
+      <g class="flame-anim">
+        <path d="M 0 25 C -5 32 -7 36 -7 40 C -7 46 -3 50 0 50 C 3 50 7 46 7 40 C 7 36 5 32 0 25 Z" fill="#eab308" />
+        <path d="M 0 32 C -2.5 36 -3.5 39 -3.5 42 C -3.5 45.5 -1.5 48 0 48 C 1.5 48 3.5 45.5 3.5 42 C 3.5 39 2.5 36 0 32 Z" fill="#fef08a" />
+      </g>
+
+      <!-- Glowing Hero Circle Ring -->
+      <g transform="translate(0, 78)">
+        <!-- Base Ring -->
+        <circle cx="0" cy="0" r="40" fill="none" stroke="#1e2430" stroke-width="5" />
+        <!-- Glowing Gold Ring -->
+        <circle cx="0" cy="0" r="40" fill="none" stroke="url(#heroRingGrad)" stroke-width="5" stroke-linecap="round" class="pulse-glow-hero" />
+        <!-- Rotating Dashed Orbit Ring -->
+        <circle cx="0" cy="0" r="44" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="6 8" class="hero-ring-rotate" opacity="0.75" />
+
+        <!-- Streak Number -->
+        <text x="0" y="12" text-anchor="middle" class="streak-hero-num">3</text>
+      </g>
+
+      <!-- Labels -->
+      <text x="0" y="142" text-anchor="middle" class="col-label-hero">Current Streak</text>
+      <text x="0" y="165" text-anchor="middle" class="col-dates">Sep 4 - Sep 6</text>
+    </g>
+
+    <!-- ================= COLUMN 3: LONGEST STREAK ================= -->
+    <g transform="translate(412.5, 75)">
+      <text x="0" y="0" text-anchor="middle" class="big-num">4</text>
+      <text x="0" y="32" text-anchor="middle" class="col-label">Longest Streak</text>
+      <text x="0" y="58" text-anchor="middle" class="col-dates">Jun 6 - Jun 9</text>
+    </g>
+
+    <!-- Holographic Sheen Sweep -->
+    <rect x="0" y="0" width="160" height="220" fill="url(#streakSheen)" class="holo-sweep-streak" pointer-events="none" />
+  </g>
+</svg>
