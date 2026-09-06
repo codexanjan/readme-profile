@@ -98,7 +98,7 @@ Current investigative objectives:
 </td>
 <td width="40%" align="center" valign="middle">
 
-<img src="https://media.tenor.com/nbjeYjLy-vQAAAAC/batman-batman-arkham-knight.gif" width="100%" alt="Batman Mission" />
+<img src="https://media.tenor.com/b70tzm63HrsAAAAC/batmab.gif" width="100%" alt="Batman Emblem" />
 
 </td>
 </tr>
