@@ -213,47 +213,57 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 ## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> CERTIFICATION VAULT
 
-<div align="center">
+<table border="0" width="100%">
+<tr>
+
+<td width="50%" align="center" valign="top">
 
 <!-- Certificate 1: SQL Basic -->
 <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-  <img src="./assets/sql-basic-certificate.png" width="65%" alt="HackerRank SQL (Basic) Certificate - Anjan N Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+  <img src="./assets/sql-basic-certificate.png" width="95%" alt="HackerRank SQL (Basic) Certificate" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
 
-<p align="center">
-  <b>HackerRank Certified • SQL (Basic)</b><br>
-  <sub>Credential ID: <code>43477C74733F</code> • Recipient: <b>Anjan N Shetty</b> • Issued by HackerRank</sub>
-</p>
-
-<p align="center">
-  <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-    <img src="https://img.shields.io/badge/VERIFY%20CREDENTIAL-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify HackerRank SQL Credential" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.hackerrank.com/anjanshetty" target="_blank">
-    <img src="https://img.shields.io/badge/VIEW%20ALL%20CERTIFICATIONS-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="View All Certifications" />
-  </a>
-</p>
+**HackerRank Certified • SQL (Basic)**<br>
+<sub>ID: <code>43477C74733F</code> • Anjan N Shetty</sub>
 
 <br><br>
+
+<a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
+  <img src="https://img.shields.io/badge/VERIFY-SQL%20BASIC-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify SQL Credential" />
+</a>
+
+</td>
+
+<td width="50%" align="center" valign="top">
 
 <!-- Certificate 2: Java Basic -->
 <a href="https://www.hackerrank.com/anjanshetty" target="_blank">
-  <img src="./assets/java-basic-certificate.png" width="65%" alt="HackerRank Java (Basic) Certificate - Anjan N Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+  <img src="./assets/java-basic-certificate.png" width="95%" alt="HackerRank Java (Basic) Certificate" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
 
-<p align="center">
-  <b>HackerRank Certified • Java (Basic)</b><br>
-  <sub>Issued: 18 Aug, 2025 • Recipient: <b>Anjan N Shetty</b> • Issued by HackerRank</sub>
-</p>
+**HackerRank Certified • Java (Basic)**<br>
+<sub>ID: <code>8A4745317FFA</code> • Anjan N Shetty</sub>
+
+<br><br>
+
+<a href="https://www.hackerrank.com/anjanshetty" target="_blank">
+  <img src="https://img.shields.io/badge/VERIFY-JAVA%20BASIC-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify Java Credential" />
+</a>
+
+</td>
+
+</tr>
+</table>
+
+<br>
 
 <p align="center">
   <a href="https://www.hackerrank.com/anjanshetty" target="_blank">
-    <img src="https://img.shields.io/badge/VERIFY%20CREDENTIAL-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify HackerRank Java Credential" />
+    <img src="https://img.shields.io/badge/VIEW%20ALL%20CERTIFICATIONS-HACKERRANK-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="View All Certifications" />
   </a>
 </p>
 
