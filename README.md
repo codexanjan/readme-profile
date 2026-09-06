@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="https://media1.tenor.com/m/wTgktoGcxtQAAAAC/aj.gif" width="100%" alt="The Batman Cinematic Banner" />
+<img src="./assets/aj.gif" width="100%" alt="The Batman Cinematic Banner" />
 
 <br><br>
 
@@ -19,13 +19,6 @@
   <img src="https://img.shields.io/badge/HQ-BATCAVE-0b0d10?style=for-the-badge&labelColor=0b0d10&color=facc15" alt="HQ: Batcave" />
   <img src="https://img.shields.io/badge/CLEARANCE-LEVEL%2010-0b0d10?style=for-the-badge&labelColor=0b0d10&color=eab308" alt="Clearance: Level 10" />
 </p>
-
-<br>
-
-<!-- SWINGING BATMAN ID LANYARD -->
-<div align="center">
-  <img src="./assets/lanyard.svg?v=1" width="380" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
-</div>
 
 </div>
 
@@ -45,9 +38,14 @@ Whether architecting full-stack web applications or automating complex developer
 
 > *"Somewhere between an idea and a working product, there is a lot of debugging."*
 
-<div align="center">
-  <img src="https://media.tenor.com/b70tzm63HrsAAAAC/batmab.gif" height="260" alt="Batman in Batcave" />
-</div>
+<table border="0" width="100%">
+<tr>
+<td width="48%" align="center" valign="middle">
+
+<img src="./assets/lanyard.svg?v=2" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
+
+</td>
+<td width="52%" valign="top">
 
 ```yaml
 Role:
@@ -66,6 +64,10 @@ Interests:
   - UI/UX Designing
   - AI/ML Research
 ```
+
+</td>
+</tr>
+</table>
 
 ## <img src="https://media.tenor.com/UBDMhOsO6uIAAAAM/batman-batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Current Mission
 
