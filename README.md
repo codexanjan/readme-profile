@@ -392,9 +392,13 @@ See you in Gotham.
 
 <div align="center">
 
-<h3>Thanks for visiting the Batcave.</h3>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&pause=1000&color=FACC15&center=true&vCenter=true&width=850&lines=Thanks+for+visiting+the+Batcave.;BUILD+%E2%80%A2+DEBUG+%E2%80%A2+LEARN+%E2%80%A2+SHIP;See+you+in+Gotham." alt="Batcave Farewell Typing SVG" />
+
+<br><br>
 
 **Anjan Shetty • `codexanjan`**
+
+<br><br>
 
 <!-- GOTHAM PROFILE VISITOR COUNTER -->
 <p align="center">
