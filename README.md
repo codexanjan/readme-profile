@@ -42,7 +42,7 @@ Whether architecting full-stack web applications or automating complex developer
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="./assets/lanyard.svg?v=3" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
+<img src="./assets/lanyard.svg?v=4" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
 
 </td>
 <td width="50%" valign="top">
@@ -99,43 +99,6 @@ Current investigative objectives:
 </td>
 </tr>
 </table>
-
-## <img src="https://media.tenor.com/EXFWK1g8pBYAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> CURRENTLY BUILDING // ARCHITECTURAL LABS
-
-<table border="0" width="100%">
-<tr>
-<td width="25%" align="center" valign="top">
-
-### SYSTEMS
-**Scalable Backend**<br>
-Microservices, high-throughput REST APIs & clean architecture
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### AI
-**Intelligent Agents**<br>
-AI engineering, dynamic tool calling & reasoning pipelines
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### CLOUD
-**Infrastructure**<br>
-Containerization, Docker, Linux & automated CI/CD deployment
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### OPEN SOURCE
-**Vigilante Dev**<br>
-Community utilities, documentation & shipping real tools
-
-</td>
-</tr>
-</table>
-
-<br>
 
 ## <img src="https://media.tenor.com/7L8d8aMSSOsAAAAM/batman-batarang.gif" width="34" height="34" align="center" alt="Bat" /> BATCAVE ARSENAL // TECH STACK & WEAPONRY
 
@@ -318,25 +281,15 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 <img src="./assets/bat-contribution-snake.svg" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
 
-<br><br>
-
-<div align="center">
-
-<img src="./assets/batman-logo.gif" width="120" alt="Batman Logo">
-
-<br><br>
-
-`THE NIGHT IS DARK. THE CODE IS BRIGHT.`
-
-<br><br>
-
-**BUILD. BREAK. LEARN. SHIP.**
-
-<br>
-
-`— CODEXANJAN`
-
-</div>
+<p align="center">
+  <img src="./assets/batman-logo.gif" width="28" height="28" align="center" alt="Batman Logo" />
+  &nbsp;&nbsp;
+  <code>THE NIGHT IS DARK. THE CODE IS BRIGHT.</code>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <b>BUILD. BREAK. LEARN. SHIP.</b>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <code>— CODEXANJAN</code>
+</p>
 
 </div>
 
@@ -350,7 +303,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/rQg6E7wBo6QAAAAM/the-batman-bruce-wayne.gif" width="34" height="34" align="center" alt="Bat" /> THE DARK KNIGHT\'S CODE // ENGINEERING PHILOSOPHY
+## <img src="https://media.tenor.com/rQg6E7wBo6QAAAAM/the-batman-bruce-wayne.gif" width="34" height="34" align="center" alt="Bat" /> THE DARK KNIGHT'S CODE // ENGINEERING PHILOSOPHY
 
 > **"It's not who I am underneath, but what I do that defines me."**
 > 
