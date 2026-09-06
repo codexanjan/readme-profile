@@ -2,10 +2,6 @@
 
 # <img src="https://media.tenor.com/JRpwjBo-qsQAAAAM/batman-logo.gif" width="38" height="38" align="center" alt="Bat" /> ANJAN SHETTY
 
-### `codexanjan` // GOTHAM'S SHADOW ARCHITECT
-
-**Developer • Builder • Problem Solver**
-
 > *"The night is darkest before the code compiles."*<br>
 > **Building from the shadows. Shipping into the light.**
 
@@ -24,6 +20,13 @@
   <img src="https://img.shields.io/badge/CLEARANCE-LEVEL%2010-0b0d10?style=for-the-badge&labelColor=0b0d10&color=eab308" alt="Clearance: Level 10" />
 </p>
 
+<br>
+
+<!-- SWINGING BATMAN ID LANYARD -->
+<div align="center">
+  <img src="./assets/lanyard.svg?v=1" width="380" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
+</div>
+
 </div>
 
 ## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> The Bat-Signal
@@ -38,7 +41,7 @@ Whether architecting full-stack web applications or automating complex developer
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&pause=1000&color=FACC15&center=true&vCenter=true&width=900&lines=FULL+STACK+DEVELOPER;AI+%7C+ML+ENTHUSIAST;OPEN+SOURCE+CONTRIBUTOR;BUILD.+CREATE.+INNOVATE.;WELCOME+TO+THE+BATCAVE" alt="Typing SVG" />
 </div>
 
-## <img src="https://media.tenor.com/EeN3jAHBDSoAAAAM/batman-logo.gif" width="35" align="center" alt="Bat" /> About Me
+## <img src="https://media.tenor.com/Z7VsDOTD9coAAAAM/batman-thebatman.gif" width="34" height="34" align="center" alt="Bat" /> About Me
 
 > *"Somewhere between an idea and a working product, there is a lot of debugging."*
 
@@ -124,15 +127,10 @@ Community utilities, documentation & shipping real tools
 <br>
 
 <div align="center">
-
-```text
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-     DESIGN  ───►  BUILD  ───►  TEST  ───►  DEPLOY  ───►  MONITOR
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+  <img src="https://media1.tenor.com/m/z5fHWNdU06kAAAAC/batman-batcomputer.gif" width="100%" alt="Batcomputer System Pipeline" style="border-radius: 8px; border: 1px solid #eab30833;" />
 </div>
 
-## <img src="https://media.tenor.com/48q1GKDifsMAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Arsenal
+## <img src="https://media.tenor.com/7L8d8aMSSOsAAAAM/batman-batarang.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Arsenal
 
 A curated inventory of the languages, frameworks, and tools deployed across missions:
 
@@ -265,7 +263,7 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 </div>
 
-## <img src="https://media.tenor.com/JRpwjBo-qsQAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Intelligence
+## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Intelligence
 
 Telemetry and code activity monitored through GitHub's analytical services:
 
@@ -294,7 +292,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Activity
+## <img src="https://media.tenor.com/WG7Av1qK5UEAAAAM/the-dark-knight-bat-tumbler.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Activity
 
 <div align="center">
 
@@ -305,22 +303,37 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 <br><br>
 
-<!-- Amber / Gold Gotham Contribution Matrix -->
-<a href="https://github.com/codexanjan">
-  <img src="https://ghchart.rshah.org/facc15/codexanjan" alt="codexanjan GitHub Contribution Heatmap" width="95%" />
-</a>
-
 </div>
 
-## <img src="https://media.tenor.com/EeN3jAHBDSoAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Contribution Snake
+## <img src="https://media.tenor.com/PZt9Snxgh6cAAAAM/batman.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Contribution Snake
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/codexanjan/codexanjan/main/assets/bat-contribution-snake.gif" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
+<img src="./assets/bat-contribution-snake.svg" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
+
+<br><br>
+
+<div align="center">
+
+<img src="./assets/batman-logo.gif" width="120" alt="Batman Logo">
+
+<br><br>
+
+`THE NIGHT IS DARK. THE CODE IS BRIGHT.`
+
+<br><br>
+
+**BUILD. BREAK. LEARN. SHIP.**
+
+<br>
+
+`— CODEXANJAN`
 
 </div>
 
-## <img src="https://media.tenor.com/EXFWK1g8pBYAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Trophy Room
+</div>
+
+## <img src="https://media.tenor.com/SU3l1PF5_YcAAAAM/batman-beyond-power.gif" width="34" height="34" align="center" alt="Bat" /> Gotham Trophy Room
 
 <div align="center">
 
@@ -330,13 +343,13 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/UBDMhOsO6uIAAAAM/batman-batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> The Dark Knight's Code
+## <img src="https://media.tenor.com/rQg6E7wBo6QAAAAM/the-batman-bruce-wayne.gif" width="34" height="34" align="center" alt="Bat" /> The Dark Knight's Code
 
 > **"It's not who I am underneath, but what I do that defines me."**
 > 
 > *In software development, ideas matter far less than what you actually architect, test, and ship.*
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> Currently Learning
+## <img src="https://media.tenor.com/M9MZYFuHCtUAAAAM/throwing-batarang-batman.gif" width="34" height="34" align="center" alt="Bat" /> Currently Learning
 
 - [ ] Advanced distributed system design & concurrency patterns
 - [ ] Scalable backend microservice architecture
@@ -345,7 +358,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 - [ ] Sustained open-source contribution & peer code review
 - [ ] Comprehensive test-driven design (TDD) & end-to-end integration testing
 
-## <img src="https://media.tenor.com/nPu5YH2SrS0AAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Command Center
+## <img src="https://media.tenor.com/JjLa1-uyF_cAAAAM/batman-signal-aura-dark.gif" width="34" height="34" align="center" alt="Bat" /> Batcave Command Center
 
 Connect across developer networks and platforms:
 
