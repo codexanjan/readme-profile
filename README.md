@@ -357,7 +357,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 Operative milestones scheduled across the 2026 tactical deployment roadmap:
 
 - [x] 🦇 **Initialize Batcave Telemetry HUD**: Deploy interactive mainframe profile & real-time analytics.
-- [ ] 🧠 **2,000+ Algorithmic Directives**: Solve 2,000+ DSA problems across LeetCode, CodeChef, and HackerRank.
+- [ ] 🧠 **2,000+ Algorithmic Directives**: Solve 2,000+ DSA problems across LeetCode, CodeWars, and GeeksforGeeks.
 - [ ] 🏆 **5 Elite Hackathons**: Compete and architect high-impact solutions in national & global hackathons.
 - [ ] 🚀 **10 Production-Grade Systems**: Ship 10 resilient, scalable full-stack applications with CI/CD.
 - [ ] 📈 **1,000 Sustained Contributions**: Maintain consistent open-source engineering cadence and commits.
@@ -406,14 +406,14 @@ Connect across developer networks and platforms:
 <a href="https://gitlab.com/codexanjan" target="_blank">
   <img src="https://img.shields.io/badge/GitLab-0b0d10?style=for-the-badge&logo=gitlab&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="GitLab" />
 </a>
-<a href="https://leetcode.com/anjanshetty" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-0b0d10?style=for-the-badge&logo=leetcode&logoColor=eab308&labelColor=0b0d10&color=eab308" alt="LeetCode" />
+<a href="https://leetcode.com/u/anjanshetty" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-0b0d10?style=for-the-badge&logo=leetcode&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="LeetCode" />
 </a>
-
-<br>
-
-<a href="https://www.hackerrank.com/anjanshetty" target="_blank">
-  <img src="https://img.shields.io/badge/HackerRank-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="HackerRank" />
+<a href="https://www.codewars.com/users/codexanjan" target="_blank">
+  <img src="https://img.shields.io/badge/CodeWars-0b0d10?style=for-the-badge&logo=codewars&logoColor=ef4444&labelColor=0b0d10&color=ef4444" alt="CodeWars" />
+</a>
+<a href="https://www.geeksforgeeks.org/profile/anjanshetty" target="_blank">
+  <img src="https://img.shields.io/badge/GeeksforGeeks-0b0d10?style=for-the-badge&logo=geeksforgeeks&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="GeeksforGeeks" />
 </a>
 <a href="https://tryhackme.com/p/anjanshetty" target="_blank">
   <img src="https://img.shields.io/badge/TryHackMe-0b0d10?style=for-the-badge&logo=tryhackme&logoColor=eab308&labelColor=0b0d10&color=eab308" alt="TryHackMe" />
