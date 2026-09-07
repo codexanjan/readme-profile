@@ -11,11 +11,11 @@ def create_hero_banner():
 
       .hero-title {
         font-family: 'Orbitron', -apple-system, sans-serif;
-        font-size: 42px;
+        font-size: 46px;
         font-weight: 900;
-        letter-spacing: 5px;
+        letter-spacing: 6px;
         fill: url(#goldGrad);
-        filter: drop-shadow(0 0 14px rgba(250, 204, 21, 0.55));
+        filter: drop-shadow(0 0 16px rgba(250, 204, 21, 0.75)) drop-shadow(0 0 30px rgba(234, 179, 8, 0.45));
       }
       .hero-tag {
         font-family: 'JetBrains Mono', monospace;
@@ -29,7 +29,7 @@ def create_hero_banner():
         font-size: 13.5px;
         font-weight: 700;
         letter-spacing: 1.8px;
-        fill: #f1f5f9;
+        fill: #f8fafc;
       }
       .hero-motto {
         font-family: 'JetBrains Mono', monospace;
@@ -45,32 +45,57 @@ def create_hero_banner():
         fill: #facc15;
         letter-spacing: 1px;
       }
+      .radar-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8px;
+        font-weight: 800;
+        fill: #94a3b8;
+        letter-spacing: 0.8px;
+      }
 
       /* Animations */
-      .signal-sweep {
-        transform-origin: 180px 260px;
-        animation: searchlight 8s ease-in-out infinite alternate;
+      .spotlight-sweep {
+        transform-origin: 60px 260px;
+        animation: spotSweepAnim 7s ease-in-out infinite alternate;
       }
-      @keyframes searchlight {
-        0% { transform: rotate(-18deg); opacity: 0.7; }
-        50% { transform: rotate(12deg); opacity: 0.95; }
-        100% { transform: rotate(-8deg); opacity: 0.75; }
-      }
-
-      .pulse-gold {
-        animation: goldGlow 3s ease-in-out infinite alternate;
-      }
-      @keyframes goldGlow {
-        0% { filter: drop-shadow(0 0 4px #facc15); opacity: 0.85; transform: scale(1); }
-        100% { filter: drop-shadow(0 0 18px #eab308); opacity: 1; transform: scale(1.05); }
+      @keyframes spotSweepAnim {
+        0% { transform: rotate(-8deg); opacity: 0.7; }
+        50% { transform: rotate(8deg); opacity: 0.95; }
+        100% { transform: rotate(-2deg); opacity: 0.8; }
       }
 
-      .batwing-glow {
-        animation: batwingGlowAnim 3.5s ease-in-out infinite alternate;
+      .name-pulse {
+        animation: nameGlow 3s ease-in-out infinite alternate;
       }
-      @keyframes batwingGlowAnim {
-        0% { opacity: 0.7; filter: drop-shadow(0 0 3px #facc15); }
-        100% { opacity: 1; filter: drop-shadow(0 0 12px #eab308); }
+      @keyframes nameGlow {
+        0% { filter: drop-shadow(0 0 12px rgba(250, 204, 21, 0.55)); }
+        100% { filter: drop-shadow(0 0 24px rgba(250, 204, 21, 0.95)) drop-shadow(0 0 45px rgba(234, 179, 8, 0.6)); }
+      }
+
+      .right-bat-glowing {
+        transform-origin: 0px 0px;
+        animation: rightBatGlowAnim 2.5s ease-in-out infinite alternate;
+      }
+      @keyframes rightBatGlowAnim {
+        0% { transform: scale(1); filter: drop-shadow(0 0 6px #facc15) drop-shadow(0 0 14px rgba(234, 179, 8, 0.6)); }
+        100% { transform: scale(1.12); filter: drop-shadow(0 0 14px #fef08a) drop-shadow(0 0 28px #facc15) drop-shadow(0 0 48px #ca8a04); }
+      }
+
+      .radar-sweep-needle {
+        transform-origin: 0px 0px;
+        animation: radarNeedleAnim 5s linear infinite;
+      }
+      @keyframes radarNeedleAnim {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .radar-blip-pulse {
+        animation: blipAnim 1.8s ease-in-out infinite;
+      }
+      @keyframes blipAnim {
+        0%, 100% { opacity: 0.3; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.3); filter: drop-shadow(0 0 4px #22c55e); }
       }
 
       .holo-sweep {
@@ -100,17 +125,28 @@ def create_hero_banner():
     </linearGradient>
 
     <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fef08a" />
-      <stop offset="35%" stop-color="#facc15" />
-      <stop offset="70%" stop-color="#eab308" />
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#fef08a" />
+      <stop offset="55%" stop-color="#facc15" />
+      <stop offset="85%" stop-color="#eab308" />
       <stop offset="100%" stop-color="#ca8a04" />
     </linearGradient>
 
-    <linearGradient id="searchBeam" x1="0%" y1="100%" x2="50%" y2="0%">
-      <stop offset="0%" stop-color="#facc15" stop-opacity="0.5" />
-      <stop offset="60%" stop-color="#eab308" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#fef08a" stop-opacity="0.02" />
+    <!-- Volumetric Spotlight Cone Gradient focused on Name -->
+    <linearGradient id="spotlightBeamGrad" x1="0%" y1="100%" x2="40%" y2="0%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0.6" />
+      <stop offset="45%" stop-color="#eab308" stop-opacity="0.3" />
+      <stop offset="85%" stop-color="#fef08a" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0" />
     </linearGradient>
+
+    <!-- Radial Glow Backdrop directly behind Name -->
+    <radialGradient id="nameSpotlightRadial" cx="45%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0.35" />
+      <stop offset="40%" stop-color="#eab308" stop-opacity="0.18" />
+      <stop offset="80%" stop-color="#0b0d10" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#0b0d10" stop-opacity="0" />
+    </radialGradient>
 
     <linearGradient id="sheenHero" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
@@ -129,43 +165,46 @@ def create_hero_banner():
 
     <!-- Gotham Skyscraper Silhouettes (Background Skyline) -->
     <g fill="#07090c" opacity="0.95">
-      <rect x="50" y="140" width="40" height="120" />
-      <rect x="95" y="110" width="50" height="150" />
-      <polygon points="120,70 114,110 126,110" fill="#07090c" />
-      <rect x="150" y="148" width="35" height="112" />
-      <rect x="190" y="125" width="55" height="135" />
-      <rect x="250" y="155" width="45" height="105" />
+      <rect x="40" y="140" width="40" height="120" />
+      <rect x="85" y="110" width="48" height="150" />
+      <polygon points="109,70 103,110 115,110" fill="#07090c" />
+      <rect x="138" y="148" width="35" height="112" />
+      <rect x="178" y="125" width="55" height="135" />
+      <rect x="238" y="155" width="45" height="105" />
+      <rect x="288" y="135" width="50" height="125" />
       <!-- Building glowing windows -->
-      <circle cx="108" cy="125" r="1.5" fill="#facc15" opacity="0.6" />
-      <circle cx="120" cy="138" r="1.5" fill="#facc15" opacity="0.4" />
-      <circle cx="132" cy="150" r="1.5" fill="#facc15" opacity="0.5" />
-      <circle cx="205" cy="140" r="1.5" fill="#facc15" opacity="0.5" />
-      <circle cx="220" cy="155" r="1.5" fill="#facc15" opacity="0.4" />
+      <circle cx="98" cy="125" r="1.5" fill="#facc15" opacity="0.6" />
+      <circle cx="110" cy="138" r="1.5" fill="#facc15" opacity="0.4" />
+      <circle cx="122" cy="150" r="1.5" fill="#facc15" opacity="0.5" />
+      <circle cx="195" cy="140" r="1.5" fill="#facc15" opacity="0.5" />
+      <circle cx="210" cy="155" r="1.5" fill="#facc15" opacity="0.4" />
 
       <!-- Right skyline -->
-      <rect x="680" y="140" width="45" height="120" />
-      <rect x="730" y="115" width="60" height="145" />
-      <polygon points="760,80 754,115 766,115" fill="#07090c" />
-      <rect x="795" y="148" width="42" height="112" />
-      <rect x="842" y="128" width="55" height="132" />
-      <rect x="902" y="158" width="38" height="102" />
+      <rect x="580" y="150" width="40" height="110" />
+      <rect x="625" y="130" width="45" height="130" />
+      <rect x="675" y="140" width="42" height="120" />
+      <rect x="722" y="115" width="55" height="145" />
+      <polygon points="750,80 744,115 756,115" fill="#07090c" />
+      <rect x="782" y="148" width="38" height="112" />
+      <rect x="825" y="128" width="52" height="132" />
+      <rect x="882" y="158" width="38" height="102" />
       <!-- Right windows -->
-      <circle cx="745" cy="130" r="1.5" fill="#facc15" opacity="0.5" />
-      <circle cx="760" cy="145" r="1.5" fill="#facc15" opacity="0.6" />
-      <circle cx="775" cy="160" r="1.5" fill="#facc15" opacity="0.4" />
-      <circle cx="858" cy="142" r="1.5" fill="#facc15" opacity="0.5" />
+      <circle cx="735" cy="130" r="1.5" fill="#facc15" opacity="0.5" />
+      <circle cx="750" cy="145" r="1.5" fill="#facc15" opacity="0.6" />
+      <circle cx="765" cy="160" r="1.5" fill="#facc15" opacity="0.4" />
+      <circle cx="842" cy="142" r="1.5" fill="#facc15" opacity="0.5" />
     </g>
 
-    <!-- Searchlight / Bat-Signal Beam Sweeping Night Sky -->
-    <g class="signal-sweep">
-      <polygon points="180,260 70,10 290,10" fill="url(#searchBeam)" />
-      <!-- Cloud Spotlight Oval -->
-      <ellipse cx="180" cy="20" rx="85" ry="26" fill="#facc15" opacity="0.25" filter="blur(8px)" />
-      <!-- Projected Bat Insignia in Spotlight -->
-      <g transform="translate(180, 20) scale(0.7)" opacity="0.8">
-        <path d="M 0 10 C 2.5 8 5.5 6.5 8.5 6 C 12.5 5.5 17 6.5 22 1 C 18 -1.5 13 -1.5 8 -0.5 C 5 -4 3 -5 1.5 -8.5 L 0.8 -5.5 L -0.8 -5.5 L -1.5 -8.5 C -3 -5 -5 -4 -8 -0.5 C -13 -1.5 -18 -1.5 -22 1 C -17 6.5 -12.5 5.5 -8.5 6 C -5.5 6.5 -2.5 8 0 10 Z" fill="#0b0d10" />
-      </g>
+    <!-- FULL SPOTLIGHT BEAM ILLUMINATING THE NAME -->
+    <g class="spotlight-sweep">
+      <!-- Broad volumetric searchlight cone shining directly over the name -->
+      <polygon points="60,260 0,0 480,0" fill="url(#spotlightBeamGrad)" />
+      <!-- Intense spotlight core cone -->
+      <polygon points="120,260 80,40 380,40" fill="url(#spotlightBeamGrad)" opacity="0.75" />
     </g>
+
+    <!-- Radial Spotlight Aura centered directly behind ANJAN SHETTY -->
+    <ellipse cx="270" cy="98" rx="260" ry="68" fill="url(#nameSpotlightRadial)" />
 
     <!-- Subtle Tech Circuit Grid Lines -->
     <line x1="30" y1="42" x2="930" y2="42" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6" />
@@ -187,23 +226,20 @@ def create_hero_banner():
       <circle cx="0" cy="0" r="7" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.5" />
       <text x="14" y="3.5" class="hero-tag">WAYNE ENTERPRISES // SEC-OPS MAINFRAME v4.2</text>
       <!-- Right side telemetry coordinates -->
-      <text x="610" y="3.5" class="hero-tag" fill="#eab308">[ GOTHAM SECTOR 04 // DEFCON 1 • 40.7128° N, 74.0060° W ]</text>
+      <text x="590" y="3.5" class="hero-tag" fill="#eab308">[ GOTHAM SECTOR 04 // DEFCON 1 • 40.7128° N, 74.0060° W ]</text>
     </g>
 
-    <!-- Center Main Body: Identity & Mission -->
-    <g transform="translate(48, 82)">
-      <!-- Animated Center/Left Batman Logo -->
-      <g transform="translate(0, -6) scale(1.1)" class="pulse-gold">
-        <path d="M 0 14 C 4 11 9 9 14 8 C 20 7 27 9 35 1 C 29 -2 21 -2 13 -1 C 8 -6 5 -8 2 -13 L 1 -8 L -1 -8 L -2 -13 C -5 -8 -8 -6 -13 -1 C -21 -2 -29 -2 -35 1 C -27 9 -20 7 -14 8 C -9 9 -4 11 0 14 Z" fill="url(#goldGrad)" />
+    <!-- Center-Left: Spotlighted Identity & Mission (NO LEFT BAT) -->
+    <g transform="translate(48, 86)">
+      <!-- Name in Full Spotlight with radiant pulse -->
+      <g class="name-pulse">
+        <text x="0" y="4" class="hero-title">ANJAN SHETTY</text>
       </g>
-
-      <!-- Name & Title -->
-      <text x="56" y="2" class="hero-title">ANJAN SHETTY</text>
-      <text x="58" y="29" class="hero-sub">FULL-STACK ARCHITECT // APPLIED AI &amp; SCALABLE SYSTEMS</text>
-      <text x="58" y="52" class="hero-motto">"The night is darkest before the code compiles. Building in the dark, shipping into the light."</text>
+      <text x="2" y="33" class="hero-sub">FULL-STACK ARCHITECT // APPLIED AI &amp; SCALABLE SYSTEMS</text>
+      <text x="2" y="56" class="hero-motto">"The night is darkest before the code compiles. Building in the dark, shipping into the light."</text>
 
       <!-- Tactical Tag Pills -->
-      <g transform="translate(58, 67)">
+      <g transform="translate(2, 71)">
         <rect x="0" y="0" width="112" height="20" rx="4" fill="#101520" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1" />
         <text x="10" y="13.5" class="tag-pill">⚡ FULL-STACK</text>
 
@@ -218,17 +254,54 @@ def create_hero_banner():
       </g>
     </g>
 
-    <!-- Right Side: Majestic Glowing Batwing Insignia Motif -->
-    <g transform="translate(830, 120)" class="batwing-glow">
-      <!-- Outer Tech Targeting Ring -->
-      <circle cx="0" cy="0" r="42" fill="#101520" stroke="#1e293b" stroke-width="1.5" />
-      <circle cx="0" cy="0" r="32" fill="none" stroke="#facc15" stroke-width="1" opacity="0.3" stroke-dasharray="3 4" />
-      <line x1="-48" y1="0" x2="48" y2="0" stroke="#1e293b" stroke-width="1" />
-      <line x1="0" y1="-48" x2="0" y2="48" stroke="#1e293b" stroke-width="1" />
-      <!-- Center Gold Batman Silhouette -->
-      <g transform="scale(0.85)">
-        <path d="M 0 14 C 4 11 9 9 14 8 C 20 7 27 9 35 1 C 29 -2 21 -2 13 -1 C 8 -6 5 -8 2 -13 L 1 -8 L -1 -8 L -2 -13 C -5 -8 -8 -6 -13 -1 C -21 -2 -29 -2 -35 1 C -27 9 -20 7 -14 8 C -9 9 -4 11 0 14 Z" fill="url(#goldGrad)" />
+    <!-- RIGHT SIDE: PROMINENT GLOWING BAT LOGO + CYBERNETIC ROTATING RADAR HUD -->
+    <!-- 1. Glowing Bat Logo (x=690, y=125) -->
+    <g transform="translate(680, 125)">
+      <!-- Outer Hex/Diamond Frame -->
+      <polygon points="0,-48 48,0 0,48 -48,0" stroke="#facc15" stroke-width="1.2" fill="#101520" opacity="0.9" />
+      <polygon points="0,-40 40,0 0,40 -40,0" stroke="#eab308" stroke-width="0.8" fill="none" opacity="0.4" stroke-dasharray="3 3" />
+      <!-- Corner ticks -->
+      <line x1="-54" y1="0" x2="-44" y2="0" stroke="#facc15" stroke-width="1.5" />
+      <line x1="44" y1="0" x2="54" y2="0" stroke="#facc15" stroke-width="1.5" />
+      <line x1="0" y1="-54" x2="0" y2="-44" stroke="#facc15" stroke-width="1.5" />
+      <line x1="0" y1="44" x2="0" y2="54" stroke="#facc15" stroke-width="1.5" />
+
+      <!-- Prominent Glowing Gold Batman Silhouette -->
+      <g class="right-bat-glowing" style="transform-origin: 0px 0px;">
+        <path d="M 0 16 C 4.5 12.5 10 10 16 9 C 23 8 31 10 40 1 C 33 -2.5 24 -2.5 15 -1 C 9 -7 6 -9 2 -15 L 1 -9 L -1 -9 L -2 -15 C -6 -9 -9 -7 -15 -1 C -24 -2.5 -33 -2.5 -40 1 C -31 10 -23 8 -16 9 C -10 10 -4.5 12.5 0 16 Z" fill="url(#goldGrad)" />
       </g>
+      <text x="0" y="62" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5px" font-weight="800" fill="#facc15" letter-spacing="1.2px">BAT-SIGNAL // 100%</text>
+    </g>
+
+    <!-- 2. High-Tech Rotating Radar (x=845, y=125) -->
+    <g transform="translate(845, 120)">
+      <!-- Radar Concentric Rings -->
+      <circle cx="0" cy="0" r="34" fill="#0b0e14" stroke="#1e293b" stroke-width="1.5" />
+      <circle cx="0" cy="0" r="23" fill="none" stroke="#facc15" stroke-width="1" opacity="0.3" stroke-dasharray="2 3" />
+      <circle cx="0" cy="0" r="12" fill="none" stroke="#22c55e" stroke-width="0.8" opacity="0.4" />
+
+      <!-- Crosshairs -->
+      <line x1="-34" y1="0" x2="34" y2="0" stroke="#1e293b" stroke-width="1" />
+      <line x1="0" y1="-34" x2="0" y2="34" stroke="#1e293b" stroke-width="1" />
+
+      <!-- Rotating Sweep Needle -->
+      <g class="radar-sweep-needle">
+        <line x1="0" y1="0" x2="30" y2="-12" stroke="#22c55e" stroke-width="1.8" />
+        <polygon points="0,0 28,-18 32,-8" fill="#22c55e" opacity="0.25" />
+      </g>
+
+      <!-- Blip 1: Green Active Target -->
+      <g transform="translate(14, -14)" class="radar-blip-pulse">
+        <circle cx="0" cy="0" r="3" fill="#22c55e" />
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#22c55e" stroke-width="1" />
+      </g>
+      <!-- Blip 2: Gold Secondary Ping -->
+      <circle cx="-16" cy="12" r="2" fill="#facc15" opacity="0.8" />
+
+      <!-- Radar Telemetry Labels -->
+      <text x="0" y="-42" text-anchor="middle" class="radar-text" fill="#22c55e">RADAR: ACTIVE SWEEP</text>
+      <text x="0" y="47" text-anchor="middle" class="radar-text" fill="#facc15">LOCK: ACQUIRED</text>
+      <text x="0" y="58" text-anchor="middle" class="radar-text" fill="#64748b">RANGE: 25 KM</text>
     </g>
 
     <!-- Bottom Ticker -->
