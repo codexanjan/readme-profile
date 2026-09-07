@@ -619,11 +619,22 @@ def update_readme_cache_buster():
         "batcave-streak",
         "batcave-langs-repo",
         "batcave-langs-commit",
-        "bat-contribution-snake"
+        "bat-contribution-snake",
+        "batcave-skunkworks-prototypes",
+        "batcave-audio-frequency",
+        "lanyard"
     ]:
         content = re.sub(
             rf'src="\./assets/{name}\.svg(\?v=[^"]*)?"',
             f'src="./assets/{name}.svg?v={ts}"',
+            content
+        )
+
+    # Update GIF cache busters
+    for name in ["batcave-cinematic-hero"]:
+        content = re.sub(
+            rf'src="\./assets/{name}\.gif(\?v=[^"]*)?"',
+            f'src="./assets/{name}.gif?v={ts}"',
             content
         )
 
@@ -657,7 +668,10 @@ def main():
         create_hero_banner()
         create_animated_divider()
         create_arsenal_card()
-        print("Generated Batman visual banners and dividers")
+        from generate_extra_batman_assets import create_skunkworks_card, create_audio_frequency_card
+        create_skunkworks_card()
+        create_audio_frequency_card()
+        print("Generated Batman visual banners, skunkworks card, and audio frequency HUD")
     except Exception as e:
         print("Visual generator note:", e)
 

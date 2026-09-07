@@ -4,3 +4,4 @@ test_preview_telemetry.html
 *.pyc
 *.py
 !scripts/*.py
+*.ttf
