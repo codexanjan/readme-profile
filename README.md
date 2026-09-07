@@ -113,10 +113,10 @@ Real-time operative progression, algorithmic telemetry, and problem-solving read
 <table border="0" width="100%">
   <tr align="center">
     <td width="50%" align="center" valign="middle">
-      <img src="./assets/batcave-developer-level.svg?v=1788801297" width="100%" alt="Wayne Enterprises Developer Level 24" />
+      <img src="./assets/batcave-developer-level.svg?v=1788801757" width="100%" alt="Wayne Enterprises Developer Level 24" />
     </td>
     <td width="50%" align="center" valign="middle">
-      <img src="./assets/batcave-problem-solving.svg?v=1788801297" width="100%" alt="Algorithmic Defense Mainframe" />
+      <img src="./assets/batcave-problem-solving.svg?v=1788801757" width="100%" alt="Algorithmic Defense Mainframe" />
     </td>
   </tr>
 </table>
