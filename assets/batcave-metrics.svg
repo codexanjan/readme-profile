@@ -139,7 +139,7 @@
       <circle cx="7" cy="7" r="6" fill="none" stroke="#eab308" stroke-width="1.6" />
       <path d="M7 4 L7 7 L9.5 8.5" stroke="#eab308" stroke-width="1.5" stroke-linecap="round" />
       <text x="24" y="11" class="metric-label">Total Commits (2026):</text>
-      <text x="280" y="11" text-anchor="end" class="metric-value">80</text>
+      <text x="280" y="11" text-anchor="end" class="metric-value">82</text>
     </g>
 
     <!-- 3. Total PRs -->
@@ -149,7 +149,7 @@
       <circle cx="10" cy="10" r="2.5" fill="none" stroke="#eab308" stroke-width="1.5" />
       <path d="M4 6.5 L4 10.5 M10 4 L10 7.5" stroke="#eab308" stroke-width="1.5" stroke-linecap="round" />
       <text x="24" y="11" class="metric-label">Total PRs:</text>
-      <text x="280" y="11" text-anchor="end" class="metric-value">0</text>
+      <text x="280" y="11" text-anchor="end" class="metric-value">1</text>
     </g>
 
     <!-- 4. Total Issues -->
@@ -167,7 +167,7 @@
       <rect x="2" y="2" width="10" height="10" rx="2" fill="none" stroke="#eab308" stroke-width="1.5" />
       <path d="M5 2 L5 12" stroke="#eab308" stroke-width="1.2" />
       <text x="24" y="11" class="metric-label">Contributed to (last year):</text>
-      <text x="280" y="11" text-anchor="end" class="metric-value">0</text>
+      <text x="280" y="11" text-anchor="end" class="metric-value">27</text>
     </g>
 
     <!-- RANK GAUGE (RIGHT COLUMN) -->

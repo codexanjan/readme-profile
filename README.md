@@ -273,7 +273,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=19&pause=1000&color=FACC15&center=true&vCenter=true&width=750&lines=%E2%9A%A1+GOTHAM+TELEMETRY+MAINFRAME+%7C+LIVE+METRICS;%F0%9F%94%A5+TOTAL+CONTRIBUTIONS%3A+88+%7C+CURRENT+STREAK%3A+ACTIVE;%F0%9F%A6%87+COMMITS%3A+79+%7C+STARS%3A+73+%E2%AD%90+%7C+GRADE%3A+B-;%F0%9F%9B%A1%EF%B8%8F+BATCAVE+CODE+ENGINE%3A+OPERATIONAL" alt="Animated Batcave Telemetry HUD" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=19&pause=1000&color=FACC15&center=true&vCenter=true&width=750&lines=%E2%9A%A1+GOTHAM+TELEMETRY+MAINFRAME+%7C+LIVE+METRICS;%F0%9F%94%A5+TOTAL+CONTRIBUTIONS%3A+88+%7C+CURRENT+STREAK%3A+ACTIVE;%F0%9F%A6%87+COMMITS%3A+82+%7C+STARS%3A+73+%E2%AD%90+%7C+GRADE%3A+B-;%F0%9F%9B%A1%EF%B8%8F+BATCAVE+CODE+ENGINE%3A+OPERATIONAL" alt="Animated Batcave Telemetry HUD" />
 
 <br><br>
 
@@ -287,6 +287,18 @@ Telemetry and code activity monitored through GitHub's analytical services:
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
         <img src="./assets/batcave-streak.svg" width="100%" alt="Gotham Developer Streak" />
+      </a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td width="50%" align="center" valign="middle">
+      <a href="https://github.com/codexanjan">
+        <img src="./assets/batcave-langs-repo.svg" width="100%" alt="Top Languages by Repo" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <a href="https://github.com/codexanjan">
+        <img src="./assets/batcave-langs-commit.svg" width="100%" alt="Top Languages by Commit" />
       </a>
     </td>
   </tr>

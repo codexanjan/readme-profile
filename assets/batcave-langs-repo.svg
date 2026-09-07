@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495px" height="195px">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=JetBrains+Mono:wght@500;700;800&amp;display=swap');
+
+      * { box-sizing: border-box; }
+      text { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; user-select: none; }
+
+      .card-title {
+        font-family: 'Orbitron', 'Plus Jakarta Sans', sans-serif;
+        font-size: 13.5px;
+        font-weight: 800;
+        fill: #facc15;
+        letter-spacing: 1.4px;
+      }
+      .lang-label {
+        font-size: 12.5px;
+        font-weight: 600;
+        fill: #cbd5e1;
+        letter-spacing: 0.3px;
+      }
+      .lang-pct {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        font-weight: 800;
+        fill: #f8fafc;
+        letter-spacing: 0.5px;
+      }
+
+      /* Animations */
+      .rotate-ring {
+        transform-origin: 382px 108px;
+        animation: rotateGauge 12s linear infinite;
+      }
+      @keyframes rotateGauge {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .pulse-glow {
+        animation: glowPulse 3s ease-in-out infinite;
+      }
+      @keyframes glowPulse {
+        0%, 100% { opacity: 0.9; filter: drop-shadow(0 0 3px #facc15); }
+        50% { opacity: 1; filter: drop-shadow(0 0 9px #eab308); }
+      }
+
+      .radar-blip {
+        animation: blipFade 2s ease-in-out infinite;
+      }
+      @keyframes blipFade {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+
+      .holo-sweep {
+        animation: sweepAnim 4.8s ease-in-out infinite;
+      }
+      @keyframes sweepAnim {
+        0% { transform: translateX(-400px) skewX(-25deg); opacity: 0; }
+        15% { opacity: 0.45; }
+        45% { transform: translateX(550px) skewX(-25deg); opacity: 0.45; }
+        60%, 100% { transform: translateX(550px) skewX(-25deg); opacity: 0; }
+      }
+
+      .border-pulse {
+        animation: borderPulseAnim 4s ease-in-out infinite;
+      }
+      @keyframes borderPulseAnim {
+        0%, 100% { stroke: rgba(250, 204, 21, 0.35); }
+        50% { stroke: rgba(250, 204, 21, 0.75); }
+      }
+
+      .donut-pulse {
+        animation: donutPulseAnim 4s ease-in-out infinite alternate;
+      }
+      @keyframes donutPulseAnim {
+        0% { filter: drop-shadow(0 0 2px rgba(250, 204, 21, 0.2)); }
+        100% { filter: drop-shadow(0 0 6px rgba(250, 204, 21, 0.5)); }
+      }
+    </style>
+
+    <linearGradient id="cardBgRepo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d" />
+      <stop offset="60%" stop-color="#0b0d10" />
+      <stop offset="100%" stop-color="#07090c" />
+    </linearGradient>
+
+    <linearGradient id="sheenRepo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#facc15" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="cardLangsRepoClip">
+      <rect x="0" y="0" width="495" height="195" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardLangsRepoClip)">
+    <!-- Background Card -->
+    <rect x="1" y="1" width="493" height="193" rx="9.5" fill="url(#cardBgRepo)" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1.5" class="border-pulse" />
+
+    <!-- Subtle Tech Grid Lines -->
+    <line x1="25" y1="46" x2="470" y2="46" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="270" y1="46" x2="270" y2="180" stroke="#1e293b" stroke-width="1" stroke-dasharray="3 3" />
+
+    <!-- Header Section -->
+    <g transform="translate(25, 30)">
+      <!-- Animated Radar Blip -->
+      <circle cx="0" cy="-4" r="5.5" fill="#facc15" class="radar-blip" />
+      <circle cx="0" cy="-4" r="9" fill="none" stroke="#facc15" stroke-width="1" stroke-opacity="0.4" class="radar-blip" />
+      <text x="18" y="0" class="card-title">TOP LANGUAGES (BY REPO)</text>
+    </g>
+
+    <!-- LEFT COLUMN: LANGUAGE LEGEND -->
+    <!-- 1. JavaScript (38%) -->
+    <g transform="translate(25, 68)">
+      <rect x="0" y="0" width="11" height="11" rx="3" fill="#facc15" />
+      <text x="20" y="10" class="lang-label">JavaScript</text>
+      <rect x="112" y="2.5" width="90" height="6.5" rx="3" fill="#1e293b" />
+      <rect x="112" y="2.5" width="34.2" height="6.5" rx="3" fill="#facc15" />
+      <text x="250" y="10" text-anchor="end" class="lang-pct">38%</text>
+    </g>
+
+    <!-- 2. Dart (26%) -->
+    <g transform="translate(25, 93)">
+      <rect x="0" y="0" width="11" height="11" rx="3" fill="#06b6d4" />
+      <text x="20" y="10" class="lang-label">Dart</text>
+      <rect x="112" y="2.5" width="90" height="6.5" rx="3" fill="#1e293b" />
+      <rect x="112" y="2.5" width="23.4" height="6.5" rx="3" fill="#06b6d4" />
+      <text x="250" y="10" text-anchor="end" class="lang-pct">26%</text>
+    </g>
+
+    <!-- 3. HTML (16%) -->
+    <g transform="translate(25, 118)">
+      <rect x="0" y="0" width="11" height="11" rx="3" fill="#f97316" />
+      <text x="20" y="10" class="lang-label">HTML</text>
+      <rect x="112" y="2.5" width="90" height="6.5" rx="3" fill="#1e293b" />
+      <rect x="112" y="2.5" width="14.4" height="6.5" rx="3" fill="#f97316" />
+      <text x="250" y="10" text-anchor="end" class="lang-pct">16%</text>
+    </g>
+
+    <!-- 4. Kotlin (12%) -->
+    <g transform="translate(25, 143)">
+      <rect x="0" y="0" width="11" height="11" rx="3" fill="#a855f7" />
+      <text x="20" y="10" class="lang-label">Kotlin</text>
+      <rect x="112" y="2.5" width="90" height="6.5" rx="3" fill="#1e293b" />
+      <rect x="112" y="2.5" width="10.8" height="6.5" rx="3" fill="#a855f7" />
+      <text x="250" y="10" text-anchor="end" class="lang-pct">12%</text>
+    </g>
+
+    <!-- 5. Python (8%) -->
+    <g transform="translate(25, 168)">
+      <rect x="0" y="0" width="11" height="11" rx="3" fill="#38bdf8" />
+      <text x="20" y="10" class="lang-label">Python</text>
+      <rect x="112" y="2.5" width="90" height="6.5" rx="3" fill="#1e293b" />
+      <rect x="112" y="2.5" width="7.2" height="6.5" rx="3" fill="#38bdf8" />
+      <text x="250" y="10" text-anchor="end" class="lang-pct">8%</text>
+    </g>
+
+    <!-- RIGHT COLUMN: ANIMATED BATMAN DONUT CHART -->
+    <g transform="translate(382, 108)">
+      <!-- Outer Orbit Ring (slow rotation) -->
+      <circle cx="0" cy="0" r="55" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="4 10" class="rotate-ring" opacity="0.65" />
+
+      <!-- Donut Track Base -->
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#161c26" stroke-width="13" />
+
+      <!-- Donut Segments (circumference = 263.89) -->
+      <g transform="rotate(-90)" class="donut-pulse">
+        <!-- JavaScript: 38% -> 100.28, offset 0 -->
+        <circle cx="0" cy="0" r="42" fill="none" stroke="#facc15" stroke-width="13" stroke-dasharray="100.28 163.61" stroke-dashoffset="0" />
+        <!-- Dart: 26% -> 68.61, offset -100.28 -->
+        <circle cx="0" cy="0" r="42" fill="none" stroke="#06b6d4" stroke-width="13" stroke-dasharray="68.61 195.28" stroke-dashoffset="-100.28" />
+        <!-- HTML: 16% -> 42.22, offset -168.89 -->
+        <circle cx="0" cy="0" r="42" fill="none" stroke="#f97316" stroke-width="13" stroke-dasharray="42.22 221.67" stroke-dashoffset="-168.89" />
+        <!-- Kotlin: 12% -> 31.67, offset -211.11 -->
+        <circle cx="0" cy="0" r="42" fill="none" stroke="#a855f7" stroke-width="13" stroke-dasharray="31.67 232.22" stroke-dashoffset="-211.11" />
+        <!-- Python: 8% -> 21.11, offset -242.78 -->
+        <circle cx="0" cy="0" r="42" fill="none" stroke="#38bdf8" stroke-width="13" stroke-dasharray="21.11 242.78" stroke-dashoffset="-242.78" />
+      </g>
+
+      <!-- Center Inner Circle -->
+      <circle cx="0" cy="0" r="28" fill="#0b0d10" stroke="rgba(250, 204, 21, 0.45)" stroke-width="1.2" />
+
+      <!-- Center Batman Insignia Silhouette -->
+      <g transform="translate(0, 0) scale(0.62)" class="pulse-glow">
+        <path d="M 0 10 C 2.5 8 5.5 6.5 8.5 6 C 12.5 5.5 17 6.5 22 1 C 18 -1.5 13 -1.5 8 -0.5 C 5 -4 3 -5 1.5 -8.5 L 0.8 -5.5 L -0.8 -5.5 L -1.5 -8.5 C -3 -5 -5 -4 -8 -0.5 C -13 -1.5 -18 -1.5 -22 1 C -17 6.5 -12.5 5.5 -8.5 6 C -5.5 6.5 -2.5 8 0 10 Z" fill="#facc15" />
+      </g>
+    </g>
+
+    <!-- Holographic Sheen Sweep -->
+    <rect x="0" y="0" width="160" height="220" fill="url(#sheenRepo)" class="holo-sweep" pointer-events="none" />
+  </g>
+</svg>
