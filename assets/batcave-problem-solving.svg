@@ -22,7 +22,7 @@
       }
       .lc-total-num {
         font-family: 'Orbitron', sans-serif;
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 900;
         fill: #f8fafc;
       }
@@ -53,10 +53,10 @@
       }
       .hero-label {
         font-family: 'Orbitron', sans-serif;
-        font-size: 10.5px;
+        font-size: 10px;
         font-weight: 800;
         fill: #facc15;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.3px;
       }
       .badge-text {
         font-family: 'JetBrains Mono', monospace;
@@ -67,7 +67,7 @@
       }
       .footer-sub {
         font-family: 'JetBrains Mono', monospace;
-        font-size: 9.5px;
+        font-size: 9px;
         font-weight: 700;
         fill: #38bdf8;
         letter-spacing: 0.8px;
@@ -75,7 +75,7 @@
 
       /* Animations */
       .rotate-ring {
-        transform-origin: 82px 135px;
+        transform-origin: 76px 138px;
         animation: rotateGauge 12s linear infinite;
       }
       @keyframes rotateGauge {
@@ -162,79 +162,79 @@
     </g>
 
     <!-- ================= LEFT COLUMN: LEETCODE BREAKDOWN ================= -->
-    <text x="25" y="65" font-family="'Orbitron', sans-serif" font-size="10.5px" font-weight="700" fill="#facc15" letter-spacing="1px">LEETCODE // RANK #211,044</text>
+    <text x="25" y="65" font-family="'Orbitron', sans-serif" font-size="10.5px" font-weight="700" fill="#facc15" letter-spacing="1px">LEETCODE // @ANJANSHETTY</text>
 
     <!-- LeetCode Progress Ring (cx=76, cy=138) -->
     <g transform="translate(76, 138)">
       <circle cx="0" cy="0" r="36" fill="none" stroke="#161e2e" stroke-width="5.5" />
-      <!-- Active Gauge Ring: 486 Solved -->
-      <circle cx="0" cy="0" r="36" fill="none" stroke="url(#lcGoldRing)" stroke-width="5.5" stroke-dasharray="155 70" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
+      <!-- Active Gauge Ring: 5 Solved (Circumference ~226.2, active slice) -->
+      <circle cx="0" cy="0" r="36" fill="none" stroke="url(#lcGoldRing)" stroke-width="5.5" stroke-dasharray="24 202" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
       <!-- Rotating outer dashed orbit -->
       <circle cx="0" cy="0" r="42" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="4 8" class="rotate-ring" opacity="0.6" />
 
-      <text x="0" y="4" text-anchor="middle" class="lc-total-num">486</text>
-      <text x="0" y="18" text-anchor="middle" class="lc-total-sub">SOLVED</text>
+      <text x="0" y="5" text-anchor="middle" class="lc-total-num">5</text>
+      <text x="0" y="19" text-anchor="middle" class="lc-total-sub">SOLVED</text>
     </g>
 
     <!-- LeetCode Tiers (Right of Ring) -->
     <!-- Easy -->
     <g transform="translate(132, 102)">
       <text x="0" y="0" fill="#22c55e" class="tier-label">Easy</text>
-      <text x="115" y="0" text-anchor="end" class="tier-val">316 / 954</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">4 / 963</text>
       <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
-      <rect x="0" y="6" width="38" height="5.5" rx="2.5" fill="#22c55e" />
+      <rect x="0" y="6" width="12" height="5.5" rx="2.5" fill="#22c55e" />
     </g>
 
     <!-- Medium -->
     <g transform="translate(132, 136)">
       <text x="0" y="0" fill="#eab308" class="tier-label">Medium</text>
-      <text x="115" y="0" text-anchor="end" class="tier-val">161 / 2804</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">1 / 2,111</text>
       <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
-      <rect x="0" y="6" width="20.7" height="5.5" rx="2.5" fill="#eab308" />
+      <rect x="0" y="6" width="6" height="5.5" rx="2.5" fill="#eab308" />
     </g>
 
     <!-- Hard -->
     <g transform="translate(132, 170)">
       <text x="0" y="0" fill="#ef4444" class="tier-label">Hard</text>
-      <text x="115" y="0" text-anchor="end" class="tier-val">9 / 953</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">0 / 972</text>
       <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
-      <rect x="0" y="6" width="6.9" height="5.5" rx="2.5" fill="#ef4444" />
+      <rect x="0" y="6" width="0" height="5.5" rx="2.5" fill="#ef4444" />
     </g>
 
     <!-- ================= RIGHT COLUMN: PLATFORM METRICS ================= -->
     <g transform="translate(365, 80)">
-      <text x="0" y="0" text-anchor="middle" class="hero-total">1,700+</text>
-      <text x="0" y="18" text-anchor="middle" class="hero-label">TOTAL PROBLEMS SOLVED</text>
+      <text x="0" y="0" text-anchor="middle" class="hero-total">5+</text>
+      <text x="0" y="18" text-anchor="middle" class="hero-label">VERIFIED PROBLEMS SOLVED</text>
     </g>
 
     <!-- Platform Badges -->
-    <!-- CodeChef -->
-    <g transform="translate(280, 114)">
-      <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(249, 115, 22, 0.45)" stroke-width="1" />
-      <circle cx="12" cy="11.5" r="4.5" fill="#f97316" />
-      <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">CodeChef</text>
-      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#f97316">600+ Solved</text>
-    </g>
-
-    <!-- HackerRank -->
-    <g transform="translate(280, 143)">
-      <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(250, 204, 21, 0.45)" stroke-width="1" />
-      <circle cx="12" cy="11.5" r="4.5" fill="#facc15" />
-      <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">HackerRank</text>
-      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#facc15">400+ Solved</text>
-    </g>
-
     <!-- GeeksforGeeks -->
-    <g transform="translate(280, 172)">
+    <g transform="translate(280, 114)">
       <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(34, 197, 94, 0.45)" stroke-width="1" />
       <circle cx="12" cy="11.5" r="4.5" fill="#22c55e" />
       <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">GeeksforGeeks</text>
-      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#22c55e">200+ Solved</text>
+      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#22c55e">@anjanshetty</text>
+    </g>
+
+    <!-- LeetCode -->
+    <g transform="translate(280, 143)">
+      <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(250, 204, 21, 0.45)" stroke-width="1" />
+      <circle cx="12" cy="11.5" r="4.5" fill="#facc15" />
+      <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">LeetCode</text>
+      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#facc15">5 Solved</text>
+    </g>
+
+    <!-- HackerRank -->
+    <g transform="translate(280, 172)">
+      <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(56, 189, 248, 0.45)" stroke-width="1" />
+      <circle cx="12" cy="11.5" r="4.5" fill="#38bdf8" />
+      <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">HackerRank</text>
+      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#38bdf8">Certified</text>
     </g>
 
     <!-- Bottom Ticker -->
     <line x1="25" y1="214" x2="470" y2="214" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
-    <text x="247" y="232" text-anchor="middle" class="footer-sub">⚡ MAINFRAME: BUILDING ALGORITHMS &amp; HIGH-THROUGHPUT SYSTEMS</text>
+    <text x="247" y="232" text-anchor="middle" class="footer-sub">⚡ MAINFRAME: ACTIVE OPERATIVE COMMITTED TO ALGORITHMIC MASTERY</text>
 
     <!-- Holographic Sheen Sweep -->
     <rect x="0" y="0" width="160" height="260" fill="url(#sheenProb)" class="holo-sweep" pointer-events="none" />
