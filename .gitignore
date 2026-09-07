@@ -1,3 +1,4 @@
 *.py
 __pycache__/
 *.log
+test_preview_telemetry.html
