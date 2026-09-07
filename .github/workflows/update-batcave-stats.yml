@@ -9,8 +9,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - "assets/batcave-problem-solving.svg"
-      - "assets/batcave-developer-level.svg"
+      - "assets/**"
       - "README.md"
 
 permissions:
@@ -38,7 +37,7 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/batcave-problem-solving.svg assets/batcave-developer-level.svg README.md
+          git add assets/*.svg README.md
           if git diff --staged --quiet; then
             echo "No telemetry changes detected."
           else

@@ -608,20 +608,27 @@ def update_readme_cache_buster():
         content = f.read()
 
     ts = str(int(time.time()))
-    # Update batcave-problem-solving.svg and batcave-developer-level.svg cache buster
-    new_content = re.sub(
-        r'src="\./assets/batcave-problem-solving\.svg(\?v=[^"]*)?"',
-        f'src="./assets/batcave-problem-solving.svg?v={ts}"',
-        content
-    )
-    new_content = re.sub(
-        r'src="\./assets/batcave-developer-level\.svg(\?v=[^"]*)?"',
-        f'src="./assets/batcave-developer-level.svg?v={ts}"',
-        new_content
-    )
+    # Update all batcave SVG cache busters
+    for name in [
+        "batcave-problem-solving",
+        "batcave-developer-level",
+        "batcave-hero-banner",
+        "batcave-divider-animated",
+        "batcave-gadgets-arsenal",
+        "batcave-metrics",
+        "batcave-streak",
+        "batcave-langs-repo",
+        "batcave-langs-commit",
+        "bat-contribution-snake"
+    ]:
+        content = re.sub(
+            rf'src="\./assets/{name}\.svg(\?v=[^"]*)?"',
+            f'src="./assets/{name}.svg?v={ts}"',
+            content
+        )
 
     with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(new_content)
+        f.write(content)
     print(f"Updated README.md cache busters to ?v={ts}")
 
 def main():
@@ -645,7 +652,17 @@ def main():
         f.write(dev_svg)
     print("Generated assets/batcave-developer-level.svg")
 
+    try:
+        from generate_batman_visuals import create_hero_banner, create_animated_divider, create_arsenal_card
+        create_hero_banner()
+        create_animated_divider()
+        create_arsenal_card()
+        print("Generated Batman visual banners and dividers")
+    except Exception as e:
+        print("Visual generator note:", e)
+
     update_readme_cache_buster()
 
 if __name__ == "__main__":
     main()
+
