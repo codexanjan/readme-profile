@@ -1,54 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 32" width="100%" height="32px" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 40" width="100%" height="40px" fill="none">
   <defs>
     <style>
       .divider-pulse {
         animation: beamPulse 3s ease-in-out infinite alternate;
       }
       @keyframes beamPulse {
-        0% { opacity: 0.6; }
-        100% { opacity: 1; filter: drop-shadow(0 0 5px #facc15); }
+        0% { opacity: 0.55; }
+        100% { opacity: 1; filter: drop-shadow(0 0 6px #facc15); }
       }
-      .bat-glow {
-        animation: batGlowAnim 2.5s ease-in-out infinite alternate;
+      .bat-center-glow {
+        transform-origin: 0px 0px;
+        animation: batGlowAnim 2.6s ease-in-out infinite alternate;
       }
       @keyframes batGlowAnim {
-        0% { transform: scale(1); filter: drop-shadow(0 0 2px #facc15); }
-        100% { transform: scale(1.08); filter: drop-shadow(0 0 10px #eab308); }
+        0% { transform: scale(1); filter: drop-shadow(0 0 4px #facc15); }
+        100% { transform: scale(1.18); filter: drop-shadow(0 0 16px #eab308); }
       }
       .laser-travel-left {
-        animation: laserLeft 3.5s linear infinite;
+        animation: laserLeft 3s linear infinite;
       }
       @keyframes laserLeft {
         0% { transform: translateX(0); opacity: 0; }
-        30% { opacity: 0.9; }
-        70% { opacity: 0.9; }
+        20% { opacity: 1; }
+        75% { opacity: 1; }
         100% { transform: translateX(-400px); opacity: 0; }
       }
       .laser-travel-right {
-        animation: laserRight 3.5s linear infinite;
+        animation: laserRight 3s linear infinite;
       }
       @keyframes laserRight {
         0% { transform: translateX(0); opacity: 0; }
-        30% { opacity: 0.9; }
-        70% { opacity: 0.9; }
+        20% { opacity: 1; }
+        75% { opacity: 1; }
         100% { transform: translateX(400px); opacity: 0; }
       }
     </style>
 
     <linearGradient id="beamGradLeft" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#facc15" stop-opacity="0.9" />
-      <stop offset="60%" stop-color="#eab308" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="1" />
+      <stop offset="30%" stop-color="#facc15" stop-opacity="0.85" />
+      <stop offset="70%" stop-color="#eab308" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#ca8a04" stop-opacity="0" />
     </linearGradient>
 
     <linearGradient id="beamGradRight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#facc15" stop-opacity="0.9" />
-      <stop offset="60%" stop-color="#eab308" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="1" />
+      <stop offset="30%" stop-color="#facc15" stop-opacity="0.85" />
+      <stop offset="70%" stop-color="#eab308" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#ca8a04" stop-opacity="0" />
     </linearGradient>
 
+    <linearGradient id="batGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+
     <filter id="laserGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -56,28 +65,37 @@
     </filter>
   </defs>
 
-  <!-- Left & Right Main Guide Beams -->
-  <line x1="30" y1="16" x2="445" y2="16" stroke="url(#beamGradLeft)" stroke-width="1.8" class="divider-pulse" />
-  <line x1="515" y1="16" x2="930" y2="16" stroke="url(#beamGradRight)" stroke-width="1.8" class="divider-pulse" />
+  <!-- Left & Right Main Guide Beams (y=20) -->
+  <line x1="30" y1="20" x2="435" y2="20" stroke="url(#beamGradLeft)" stroke-width="2" class="divider-pulse" />
+  <line x1="525" y1="20" x2="930" y2="20" stroke="url(#beamGradRight)" stroke-width="2" class="divider-pulse" />
 
-  <!-- Outward Traveling Laser Pulses -->
-  <circle cx="440" cy="16" r="3.5" fill="#fef08a" filter="url(#laserGlow)" class="laser-travel-left" />
-  <circle cx="520" cy="16" r="3.5" fill="#fef08a" filter="url(#laserGlow)" class="laser-travel-right" />
+  <!-- Secondary subtle hairline guides -->
+  <line x1="60" y1="20" x2="435" y2="20" stroke="#ffffff" stroke-width="0.8" opacity="0.6" />
+  <line x1="525" y1="20" x2="900" y2="20" stroke="#ffffff" stroke-width="0.8" opacity="0.6" />
 
-  <!-- Tech Precision Tick Marks -->
-  <circle cx="60" cy="16" r="1.5" fill="#facc15" opacity="0.6" />
-  <circle cx="160" cy="16" r="1.5" fill="#facc15" opacity="0.6" />
-  <circle cx="800" cy="16" r="1.5" fill="#facc15" opacity="0.6" />
-  <circle cx="900" cy="16" r="1.5" fill="#facc15" opacity="0.6" />
+  <!-- Outward Traveling Laser Pulse Bullets -->
+  <circle cx="430" cy="20" r="3.5" fill="#ffffff" filter="url(#laserGlow)" class="laser-travel-left" />
+  <circle cx="530" cy="20" r="3.5" fill="#ffffff" filter="url(#laserGlow)" class="laser-travel-right" />
 
-  <line x1="110" y1="12" x2="110" y2="20" stroke="#facc15" stroke-width="1.2" opacity="0.5" />
-  <line x1="850" y1="12" x2="850" y2="20" stroke="#facc15" stroke-width="1.2" opacity="0.5" />
+  <!-- Precision Tick Marks & Reticles along beams -->
+  <circle cx="90" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="210" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="330" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="630" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="750" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="870" cy="20" r="2" fill="#facc15" opacity="0.7" />
 
-  <!-- Center Batman Emblem with Dynamic Glow -->
-  <g transform="translate(480, 16)" class="bat-glow" style="transform-origin: 480px 16px;">
-    <!-- Diamond Backing Frame -->
-    <polygon points="0,-13 22,0 0,13 -22,0" fill="#0e131d" stroke="#facc15" stroke-width="1.2" />
-    <!-- Bat Silhouette -->
-    <path d="M 0 6 C 1.8 4.8 4 4 6 3.8 C 9 3.5 12 4.2 16 0.8 C 13 -0.8 9.5 -0.8 6 -0.3 C 3.8 -2.8 2.2 -3.5 1 -6 L 0.5 -3.8 L -0.5 -3.8 L -1 -6 C -2.2 -3.5 -3.8 -2.8 -6 -0.3 C -9.5 -0.8 -13 -0.8 -16 0.8 C -12 4.2 -9 3.5 -6 3.8 C -4 4 -1.8 4.8 0 6 Z" fill="#facc15" />
+  <line x1="150" y1="15" x2="150" y2="25" stroke="#facc15" stroke-width="1.2" opacity="0.6" />
+  <line x1="810" y1="15" x2="810" y2="25" stroke="#facc15" stroke-width="1.2" opacity="0.6" />
+
+  <!-- Center Framing Diamond Reticle -->
+  <polygon points="480,4 522,20 480,36 438,20" stroke="#facc15" stroke-width="1.4" fill="#0b0d10" opacity="0.95" />
+  <polygon points="480,8 514,20 480,32 446,20" stroke="#eab308" stroke-width="0.8" fill="none" opacity="0.5" />
+
+  <!-- Center Animated Batman Emblem (cx=480, cy=20) -->
+  <g transform="translate(480, 20)">
+    <g class="bat-center-glow">
+      <path d="M 0 10 C 3 8 7 6.5 11 6 C 16 5.5 22 7 28 1 C 23 -1.5 17 -1.5 10 -0.5 C 6 -4 4 -6 1.5 -10 L 0.8 -6.5 L -0.8 -6.5 L -1.5 -10 C -4 -6 -6 -4 -10 -0.5 C -17 -1.5 -23 -1.5 -28 1 C -22 7 -16 5.5 -11 6 C -7 6.5 -3 8 0 10 Z" fill="url(#batGold)" />
+    </g>
   </g>
 </svg>

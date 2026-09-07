@@ -10,48 +10,40 @@ def create_hero_banner():
       text { user-select: none; }
 
       .hero-title {
-        font-family: 'Orbitron', sans-serif;
-        font-size: 38px;
+        font-family: 'Orbitron', -apple-system, sans-serif;
+        font-size: 42px;
         font-weight: 900;
-        letter-spacing: 4px;
+        letter-spacing: 5px;
         fill: url(#goldGrad);
-        filter: drop-shadow(0 0 12px rgba(250, 204, 21, 0.45));
+        filter: drop-shadow(0 0 14px rgba(250, 204, 21, 0.55));
       }
       .hero-tag {
         font-family: 'JetBrains Mono', monospace;
         font-size: 10px;
         font-weight: 800;
-        letter-spacing: 3px;
+        letter-spacing: 2.5px;
         fill: #94a3b8;
       }
       .hero-sub {
         font-family: 'JetBrains Mono', monospace;
-        font-size: 13px;
+        font-size: 13.5px;
         font-weight: 700;
-        letter-spacing: 1.5px;
-        fill: #cbd5e1;
+        letter-spacing: 1.8px;
+        fill: #f1f5f9;
       }
       .hero-motto {
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-size: 11.5px;
-        font-style: italic;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
         font-weight: 600;
         fill: #eab308;
         letter-spacing: 0.8px;
       }
-      .hud-metric {
+      .tag-pill {
         font-family: 'JetBrains Mono', monospace;
-        font-size: 9.5px;
+        font-size: 9px;
         font-weight: 800;
         fill: #facc15;
         letter-spacing: 1px;
-      }
-      .hud-label {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 8px;
-        font-weight: 700;
-        fill: #64748b;
-        letter-spacing: 0.8px;
       }
 
       /* Animations */
@@ -69,17 +61,16 @@ def create_hero_banner():
         animation: goldGlow 3s ease-in-out infinite alternate;
       }
       @keyframes goldGlow {
-        0% { filter: drop-shadow(0 0 4px #facc15); opacity: 0.85; }
-        100% { filter: drop-shadow(0 0 16px #eab308); opacity: 1; }
+        0% { filter: drop-shadow(0 0 4px #facc15); opacity: 0.85; transform: scale(1); }
+        100% { filter: drop-shadow(0 0 18px #eab308); opacity: 1; transform: scale(1.05); }
       }
 
-      .radar-spin {
-        transform-origin: 875px 55px;
-        animation: radarSpinAnim 6s linear infinite;
+      .batwing-glow {
+        animation: batwingGlowAnim 3.5s ease-in-out infinite alternate;
       }
-      @keyframes radarSpinAnim {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
+      @keyframes batwingGlowAnim {
+        0% { opacity: 0.7; filter: drop-shadow(0 0 3px #facc15); }
+        100% { opacity: 1; filter: drop-shadow(0 0 12px #eab308); }
       }
 
       .holo-sweep {
@@ -87,8 +78,8 @@ def create_hero_banner():
       }
       @keyframes sweepAnim {
         0% { transform: translateX(-600px) skewX(-25deg); opacity: 0; }
-        15% { opacity: 0.4; }
-        45% { transform: translateX(1100px) skewX(-25deg); opacity: 0.4; }
+        15% { opacity: 0.35; }
+        45% { transform: translateX(1100px) skewX(-25deg); opacity: 0.35; }
         60%, 100% { transform: translateX(1100px) skewX(-25deg); opacity: 0; }
       }
 
@@ -137,27 +128,41 @@ def create_hero_banner():
     <rect x="1" y="1" width="958" height="258" rx="11.5" fill="url(#bannerBg)" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1.5" class="border-pulse" />
 
     <!-- Gotham Skyscraper Silhouettes (Background Skyline) -->
-    <g fill="#07090c" opacity="0.9">
-      <rect x="60" y="140" width="35" height="120" />
-      <rect x="98" y="115" width="45" height="145" />
-      <polygon points="120,80 115,115 125,115" fill="#07090c" />
-      <rect x="145" y="150" width="30" height="110" />
-      <rect x="180" y="130" width="50" height="130" />
-      <rect x="235" y="160" width="40" height="100" />
-      <rect x="680" y="145" width="42" height="115" />
-      <rect x="725" y="120" width="55" height="140" />
-      <polygon points="752,90 748,120 756,120" fill="#07090c" />
-      <rect x="785" y="155" width="38" height="105" />
-      <rect x="828" y="135" width="48" height="125" />
+    <g fill="#07090c" opacity="0.95">
+      <rect x="50" y="140" width="40" height="120" />
+      <rect x="95" y="110" width="50" height="150" />
+      <polygon points="120,70 114,110 126,110" fill="#07090c" />
+      <rect x="150" y="148" width="35" height="112" />
+      <rect x="190" y="125" width="55" height="135" />
+      <rect x="250" y="155" width="45" height="105" />
+      <!-- Building glowing windows -->
+      <circle cx="108" cy="125" r="1.5" fill="#facc15" opacity="0.6" />
+      <circle cx="120" cy="138" r="1.5" fill="#facc15" opacity="0.4" />
+      <circle cx="132" cy="150" r="1.5" fill="#facc15" opacity="0.5" />
+      <circle cx="205" cy="140" r="1.5" fill="#facc15" opacity="0.5" />
+      <circle cx="220" cy="155" r="1.5" fill="#facc15" opacity="0.4" />
+
+      <!-- Right skyline -->
+      <rect x="680" y="140" width="45" height="120" />
+      <rect x="730" y="115" width="60" height="145" />
+      <polygon points="760,80 754,115 766,115" fill="#07090c" />
+      <rect x="795" y="148" width="42" height="112" />
+      <rect x="842" y="128" width="55" height="132" />
+      <rect x="902" y="158" width="38" height="102" />
+      <!-- Right windows -->
+      <circle cx="745" cy="130" r="1.5" fill="#facc15" opacity="0.5" />
+      <circle cx="760" cy="145" r="1.5" fill="#facc15" opacity="0.6" />
+      <circle cx="775" cy="160" r="1.5" fill="#facc15" opacity="0.4" />
+      <circle cx="858" cy="142" r="1.5" fill="#facc15" opacity="0.5" />
     </g>
 
     <!-- Searchlight / Bat-Signal Beam Sweeping Night Sky -->
     <g class="signal-sweep">
-      <polygon points="180,260 80,10 280,10" fill="url(#searchBeam)" />
+      <polygon points="180,260 70,10 290,10" fill="url(#searchBeam)" />
       <!-- Cloud Spotlight Oval -->
-      <ellipse cx="180" cy="20" rx="80" ry="25" fill="#facc15" opacity="0.25" filter="blur(8px)" />
+      <ellipse cx="180" cy="20" rx="85" ry="26" fill="#facc15" opacity="0.25" filter="blur(8px)" />
       <!-- Projected Bat Insignia in Spotlight -->
-      <g transform="translate(180, 20) scale(0.65)" opacity="0.75">
+      <g transform="translate(180, 20) scale(0.7)" opacity="0.8">
         <path d="M 0 10 C 2.5 8 5.5 6.5 8.5 6 C 12.5 5.5 17 6.5 22 1 C 18 -1.5 13 -1.5 8 -0.5 C 5 -4 3 -5 1.5 -8.5 L 0.8 -5.5 L -0.8 -5.5 L -1.5 -8.5 C -3 -5 -5 -4 -8 -0.5 C -13 -1.5 -18 -1.5 -22 1 C -17 6.5 -12.5 5.5 -8.5 6 C -5.5 6.5 -2.5 8 0 10 Z" fill="#0b0d10" />
       </g>
     </g>
@@ -165,7 +170,6 @@ def create_hero_banner():
     <!-- Subtle Tech Circuit Grid Lines -->
     <line x1="30" y1="42" x2="930" y2="42" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6" />
     <line x1="30" y1="218" x2="930" y2="218" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6" />
-    <line x1="680" y1="42" x2="680" y2="218" stroke="#1e293b" stroke-width="1" stroke-dasharray="3 4" />
 
     <!-- Corner Cybernetic Reticles -->
     <!-- Top-Left -->
@@ -182,48 +186,48 @@ def create_hero_banner():
       <circle cx="0" cy="0" r="4" fill="#22c55e" />
       <circle cx="0" cy="0" r="7" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.5" />
       <text x="14" y="3.5" class="hero-tag">WAYNE ENTERPRISES // SEC-OPS MAINFRAME v4.2</text>
+      <!-- Right side telemetry coordinates -->
+      <text x="610" y="3.5" class="hero-tag" fill="#eab308">[ GOTHAM SECTOR 04 // DEFCON 1 • 40.7128° N, 74.0060° W ]</text>
     </g>
 
-    <!-- Center-Left: Identity & Mission -->
-    <g transform="translate(48, 88)">
-      <!-- Animated Center Batman Logo -->
-      <g transform="translate(0, -6) scale(0.95)" class="pulse-gold">
+    <!-- Center Main Body: Identity & Mission -->
+    <g transform="translate(48, 82)">
+      <!-- Animated Center/Left Batman Logo -->
+      <g transform="translate(0, -6) scale(1.1)" class="pulse-gold">
         <path d="M 0 14 C 4 11 9 9 14 8 C 20 7 27 9 35 1 C 29 -2 21 -2 13 -1 C 8 -6 5 -8 2 -13 L 1 -8 L -1 -8 L -2 -13 C -5 -8 -8 -6 -13 -1 C -21 -2 -29 -2 -35 1 C -27 9 -20 7 -14 8 C -9 9 -4 11 0 14 Z" fill="url(#goldGrad)" />
       </g>
 
       <!-- Name & Title -->
-      <text x="48" y="2" class="hero-title">ANJAN SHETTY</text>
-      <text x="50" y="28" class="hero-sub">FULL-STACK ARCHITECT // APPLIED AI &amp; SCALABLE SYSTEMS</text>
-      <text x="50" y="52" class="hero-motto">"The night is darkest before the code compiles. Building in the dark, shipping into the light."</text>
+      <text x="56" y="2" class="hero-title">ANJAN SHETTY</text>
+      <text x="58" y="29" class="hero-sub">FULL-STACK ARCHITECT // APPLIED AI &amp; SCALABLE SYSTEMS</text>
+      <text x="58" y="52" class="hero-motto">"The night is darkest before the code compiles. Building in the dark, shipping into the light."</text>
+
+      <!-- Tactical Tag Pills -->
+      <g transform="translate(58, 67)">
+        <rect x="0" y="0" width="112" height="20" rx="4" fill="#101520" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1" />
+        <text x="10" y="13.5" class="tag-pill">⚡ FULL-STACK</text>
+
+        <rect x="122" y="0" width="168" height="20" rx="4" fill="#101520" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1" />
+        <text x="132" y="13.5" class="tag-pill">🛡️ DISTRIBUTED SYSTEMS</text>
+
+        <rect x="300" y="0" width="124" height="20" rx="4" fill="#101520" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1" />
+        <text x="310" y="13.5" class="tag-pill">🧠 APPLIED AI/ML</text>
+
+        <rect x="434" y="0" width="128" height="20" rx="4" fill="#101520" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1" />
+        <text x="444" y="13.5" class="tag-pill">🚀 OPEN SOURCE</text>
+      </g>
     </g>
 
-    <!-- Right Column: Live Telemetry HUD -->
-    <!-- Radar Scanner (cx=875, cy=55) -->
-    <g transform="translate(735, 62)">
-      <!-- Radar Circle -->
-      <circle cx="140" cy="0" r="28" fill="#101520" stroke="#1e293b" stroke-width="1.5" />
-      <circle cx="140" cy="0" r="18" fill="none" stroke="#facc15" stroke-width="1" opacity="0.3" stroke-dasharray="2 4" />
-      <line x1="112" y1="0" x2="168" y2="0" stroke="#1e293b" stroke-width="1" />
-      <line x1="140" y1="-28" x2="140" y2="28" stroke="#1e293b" stroke-width="1" />
-      <line x1="140" y1="0" x2="160" y2="-18" stroke="#facc15" stroke-width="1.5" class="radar-spin" />
-      <circle cx="152" cy="-10" r="2.5" fill="#22c55e" />
-
-      <!-- HUD Telemetry Metrics -->
-      <g transform="translate(0, -10)">
-        <text x="0" y="0" class="hud-label">SECURITY CLEARANCE</text>
-        <text x="0" y="14" class="hud-metric">LEVEL 10 // OMEGA</text>
-      </g>
-      <g transform="translate(0, 26)">
-        <text x="0" y="0" class="hud-label">TACTICAL CODENAME</text>
-        <text x="0" y="14" class="hud-metric">CODEXANJAN</text>
-      </g>
-      <g transform="translate(0, 62)">
-        <text x="0" y="0" class="hud-label">HEADQUARTERS</text>
-        <text x="0" y="14" class="hud-metric">BATCAVE // GOTHAM</text>
-      </g>
-      <g transform="translate(0, 98)">
-        <text x="0" y="0" class="hud-label">MAINFRAME STATUS</text>
-        <text x="0" y="14" class="hud-metric" fill="#22c55e">ONLINE // DEPLOYED</text>
+    <!-- Right Side: Majestic Glowing Batwing Insignia Motif -->
+    <g transform="translate(830, 120)" class="batwing-glow">
+      <!-- Outer Tech Targeting Ring -->
+      <circle cx="0" cy="0" r="42" fill="#101520" stroke="#1e293b" stroke-width="1.5" />
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#facc15" stroke-width="1" opacity="0.3" stroke-dasharray="3 4" />
+      <line x1="-48" y1="0" x2="48" y2="0" stroke="#1e293b" stroke-width="1" />
+      <line x1="0" y1="-48" x2="0" y2="48" stroke="#1e293b" stroke-width="1" />
+      <!-- Center Gold Batman Silhouette -->
+      <g transform="scale(0.85)">
+        <path d="M 0 14 C 4 11 9 9 14 8 C 20 7 27 9 35 1 C 29 -2 21 -2 13 -1 C 8 -6 5 -8 2 -13 L 1 -8 L -1 -8 L -2 -13 C -5 -8 -8 -6 -13 -1 C -21 -2 -29 -2 -35 1 C -27 9 -20 7 -14 8 C -9 9 -4 11 0 14 Z" fill="url(#goldGrad)" />
       </g>
     </g>
 
@@ -241,57 +245,66 @@ def create_hero_banner():
     print("Created assets/batcave-hero-banner.svg")
 
 def create_animated_divider():
-    svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 32" width="100%" height="32px" fill="none">
+    svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 40" width="100%" height="40px" fill="none">
   <defs>
     <style>
       .divider-pulse {
         animation: beamPulse 3s ease-in-out infinite alternate;
       }
       @keyframes beamPulse {
-        0% { opacity: 0.6; }
-        100% { opacity: 1; filter: drop-shadow(0 0 5px #facc15); }
+        0% { opacity: 0.55; }
+        100% { opacity: 1; filter: drop-shadow(0 0 6px #facc15); }
       }
-      .bat-glow {
-        animation: batGlowAnim 2.5s ease-in-out infinite alternate;
+      .bat-center-glow {
+        transform-origin: 0px 0px;
+        animation: batGlowAnim 2.6s ease-in-out infinite alternate;
       }
       @keyframes batGlowAnim {
-        0% { transform: scale(1); filter: drop-shadow(0 0 2px #facc15); }
-        100% { transform: scale(1.08); filter: drop-shadow(0 0 10px #eab308); }
+        0% { transform: scale(1); filter: drop-shadow(0 0 4px #facc15); }
+        100% { transform: scale(1.18); filter: drop-shadow(0 0 16px #eab308); }
       }
       .laser-travel-left {
-        animation: laserLeft 3.5s linear infinite;
+        animation: laserLeft 3s linear infinite;
       }
       @keyframes laserLeft {
         0% { transform: translateX(0); opacity: 0; }
-        30% { opacity: 0.9; }
-        70% { opacity: 0.9; }
+        20% { opacity: 1; }
+        75% { opacity: 1; }
         100% { transform: translateX(-400px); opacity: 0; }
       }
       .laser-travel-right {
-        animation: laserRight 3.5s linear infinite;
+        animation: laserRight 3s linear infinite;
       }
       @keyframes laserRight {
         0% { transform: translateX(0); opacity: 0; }
-        30% { opacity: 0.9; }
-        70% { opacity: 0.9; }
+        20% { opacity: 1; }
+        75% { opacity: 1; }
         100% { transform: translateX(400px); opacity: 0; }
       }
     </style>
 
     <linearGradient id="beamGradLeft" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#facc15" stop-opacity="0.9" />
-      <stop offset="60%" stop-color="#eab308" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="1" />
+      <stop offset="30%" stop-color="#facc15" stop-opacity="0.85" />
+      <stop offset="70%" stop-color="#eab308" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#ca8a04" stop-opacity="0" />
     </linearGradient>
 
     <linearGradient id="beamGradRight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#facc15" stop-opacity="0.9" />
-      <stop offset="60%" stop-color="#eab308" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="1" />
+      <stop offset="30%" stop-color="#facc15" stop-opacity="0.85" />
+      <stop offset="70%" stop-color="#eab308" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#ca8a04" stop-opacity="0" />
     </linearGradient>
 
+    <linearGradient id="batGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+
     <filter id="laserGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -299,29 +312,38 @@ def create_animated_divider():
     </filter>
   </defs>
 
-  <!-- Left & Right Main Guide Beams -->
-  <line x1="30" y1="16" x2="445" y2="16" stroke="url(#beamGradLeft)" stroke-width="1.8" class="divider-pulse" />
-  <line x1="515" y1="16" x2="930" y2="16" stroke="url(#beamGradRight)" stroke-width="1.8" class="divider-pulse" />
+  <!-- Left & Right Main Guide Beams (y=20) -->
+  <line x1="30" y1="20" x2="435" y2="20" stroke="url(#beamGradLeft)" stroke-width="2" class="divider-pulse" />
+  <line x1="525" y1="20" x2="930" y2="20" stroke="url(#beamGradRight)" stroke-width="2" class="divider-pulse" />
 
-  <!-- Outward Traveling Laser Pulses -->
-  <circle cx="440" cy="16" r="3.5" fill="#fef08a" filter="url(#laserGlow)" class="laser-travel-left" />
-  <circle cx="520" cy="16" r="3.5" fill="#fef08a" filter="url(#laserGlow)" class="laser-travel-right" />
+  <!-- Secondary subtle hairline guides -->
+  <line x1="60" y1="20" x2="435" y2="20" stroke="#ffffff" stroke-width="0.8" opacity="0.6" />
+  <line x1="525" y1="20" x2="900" y2="20" stroke="#ffffff" stroke-width="0.8" opacity="0.6" />
 
-  <!-- Tech Precision Tick Marks -->
-  <circle cx="60" cy="16" r="1.5" fill="#facc15" opacity="0.6" />
-  <circle cx="160" cy="16" r="1.5" fill="#facc15" opacity="0.6" />
-  <circle cx="800" cy="16" r="1.5" fill="#facc15" opacity="0.6" />
-  <circle cx="900" cy="16" r="1.5" fill="#facc15" opacity="0.6" />
+  <!-- Outward Traveling Laser Pulse Bullets -->
+  <circle cx="430" cy="20" r="3.5" fill="#ffffff" filter="url(#laserGlow)" class="laser-travel-left" />
+  <circle cx="530" cy="20" r="3.5" fill="#ffffff" filter="url(#laserGlow)" class="laser-travel-right" />
 
-  <line x1="110" y1="12" x2="110" y2="20" stroke="#facc15" stroke-width="1.2" opacity="0.5" />
-  <line x1="850" y1="12" x2="850" y2="20" stroke="#facc15" stroke-width="1.2" opacity="0.5" />
+  <!-- Precision Tick Marks & Reticles along beams -->
+  <circle cx="90" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="210" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="330" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="630" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="750" cy="20" r="2" fill="#facc15" opacity="0.7" />
+  <circle cx="870" cy="20" r="2" fill="#facc15" opacity="0.7" />
 
-  <!-- Center Batman Emblem with Dynamic Glow -->
-  <g transform="translate(480, 16)" class="bat-glow" style="transform-origin: 480px 16px;">
-    <!-- Diamond Backing Frame -->
-    <polygon points="0,-13 22,0 0,13 -22,0" fill="#0e131d" stroke="#facc15" stroke-width="1.2" />
-    <!-- Bat Silhouette -->
-    <path d="M 0 6 C 1.8 4.8 4 4 6 3.8 C 9 3.5 12 4.2 16 0.8 C 13 -0.8 9.5 -0.8 6 -0.3 C 3.8 -2.8 2.2 -3.5 1 -6 L 0.5 -3.8 L -0.5 -3.8 L -1 -6 C -2.2 -3.5 -3.8 -2.8 -6 -0.3 C -9.5 -0.8 -13 -0.8 -16 0.8 C -12 4.2 -9 3.5 -6 3.8 C -4 4 -1.8 4.8 0 6 Z" fill="#facc15" />
+  <line x1="150" y1="15" x2="150" y2="25" stroke="#facc15" stroke-width="1.2" opacity="0.6" />
+  <line x1="810" y1="15" x2="810" y2="25" stroke="#facc15" stroke-width="1.2" opacity="0.6" />
+
+  <!-- Center Framing Diamond Reticle -->
+  <polygon points="480,4 522,20 480,36 438,20" stroke="#facc15" stroke-width="1.4" fill="#0b0d10" opacity="0.95" />
+  <polygon points="480,8 514,20 480,32 446,20" stroke="#eab308" stroke-width="0.8" fill="none" opacity="0.5" />
+
+  <!-- Center Animated Batman Emblem (cx=480, cy=20) -->
+  <g transform="translate(480, 20)">
+    <g class="bat-center-glow">
+      <path d="M 0 10 C 3 8 7 6.5 11 6 C 16 5.5 22 7 28 1 C 23 -1.5 17 -1.5 10 -0.5 C 6 -4 4 -6 1.5 -10 L 0.8 -6.5 L -0.8 -6.5 L -1.5 -10 C -4 -6 -6 -4 -10 -0.5 C -17 -1.5 -23 -1.5 -28 1 C -22 7 -16 5.5 -11 6 C -7 6.5 -3 8 0 10 Z" fill="url(#batGold)" />
+    </g>
   </g>
 </svg>'''
     with open("assets/batcave-divider-animated.svg", "w", encoding="utf-8") as f:
