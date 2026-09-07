@@ -104,6 +104,25 @@ Current investigative objectives:
 </tr>
 </table>
 
+## <img src="https://media.tenor.com/EeN3jAHBDSoAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> TACTICAL PROFILE // DEVELOPER LEVEL
+
+Real-time operative progression, algorithmic telemetry, and problem-solving readiness:
+
+<div align="center">
+
+<table border="0" width="100%">
+  <tr align="center">
+    <td width="50%" align="center" valign="middle">
+      <img src="./assets/batcave-developer-level.svg" width="100%" alt="Wayne Enterprises Developer Level 24" />
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <img src="./assets/batcave-problem-solving.svg" width="100%" alt="Algorithmic Defense Mainframe" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
 ## <img src="https://media.tenor.com/7L8d8aMSSOsAAAAM/batman-batarang.gif" width="34" height="34" align="center" alt="Bat" /> TECH ARSENAL
 
 A curated inventory of the languages, frameworks, and tools deployed across missions:
@@ -331,9 +350,77 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 <img src="./assets/bat-contribution-snake.svg" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
 
-
-
 </div>
+
+## <img src="https://media.tenor.com/WG7Av1qK5UEAAAAM/the-dark-knight-bat-tumbler.gif" width="34" height="34" align="center" alt="Bat" /> CURRENTLY BUILDING // BATCAVE PROTOTYPES
+
+Active skunkworks engineering and applied intelligence deployments:
+
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+
+### 🌦️ WEATHER AI // METEOROLOGICAL INTELLIGENCE
+```yaml
+Mission: Explainable Weather Risk & Climate Prediction
+Engine:  Python • Scikit-Learn • FastAPI • Next.js
+Focus:   Extreme pattern forecasting & real-time telemetry
+Status:  🚧 Active Development // Alpha Testing
+Links:   [GitHub Repo] • [Live Demo] • [Architecture Spec]
+```
+
+    </td>
+    <td width="50%" valign="top">
+
+### 🛡️ AEGIS SHIELD // UPI FRAUD DETECTION
+```yaml
+Mission: Sub-second Anomaly Detection in Payment Streams
+Engine:  TypeScript • Node.js • Kafka • PostgreSQL
+Focus:   Graph analysis & heuristic risk scoring
+Status:  🔬 Prototype // Security Hardening
+Links:   [GitHub Repo] • [Benchmarking] • [Case Study]
+```
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### ⚡ BAT-AGENT // AUTONOMOUS WORKFLOW RUNNER
+```yaml
+Mission: Agentic LLM Orchestration & Terminal Utilities
+Engine:  Python • LangChain • FastAPI • Redis
+Focus:   Autonomous tool use & multi-step execution
+Status:  🚀 Operational // Production Ready
+Links:   [GitHub Repo] • [Documentation] • [CLI Release]
+```
+
+    </td>
+    <td width="50%" valign="top">
+
+### 📊 DATA CITADEL // DISTRIBUTED ETL PIPELINES
+```yaml
+Mission: High-Throughput Analytics & Telemetry Aggregation
+Engine:  Go • Apache Spark • BigQuery • Docker
+Focus:   Low-latency stream ingestion & metric warehousing
+Status:  🛠️ Staging // Continuous Integration
+Links:   [GitHub Repo] • [Pipelines] • [Whitepaper]
+```
+
+    </td>
+  </tr>
+</table>
+
+## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> 2026 MISSION DIRECTIVES
+
+Operative milestones scheduled across the 2026 tactical deployment roadmap:
+
+- [x] 🦇 **Initialize Batcave Telemetry HUD**: Deploy interactive mainframe profile & real-time analytics.
+- [ ] 🧠 **2,000+ Algorithmic Directives**: Solve 2,000+ DSA problems across LeetCode, CodeChef, and HackerRank.
+- [ ] 🏆 **5 Elite Hackathons**: Compete and architect high-impact solutions in national & global hackathons.
+- [ ] 🚀 **10 Production-Grade Systems**: Ship 10 resilient, scalable full-stack applications with CI/CD.
+- [ ] 📈 **1,000 Sustained Contributions**: Maintain consistent open-source engineering cadence and commits.
+- [ ] 🤖 **Deploy End-to-End AI SaaS**: Architect and launch a multi-tenant applied AI product solving real problems.
 
 ## <img src="https://media.tenor.com/SU3l1PF5_YcAAAAM/batman-beyond-power.gif" width="34" height="34" align="center" alt="Bat" /> TROPHY ROOM
 

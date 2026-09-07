@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 245" width="495px" height="245px">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=JetBrains+Mono:wght@500;700;800&amp;display=swap');
+
+      * { box-sizing: border-box; }
+      text { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; user-select: none; }
+
+      .card-title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 13.5px;
+        font-weight: 800;
+        fill: #facc15;
+        letter-spacing: 1.4px;
+      }
+      .card-sub {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8.5px;
+        font-weight: 700;
+        fill: #94a3b8;
+        letter-spacing: 0.8px;
+      }
+      .lc-total-num {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 22px;
+        font-weight: 900;
+        fill: #f8fafc;
+      }
+      .lc-total-sub {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8px;
+        font-weight: 800;
+        fill: #facc15;
+        letter-spacing: 1.2px;
+      }
+      .tier-label {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+      }
+      .tier-val {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10.5px;
+        font-weight: 700;
+        fill: #e2e8f0;
+      }
+      .hero-total {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 28px;
+        font-weight: 900;
+        fill: #f8fafc;
+        letter-spacing: 0.5px;
+      }
+      .hero-label {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 10.5px;
+        font-weight: 800;
+        fill: #facc15;
+        letter-spacing: 1.5px;
+      }
+      .badge-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        font-weight: 800;
+        fill: #ffffff;
+        letter-spacing: 0.5px;
+      }
+      .footer-sub {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9.5px;
+        font-weight: 700;
+        fill: #38bdf8;
+        letter-spacing: 0.8px;
+      }
+
+      /* Animations */
+      .rotate-ring {
+        transform-origin: 82px 135px;
+        animation: rotateGauge 12s linear infinite;
+      }
+      @keyframes rotateGauge {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .pulse-glow {
+        animation: glowPulse 3s ease-in-out infinite;
+      }
+      @keyframes glowPulse {
+        0%, 100% { opacity: 0.9; filter: drop-shadow(0 0 3px #facc15); }
+        50% { opacity: 1; filter: drop-shadow(0 0 9px #eab308); }
+      }
+
+      .radar-blip {
+        animation: blipFade 2s ease-in-out infinite;
+      }
+      @keyframes blipFade {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+
+      .holo-sweep {
+        animation: sweepAnim 4.8s ease-in-out infinite;
+      }
+      @keyframes sweepAnim {
+        0% { transform: translateX(-400px) skewX(-25deg); opacity: 0; }
+        15% { opacity: 0.45; }
+        45% { transform: translateX(550px) skewX(-25deg); opacity: 0.45; }
+        60%, 100% { transform: translateX(550px) skewX(-25deg); opacity: 0; }
+      }
+
+      .border-pulse {
+        animation: borderPulseAnim 4s ease-in-out infinite;
+      }
+      @keyframes borderPulseAnim {
+        0%, 100% { stroke: rgba(250, 204, 21, 0.35); }
+        50% { stroke: rgba(250, 204, 21, 0.75); }
+      }
+    </style>
+
+    <linearGradient id="cardBgProb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d" />
+      <stop offset="60%" stop-color="#0b0d10" />
+      <stop offset="100%" stop-color="#07090c" />
+    </linearGradient>
+
+    <linearGradient id="lcGoldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+
+    <linearGradient id="sheenProb" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#facc15" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="cardProbClip">
+      <rect x="0" y="0" width="495" height="245" rx="10" ry="10" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardProbClip)">
+    <!-- Card Frame -->
+    <rect x="1" y="1" width="493" height="243" rx="9.5" fill="url(#cardBgProb)" stroke="rgba(250, 204, 21, 0.4)" stroke-width="1.5" class="border-pulse" />
+
+    <!-- Tech Grid Lines -->
+    <line x1="25" y1="46" x2="470" y2="46" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="255" y1="46" x2="255" y2="215" stroke="#1e293b" stroke-width="1" stroke-dasharray="3 3" />
+
+    <!-- Header Section -->
+    <g transform="translate(25, 28)">
+      <circle cx="0" cy="-3" r="5" fill="#22c55e" class="radar-blip" />
+      <circle cx="0" cy="-3" r="8" fill="none" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4" class="radar-blip" />
+      <text x="16" y="0" class="card-title">ALGORITHMIC DEFENSE</text>
+    </g>
+
+    <!-- Top Right Mini Batman Logo Badge -->
+    <g transform="translate(458, 25) scale(0.55)" class="pulse-glow" opacity="0.85">
+      <path d="M 0 10 C 2.5 8 5.5 6.5 8.5 6 C 12.5 5.5 17 6.5 22 1 C 18 -1.5 13 -1.5 8 -0.5 C 5 -4 3 -5 1.5 -8.5 L 0.8 -5.5 L -0.8 -5.5 L -1.5 -8.5 C -3 -5 -5 -4 -8 -0.5 C -13 -1.5 -18 -1.5 -22 1 C -17 6.5 -12.5 5.5 -8.5 6 C -5.5 6.5 -2.5 8 0 10 Z" fill="#facc15" />
+    </g>
+
+    <!-- ================= LEFT COLUMN: LEETCODE BREAKDOWN ================= -->
+    <text x="25" y="65" font-family="'Orbitron', sans-serif" font-size="10.5px" font-weight="700" fill="#facc15" letter-spacing="1px">LEETCODE // RANK #211,044</text>
+
+    <!-- LeetCode Progress Ring (cx=76, cy=138) -->
+    <g transform="translate(76, 138)">
+      <circle cx="0" cy="0" r="36" fill="none" stroke="#161e2e" stroke-width="5.5" />
+      <!-- Active Gauge Ring: 486 Solved -->
+      <circle cx="0" cy="0" r="36" fill="none" stroke="url(#lcGoldRing)" stroke-width="5.5" stroke-dasharray="155 70" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
+      <!-- Rotating outer dashed orbit -->
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="4 8" class="rotate-ring" opacity="0.6" />
+
+      <text x="0" y="4" text-anchor="middle" class="lc-total-num">486</text>
+      <text x="0" y="18" text-anchor="middle" class="lc-total-sub">SOLVED</text>
+    </g>
+
+    <!-- LeetCode Tiers (Right of Ring) -->
+    <!-- Easy -->
+    <g transform="translate(132, 102)">
+      <text x="0" y="0" fill="#22c55e" class="tier-label">Easy</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">316 / 954</text>
+      <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
+      <rect x="0" y="6" width="38" height="5.5" rx="2.5" fill="#22c55e" />
+    </g>
+
+    <!-- Medium -->
+    <g transform="translate(132, 136)">
+      <text x="0" y="0" fill="#eab308" class="tier-label">Medium</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">161 / 2804</text>
+      <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
+      <rect x="0" y="6" width="20.7" height="5.5" rx="2.5" fill="#eab308" />
+    </g>
+
+    <!-- Hard -->
+    <g transform="translate(132, 170)">
+      <text x="0" y="0" fill="#ef4444" class="tier-label">Hard</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">9 / 953</text>
+      <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
+      <rect x="0" y="6" width="6.9" height="5.5" rx="2.5" fill="#ef4444" />
+    </g>
+
+    <!-- ================= RIGHT COLUMN: PLATFORM METRICS ================= -->
+    <g transform="translate(365, 80)">
+      <text x="0" y="0" text-anchor="middle" class="hero-total">1,700+</text>
+      <text x="0" y="18" text-anchor="middle" class="hero-label">TOTAL PROBLEMS SOLVED</text>
+    </g>
+
+    <!-- Platform Badges -->
+    <!-- CodeChef -->
+    <g transform="translate(280, 114)">
+      <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(249, 115, 22, 0.45)" stroke-width="1" />
+      <circle cx="12" cy="11.5" r="4.5" fill="#f97316" />
+      <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">CodeChef</text>
+      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#f97316">600+ Solved</text>
+    </g>
+
+    <!-- HackerRank -->
+    <g transform="translate(280, 143)">
+      <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(250, 204, 21, 0.45)" stroke-width="1" />
+      <circle cx="12" cy="11.5" r="4.5" fill="#facc15" />
+      <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">HackerRank</text>
+      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#facc15">400+ Solved</text>
+    </g>
+
+    <!-- GeeksforGeeks -->
+    <g transform="translate(280, 172)">
+      <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(34, 197, 94, 0.45)" stroke-width="1" />
+      <circle cx="12" cy="11.5" r="4.5" fill="#22c55e" />
+      <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">GeeksforGeeks</text>
+      <text x="170" y="15" text-anchor="end" class="badge-text" fill="#22c55e">200+ Solved</text>
+    </g>
+
+    <!-- Bottom Ticker -->
+    <line x1="25" y1="214" x2="470" y2="214" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+    <text x="247" y="232" text-anchor="middle" class="footer-sub">⚡ MAINFRAME: BUILDING ALGORITHMS &amp; HIGH-THROUGHPUT SYSTEMS</text>
+
+    <!-- Holographic Sheen Sweep -->
+    <rect x="0" y="0" width="160" height="260" fill="url(#sheenProb)" class="holo-sweep" pointer-events="none" />
+  </g>
+</svg>

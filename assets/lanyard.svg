@@ -286,6 +286,11 @@
         <!-- Bat Logo in Gold -->
         <path d="M-16 -7 Q-10 -2 -4 -6 L-2 -3 L0 -5 L2 -3 L4 -6 Q10 -2 16 -7 Q12 2 7 4 Q10 9 0 12 Q-10 9 -7 4 Q-12 2 -16 -7 Z" fill="#facc15" />
       </g>
+
+      <!-- Top Right Corner Mini Bat Logo Badge -->
+      <g transform="translate(382, 175) scale(0.45)" opacity="0.85">
+        <path d="M 0 10 C 2.5 8 5.5 6.5 8.5 6 C 12.5 5.5 17 6.5 22 1 C 18 -1.5 13 -1.5 8 -0.5 C 5 -4 3 -5 1.5 -8.5 L 0.8 -5.5 L -0.8 -5.5 L -1.5 -8.5 C -3 -5 -5 -4 -8 -0.5 C -13 -1.5 -18 -1.5 -22 1 C -17 6.5 -12.5 5.5 -8.5 6 C -5.5 6.5 -2.5 8 0 10 Z" fill="#facc15" />
+      </g>
       <text x="250" y="204" text-anchor="middle" class="org-name">WAYNE ENTERPRISES</text>
       <text x="250" y="215" text-anchor="middle" class="org-dept">APPLIED SCIENCES // SOFTWARE ENGINEERING</text>
 
