@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="./assets/batcave-hero-banner.svg?v=1788806120" width="100%" alt="The Batman Cinematic Banner // Anjan Shetty" style="border-radius: 12px; border: 1.5px solid #facc1555; box-shadow: 0 10px 30px rgba(0,0,0,0.85);" />
+<img src="./assets/batcave-hero-banner.svg?v=1788806358" width="100%" alt="The Batman Cinematic Banner // Anjan Shetty" style="border-radius: 12px; border: 1.5px solid #facc1555; box-shadow: 0 10px 30px rgba(0,0,0,0.85);" />
 
 <br><br>
 
@@ -27,11 +27,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/batcave-audio-frequency.svg?v=1788806120" width="100%" alt="Batcave Secure Audio Transmission" />
+  <img src="./assets/batcave-audio-frequency.svg?v=1788806358" width="100%" alt="Batcave Secure Audio Transmission" />
 </p>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788806120" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788806358" width="100%" alt="Batcave Divider" />
 </p>
 
 ## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> THE BAT-SIGNAL
@@ -54,7 +54,7 @@ Whether architecting full-stack web applications or automating complex developer
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="./assets/lanyard.svg?v=1788806120" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
+<img src="./assets/lanyard.svg?v=1788806358" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
 
 </td>
 <td width="50%" valign="top">
@@ -93,7 +93,7 @@ Operative Creed:
 ## <img src="https://media.tenor.com/UBDMhOsO6uIAAAAM/batman-batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> ACTIVE MISSIONS // BATCAVE SKUNKWORKS
 
 <div align="center">
-  <img src="./assets/batcave-skunkworks-prototypes.svg?v=1788806120" width="100%" alt="Batcave Skunkworks Active Prototypes" style="border-radius: 10px; border: 1px solid #facc1544; margin-bottom: 20px;" />
+  <img src="./assets/batcave-skunkworks-prototypes.svg?v=1788806358" width="100%" alt="Batcave Skunkworks Active Prototypes" style="border-radius: 10px; border: 1px solid #facc1544; margin-bottom: 20px;" />
 </div>
 
 <table border="0" width="100%">
@@ -117,7 +117,7 @@ Active tactical engineering objectives:
 </table>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788806120" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788806358" width="100%" alt="Batcave Divider" />
 </p>
 
 ## <img src="https://media.tenor.com/EeN3jAHBDSoAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> TACTICAL PROFILE // DEVELOPER LEVEL
@@ -129,10 +129,10 @@ Real-time operative progression, algorithmic telemetry, and problem-solving read
 <table border="0" width="100%">
   <tr align="center">
     <td width="50%" align="center" valign="middle">
-      <img src="./assets/batcave-developer-level.svg?v=1788806120" width="100%" alt="Wayne Enterprises Developer Level 24" />
+      <img src="./assets/batcave-developer-level.svg?v=1788806358" width="100%" alt="Wayne Enterprises Developer Level 24" />
     </td>
     <td width="50%" align="center" valign="middle">
-      <img src="./assets/batcave-problem-solving.svg?v=1788806120" width="100%" alt="Algorithmic Defense Mainframe" />
+      <img src="./assets/batcave-problem-solving.svg?v=1788806358" width="100%" alt="Algorithmic Defense Mainframe" />
     </td>
   </tr>
 </table>
@@ -140,7 +140,7 @@ Real-time operative progression, algorithmic telemetry, and problem-solving read
 </div>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788806120" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788806358" width="100%" alt="Batcave Divider" />
 </p>
 
 ## <img src="https://media.tenor.com/7L8d8aMSSOsAAAAM/batman-batarang.gif" width="34" height="34" align="center" alt="Bat" /> TECH ARSENAL
@@ -148,7 +148,7 @@ Real-time operative progression, algorithmic telemetry, and problem-solving read
 A curated inventory of the languages, frameworks, and tools deployed across missions:
 
 <div align="center">
-  <img src="./assets/batcave-gadgets-arsenal.svg?v=1788806120" width="100%" alt="Batcave Workstation & Gadget Arsenal" style="border-radius: 10px; border: 1px solid #facc1544; margin-bottom: 20px;" />
+  <img src="./assets/batcave-gadgets-arsenal.svg?v=1788806358" width="100%" alt="Batcave Workstation & Gadget Arsenal" style="border-radius: 10px; border: 1px solid #facc1544; margin-bottom: 20px;" />
 </div>
 
 ### Languages
@@ -311,7 +311,7 @@ Customizable personal scheduling platform built for calendar optimization, event
 </div>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788806120" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788806358" width="100%" alt="Batcave Divider" />
 </p>
 
 ## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM TELEMETRY
@@ -328,24 +328,24 @@ Telemetry and code activity monitored through GitHub's analytical services:
   <tr align="center">
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-metrics.svg?v=1788806120" width="100%" alt="Gotham Batcave Metrics" />
+        <img src="./assets/batcave-metrics.svg?v=1788806358" width="100%" alt="Gotham Batcave Metrics" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-streak.svg?v=1788806120" width="100%" alt="Gotham Developer Streak" />
+        <img src="./assets/batcave-streak.svg?v=1788806358" width="100%" alt="Gotham Developer Streak" />
       </a>
     </td>
   </tr>
   <tr align="center">
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-langs-repo.svg?v=1788806120" width="100%" alt="Top Languages by Repo" />
+        <img src="./assets/batcave-langs-repo.svg?v=1788806358" width="100%" alt="Top Languages by Repo" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-langs-commit.svg?v=1788806120" width="100%" alt="Top Languages by Commit" />
+        <img src="./assets/batcave-langs-commit.svg?v=1788806358" width="100%" alt="Top Languages by Commit" />
       </a>
     </td>
   </tr>
@@ -373,19 +373,19 @@ Telemetry and code activity monitored through GitHub's analytical services:
 </div>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788806120" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788806358" width="100%" alt="Batcave Divider" />
 </p>
 
 ## <img src="https://media.tenor.com/PZt9Snxgh6cAAAAM/batman.gif" width="34" height="34" align="center" alt="Bat" /> CONTRIBUTION PATROL
 
 <div align="center">
 
-<img src="./assets/bat-contribution-snake.svg?v=1788806120" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
+<img src="./assets/bat-contribution-snake.svg?v=1788806358" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
 
 </div>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788806120" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788806358" width="100%" alt="Batcave Divider" />
 </p>
 
 ## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> 2026 MISSION DIRECTIVES
@@ -410,7 +410,7 @@ Operative milestones scheduled across the 2026 tactical deployment roadmap:
 </div>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788806120" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788806358" width="100%" alt="Batcave Divider" />
 </p>
 
 ## <img src="https://media.tenor.com/rQg6E7wBo6QAAAAM/the-batman-bruce-wayne.gif" width="34" height="34" align="center" alt="Bat" /> THE DARK KNIGHT'S CODE
@@ -418,7 +418,7 @@ Operative milestones scheduled across the 2026 tactical deployment roadmap:
 > **"It's not who I am underneath, but what I do that defines me."**
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788806120" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788806358" width="100%" alt="Batcave Divider" />
 </p>
 
 ## <img src="https://media.tenor.com/JjLa1-uyF_cAAAAM/batman-signal-aura-dark.gif" width="34" height="34" align="center" alt="Bat" /> BATCAVE COMMS
