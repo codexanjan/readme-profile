@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="./assets/batcave-hero-banner.svg?v=1788881935" width="100%" alt="The Batman Cinematic Banner // Anjan Shetty" style="border-radius: 12px; border: 1.5px solid #facc1555; box-shadow: 0 10px 30px rgba(0,0,0,0.85);" />
+<img src="./assets/batcave-hero-banner.svg?v=1788865792" width="100%" alt="The Batman Cinematic Banner // Anjan Shetty" style="border-radius: 12px; border: 1.5px solid #facc1555; box-shadow: 0 10px 30px rgba(0,0,0,0.85);" />
 
 <br><br>
 
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/batcave-audio-frequency.svg?v=1788881935" width="100%" alt="Batcave Secure Audio Transmission" />
+  <img src="./assets/batcave-audio-frequency.svg?v=1788865792" width="100%" alt="Batcave Secure Audio Transmission" />
 </p>
 
 ## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> THE BAT-SIGNAL
@@ -42,7 +42,7 @@ Whether architecting full-stack web applications or automating complex developer
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&pause=1000&color=FACC15&center=true&vCenter=true&width=900&lines=FULL+STACK+DEVELOPER;AI+%7C+ML+ENTHUSIAST;OPEN+SOURCE+CONTRIBUTOR;BUILD.+CREATE.+INNOVATE.;WELCOME+TO+THE+BATCAVE" alt="Typing SVG" />
 </div>
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> ABOUT ME 
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> ABOUT ME // OPERATIVE DOSSIER
 
 > *"Somewhere between an idea and a working product, there is a lot of debugging."*
 
@@ -50,7 +50,7 @@ Whether architecting full-stack web applications or automating complex developer
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="./assets/lanyard.svg?v=1788881935" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
+<img src="./assets/lanyard.svg?v=1788865792" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
 
 </td>
 <td width="50%" valign="top">
@@ -86,7 +86,7 @@ Operative Creed:
 </tr>
 </table>
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> TACTICAL PROFILE 
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> TACTICAL PROFILE // DEVELOPER LEVEL
 
 Real-time operative progression, algorithmic telemetry, and problem-solving readiness:
 
@@ -95,10 +95,10 @@ Real-time operative progression, algorithmic telemetry, and problem-solving read
 <table border="0" width="100%">
   <tr align="center">
     <td width="50%" align="center" valign="middle">
-      <img src="./assets/batcave-developer-level.svg?v=1788881935" width="100%" alt="Wayne Enterprises Developer Level 24" />
+      <img src="./assets/batcave-developer-level.svg?v=1788865792" width="100%" alt="Wayne Enterprises Developer Level 24" />
     </td>
     <td width="50%" align="center" valign="middle">
-      <img src="./assets/batcave-problem-solving.svg?v=1788881935" width="100%" alt="Algorithmic Defense Mainframe" />
+      <img src="./assets/batcave-problem-solving.svg?v=1788865792" width="100%" alt="Algorithmic Defense Mainframe" />
     </td>
   </tr>
 </table>
@@ -108,10 +108,6 @@ Real-time operative progression, algorithmic telemetry, and problem-solving read
 ## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> TECH ARSENAL // BATCAVE ARMORY
 
 A curated inventory of the languages, frameworks, and tools deployed across missions:
-
-<div align="center">
-  <img src="./assets/batcave-gadgets-arsenal.svg?v=1788881935" width="100%" alt="Batcave Workstation & Gadget Arsenal" style="border-radius: 10px; border: 1px solid #facc1544; margin-bottom: 20px;" />
-</div>
 
 ### Languages
 <p>
@@ -216,7 +212,7 @@ Customizable personal scheduling platform built for calendar optimization, event
   </a>
 </p>
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> CERTIFICATIONS // VERIFIED CLEARANCE
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> CERTIFICATION VAULT
 
 > *"Credentials forged in discipline. Knowledge deployed in the shadows."*
 
@@ -229,18 +225,13 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 <!-- Certificate 1: Software Engineer -->
 <a href="https://www.hackerrank.com/certificates/31cd0e8e1f1e" target="_blank">
-  <img src="./assets/software-engineer-certificate.png" width="98%" alt="HackerRank Software Engineer Role Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
+  <img src="./assets/software-engineer-certificate.png" width="98%" alt="HackerRank Software Engineer Role Certificate" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
 
-<b>HackerRank Certified • Software Engineer</b><br>
-<sub>ID: <code>31CD0E8E1F1E</code> • Anjan Shetty</sub>
-
-<br><br>
-
 <a href="https://www.hackerrank.com/certificates/31cd0e8e1f1e" target="_blank">
-  <img src="https://img.shields.io/badge/VERIFY-SOFTWARE%20ENGINEER-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify Software Engineer Credential" />
+  <img src="https://img.shields.io/badge/HACKERRANK-VERIFIED-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="HackerRank Verified" />
 </a>
 
 </td>
@@ -248,16 +239,15 @@ Customizable personal scheduling platform built for calendar optimization, event
 <td width="33.33%" align="center" valign="top">
 
 <!-- Certificate 2: React Basic -->
-<img src="./assets/react-basic-certificate.png" width="98%" alt="HackerRank React (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
+<a href="https://www.hackerrank.com/profile/anjanshetty" target="_blank">
+  <img src="./assets/react-basic-certificate.png" width="98%" alt="HackerRank React (Basic) Certificate" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
+</a>
 
 <br><br>
 
-<b>HackerRank Certified • React (Basic)</b><br>
-<sub>Skill Certification • Anjan Shetty</sub>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/VERIFY-REACT%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify React Credential" />
+<a href="https://www.hackerrank.com/profile/anjanshetty" target="_blank">
+  <img src="https://img.shields.io/badge/HACKERRANK-VERIFIED-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="HackerRank Verified" />
+</a>
 
 </td>
 
@@ -265,18 +255,13 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 <!-- Certificate 3: C# Basic -->
 <a href="https://www.hackerrank.com/certificates/c795280a3cee" target="_blank">
-  <img src="./assets/csharp-basic-certificate.png" width="98%" alt="HackerRank C# (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
+  <img src="./assets/csharp-basic-certificate.png" width="98%" alt="HackerRank C# (Basic) Certificate" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
 
-<b>HackerRank Certified • C# (Basic)</b><br>
-<sub>ID: <code>C795280A3CEE</code> • Anjan Shetty</sub>
-
-<br><br>
-
 <a href="https://www.hackerrank.com/certificates/c795280a3cee" target="_blank">
-  <img src="https://img.shields.io/badge/VERIFY-C%23%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify C# Credential" />
+  <img src="https://img.shields.io/badge/HACKERRANK-VERIFIED-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="HackerRank Verified" />
 </a>
 
 </td>
@@ -288,18 +273,13 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 <!-- Certificate 4: CSS Basic -->
 <a href="https://www.hackerrank.com/certificates/71a4e0d7b9b5" target="_blank">
-  <img src="./assets/css-basic-certificate.png" width="98%" alt="HackerRank CSS (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
+  <img src="./assets/css-basic-certificate.png" width="98%" alt="HackerRank CSS (Basic) Certificate" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
 
-<b>HackerRank Certified • CSS (Basic)</b><br>
-<sub>ID: <code>71A4E0D7B9B5</code> • Anjan Shetty</sub>
-
-<br><br>
-
 <a href="https://www.hackerrank.com/certificates/71a4e0d7b9b5" target="_blank">
-  <img src="https://img.shields.io/badge/VERIFY-CSS%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify CSS Credential" />
+  <img src="https://img.shields.io/badge/HACKERRANK-VERIFIED-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="HackerRank Verified" />
 </a>
 
 </td>
@@ -308,18 +288,13 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 <!-- Certificate 5: SQL Basic -->
 <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-  <img src="./assets/sql-basic-certificate.png" width="98%" alt="HackerRank SQL (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
+  <img src="./assets/sql-basic-certificate.png" width="98%" alt="HackerRank SQL (Basic) Certificate" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
 
-<b>HackerRank Certified • SQL (Basic)</b><br>
-<sub>ID: <code>43477C74733F</code> • Anjan N Shetty</sub>
-
-<br><br>
-
 <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-  <img src="https://img.shields.io/badge/VERIFY-SQL%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify SQL Credential" />
+  <img src="https://img.shields.io/badge/HACKERRANK-VERIFIED-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="HackerRank Verified" />
 </a>
 
 </td>
@@ -328,18 +303,13 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 <!-- Certificate 6: Java Basic -->
 <a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
-  <img src="./assets/java-basic-certificate.png" width="98%" alt="HackerRank Java (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
+  <img src="./assets/java-basic-certificate.png" width="98%" alt="HackerRank Java (Basic) Certificate" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
 
-<b>HackerRank Certified • Java (Basic)</b><br>
-<sub>ID: <code>8A4745B17FFA</code> • Anjan N Shetty</sub>
-
-<br><br>
-
 <a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
-  <img src="https://img.shields.io/badge/VERIFY-JAVA%20(BASIC)-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="Verify Java Credential" />
+  <img src="https://img.shields.io/badge/HACKERRANK-VERIFIED-0b0d10?style=for-the-badge&logo=hackerrank&logoColor=22c55e&labelColor=0b0d10&color=22c55e" alt="HackerRank Verified" />
 </a>
 
 </td>
@@ -363,24 +333,24 @@ Telemetry and code activity monitored through GitHub's analytical services:
   <tr align="center">
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-metrics.svg?v=1788881935" width="100%" alt="Gotham Batcave Metrics" />
+        <img src="./assets/batcave-metrics.svg?v=1788865792" width="100%" alt="Gotham Batcave Metrics" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-streak.svg?v=1788881935" width="100%" alt="Gotham Developer Streak" />
+        <img src="./assets/batcave-streak.svg?v=1788865792" width="100%" alt="Gotham Developer Streak" />
       </a>
     </td>
   </tr>
   <tr align="center">
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-langs-repo.svg?v=1788881935" width="100%" alt="Top Languages by Repo" />
+        <img src="./assets/batcave-langs-repo.svg?v=1788865792" width="100%" alt="Top Languages by Repo" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-langs-commit.svg?v=1788881935" width="100%" alt="Top Languages by Commit" />
+        <img src="./assets/batcave-langs-commit.svg?v=1788865792" width="100%" alt="Top Languages by Commit" />
       </a>
     </td>
   </tr>
@@ -411,7 +381,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 <div align="center">
 
-<img src="./assets/bat-contribution-snake.svg?v=1788881935" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
+<img src="./assets/bat-contribution-snake.svg?v=1788865792" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
 
 </div>
 
@@ -522,7 +492,7 @@ See you in Gotham. 🦇
 <br><br>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788881935" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788865792" width="100%" alt="Batcave Divider" />
 </p>
 
 </div>
