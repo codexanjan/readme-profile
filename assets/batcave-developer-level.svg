@@ -204,7 +204,7 @@
       <!-- Track Ring -->
       <circle cx="0" cy="0" r="42" fill="none" stroke="#161e2e" stroke-width="6" />
       <!-- Active XP Ring -->
-      <circle cx="0" cy="0" r="42" fill="none" stroke="url(#goldRing)" stroke-width="6" stroke-dasharray="223 40" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
+      <circle cx="0" cy="0" r="42" fill="none" stroke="url(#goldRing)" stroke-width="6" stroke-dasharray="224 39" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
       <!-- Rotating Outer Dashed Orbit Ring -->
       <circle cx="0" cy="0" r="48" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="5 9" class="rotate-ring" opacity="0.6" />
 
@@ -215,10 +215,10 @@
 
     <!-- XP Bar & Count -->
     <g transform="translate(382, 168)">
-      <text x="0" y="0" text-anchor="middle" class="xp-text">12,720 / 15,000 XP</text>
+      <text x="0" y="0" text-anchor="middle" class="xp-text">12,765 / 15,000 XP</text>
       <!-- Mini XP Bar Background -->
       <rect x="-70" y="7" width="140" height="5" rx="2.5" fill="#161e2e" />
-      <rect x="-70" y="7" width="118" height="5" rx="2.5" fill="url(#goldRing)" class="xp-bar-glow" />
+      <rect x="-70" y="7" width="119" height="5" rx="2.5" fill="url(#goldRing)" class="xp-bar-glow" />
     </g>
 
     <!-- Rank Badge Pill -->
