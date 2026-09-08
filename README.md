@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="./assets/batcave-hero-banner.svg?v=1788862924" width="100%" alt="The Batman Cinematic Banner // Anjan Shetty" style="border-radius: 12px; border: 1.5px solid #facc1555; box-shadow: 0 10px 30px rgba(0,0,0,0.85);" />
+<img src="./assets/batcave-hero-banner.svg?v=1788863665" width="100%" alt="The Batman Cinematic Banner // Anjan Shetty" style="border-radius: 12px; border: 1.5px solid #facc1555; box-shadow: 0 10px 30px rgba(0,0,0,0.85);" />
 
 <br><br>
 
@@ -27,10 +27,10 @@
 </p>
 
 <p align="center">
-  <img src="./assets/batcave-audio-frequency.svg?v=1788862924" width="100%" alt="Batcave Secure Audio Transmission" />
+  <img src="./assets/batcave-audio-frequency.svg?v=1788863665" width="100%" alt="Batcave Secure Audio Transmission" />
 </p>
 
-## <img src="https://media.tenor.com/vOwTYT3Z1BUAAAAM/batman-bat-signal.gif" width="34" height="34" align="center" alt="Bat" /> THE BAT-SIGNAL
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> THE BAT-SIGNAL
 
 > *"When that light hits the sky, it's not just a call. It's a warning."*
 
@@ -42,7 +42,7 @@ Whether architecting full-stack web applications or automating complex developer
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&pause=1000&color=FACC15&center=true&vCenter=true&width=900&lines=FULL+STACK+DEVELOPER;AI+%7C+ML+ENTHUSIAST;OPEN+SOURCE+CONTRIBUTOR;BUILD.+CREATE.+INNOVATE.;WELCOME+TO+THE+BATCAVE" alt="Typing SVG" />
 </div>
 
-## <img src="https://media.tenor.com/Z7VsDOTD9coAAAAM/batman-thebatman.gif" width="34" height="34" align="center" alt="Bat" /> ABOUT ME
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> ABOUT ME // OPERATIVE DOSSIER
 
 > *"Somewhere between an idea and a working product, there is a lot of debugging."*
 
@@ -50,7 +50,7 @@ Whether architecting full-stack web applications or automating complex developer
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="./assets/lanyard.svg?v=1788862924" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
+<img src="./assets/lanyard.svg?v=1788863665" width="100%" alt="Wayne Enterprises Security Clearance ID // Anjan Shetty" />
 
 </td>
 <td width="50%" valign="top">
@@ -86,7 +86,7 @@ Operative Creed:
 </tr>
 </table>
 
-## <img src="https://media.tenor.com/EeN3jAHBDSoAAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> TACTICAL PROFILE // DEVELOPER LEVEL
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> TACTICAL PROFILE // DEVELOPER LEVEL
 
 Real-time operative progression, algorithmic telemetry, and problem-solving readiness:
 
@@ -95,22 +95,22 @@ Real-time operative progression, algorithmic telemetry, and problem-solving read
 <table border="0" width="100%">
   <tr align="center">
     <td width="50%" align="center" valign="middle">
-      <img src="./assets/batcave-developer-level.svg?v=1788862924" width="100%" alt="Wayne Enterprises Developer Level 24" />
+      <img src="./assets/batcave-developer-level.svg?v=1788863665" width="100%" alt="Wayne Enterprises Developer Level 24" />
     </td>
     <td width="50%" align="center" valign="middle">
-      <img src="./assets/batcave-problem-solving.svg?v=1788862924" width="100%" alt="Algorithmic Defense Mainframe" />
+      <img src="./assets/batcave-problem-solving.svg?v=1788863665" width="100%" alt="Algorithmic Defense Mainframe" />
     </td>
   </tr>
 </table>
 
 </div>
 
-## <img src="https://media.tenor.com/7L8d8aMSSOsAAAAM/batman-batarang.gif" width="34" height="34" align="center" alt="Bat" /> TECH ARSENAL
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> TECH ARSENAL // BATCAVE ARMORY
 
 A curated inventory of the languages, frameworks, and tools deployed across missions:
 
 <div align="center">
-  <img src="./assets/batcave-gadgets-arsenal.svg?v=1788862924" width="100%" alt="Batcave Workstation & Gadget Arsenal" style="border-radius: 10px; border: 1px solid #facc1544; margin-bottom: 20px;" />
+  <img src="./assets/batcave-gadgets-arsenal.svg?v=1788863665" width="100%" alt="Batcave Workstation & Gadget Arsenal" style="border-radius: 10px; border: 1px solid #facc1544; margin-bottom: 20px;" />
 </div>
 
 ### Languages
@@ -161,7 +161,7 @@ A curated inventory of the languages, frameworks, and tools deployed across miss
   <img src="https://img.shields.io/badge/Postman-0b0d10?style=for-the-badge&logo=postman&logoColor=facc15&labelColor=0b0d10&color=facc15" alt="Postman" />
 </p>
 
-## <img src="https://media.tenor.com/nPu5YH2SrS0AAAAM/batman-logo.gif" width="34" height="34" align="center" alt="Bat" /> PROJECT DATABASE
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> PROJECT DATABASE // GOTHAM ARCHIVES
 
 <table border="0" width="100%">
 <tr>
@@ -216,7 +216,7 @@ Customizable personal scheduling platform built for calendar optimization, event
   </a>
 </p>
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="34" height="34" align="center" alt="Bat" /> CERTIFICATIONS
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> CERTIFICATIONS // VERIFIED CLEARANCE
 
 > *"Credentials forged in discipline. Knowledge deployed in the shadows."*
 
@@ -225,11 +225,11 @@ Customizable personal scheduling platform built for calendar optimization, event
 <table border="0" width="100%">
 <tr>
 
-<td width="50%" align="center" valign="top">
+<td width="33.33%" align="center" valign="top">
 
 <!-- Certificate 1: Software Engineer -->
 <a href="https://www.hackerrank.com/certificates/31cd0e8e1f1e" target="_blank">
-  <img src="./assets/software-engineer-certificate.png" width="95%" alt="HackerRank Software Engineer Role Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+  <img src="./assets/software-engineer-certificate.png" width="98%" alt="HackerRank Software Engineer Role Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
@@ -245,10 +245,10 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 </td>
 
-<td width="50%" align="center" valign="top">
+<td width="33.33%" align="center" valign="top">
 
 <!-- Certificate 2: React Basic -->
-<img src="./assets/react-basic-certificate.png" width="95%" alt="HackerRank React (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+<img src="./assets/react-basic-certificate.png" width="98%" alt="HackerRank React (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 
 <br><br>
 
@@ -261,14 +261,11 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 </td>
 
-</tr>
-<tr>
-
-<td width="50%" align="center" valign="top">
+<td width="33.33%" align="center" valign="top">
 
 <!-- Certificate 3: C# Basic -->
 <a href="https://www.hackerrank.com/certificates/c795280a3cee" target="_blank">
-  <img src="./assets/csharp-basic-certificate.png" width="95%" alt="HackerRank C# (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+  <img src="./assets/csharp-basic-certificate.png" width="98%" alt="HackerRank C# (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
@@ -284,11 +281,14 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 </td>
 
-<td width="50%" align="center" valign="top">
+</tr>
+<tr>
+
+<td width="33.33%" align="center" valign="top">
 
 <!-- Certificate 4: CSS Basic -->
 <a href="https://www.hackerrank.com/certificates/71a4e0d7b9b5" target="_blank">
-  <img src="./assets/css-basic-certificate.png" width="95%" alt="HackerRank CSS (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+  <img src="./assets/css-basic-certificate.png" width="98%" alt="HackerRank CSS (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
@@ -304,14 +304,11 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 </td>
 
-</tr>
-<tr>
-
-<td width="50%" align="center" valign="top">
+<td width="33.33%" align="center" valign="top">
 
 <!-- Certificate 5: SQL Basic -->
 <a href="https://www.hackerrank.com/certificates/43477c74733f" target="_blank">
-  <img src="./assets/sql-basic-certificate.png" width="95%" alt="HackerRank SQL (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+  <img src="./assets/sql-basic-certificate.png" width="98%" alt="HackerRank SQL (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
@@ -327,11 +324,11 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 </td>
 
-<td width="50%" align="center" valign="top">
+<td width="33.33%" align="center" valign="top">
 
 <!-- Certificate 6: Java Basic -->
 <a href="https://www.hackerrank.com/certificates/8a4745b17ffa" target="_blank">
-  <img src="./assets/java-basic-certificate.png" width="95%" alt="HackerRank Java (Basic) Certificate // Anjan Shetty" style="border-radius: 10px; border: 1.5px solid #facc1555; box-shadow: 0 8px 24px rgba(0,0,0,0.7);" />
+  <img src="./assets/java-basic-certificate.png" width="98%" alt="HackerRank Java (Basic) Certificate // Anjan Shetty" style="border-radius: 8px; border: 1.5px solid #facc1555; box-shadow: 0 6px 20px rgba(0,0,0,0.7);" />
 </a>
 
 <br><br>
@@ -352,7 +349,7 @@ Customizable personal scheduling platform built for calendar optimization, event
 
 </div>
 
-## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> GOTHAM TELEMETRY
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> GOTHAM TELEMETRY // MAINFRAME METRICS
 
 Telemetry and code activity monitored through GitHub's analytical services:
 
@@ -366,24 +363,24 @@ Telemetry and code activity monitored through GitHub's analytical services:
   <tr align="center">
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-metrics.svg?v=1788862924" width="100%" alt="Gotham Batcave Metrics" />
+        <img src="./assets/batcave-metrics.svg?v=1788863665" width="100%" alt="Gotham Batcave Metrics" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-streak.svg?v=1788862924" width="100%" alt="Gotham Developer Streak" />
+        <img src="./assets/batcave-streak.svg?v=1788863665" width="100%" alt="Gotham Developer Streak" />
       </a>
     </td>
   </tr>
   <tr align="center">
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-langs-repo.svg?v=1788862924" width="100%" alt="Top Languages by Repo" />
+        <img src="./assets/batcave-langs-repo.svg?v=1788863665" width="100%" alt="Top Languages by Repo" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/codexanjan">
-        <img src="./assets/batcave-langs-commit.svg?v=1788862924" width="100%" alt="Top Languages by Commit" />
+        <img src="./assets/batcave-langs-commit.svg?v=1788863665" width="100%" alt="Top Languages by Commit" />
       </a>
     </td>
   </tr>
@@ -397,7 +394,7 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/WG7Av1qK5UEAAAAM/the-dark-knight-bat-tumbler.gif" width="34" height="34" align="center" alt="Bat" /> COMMIT RADAR
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> COMMIT RADAR // CODE CADENCE
 
 <div align="center">
 
@@ -410,15 +407,15 @@ Telemetry and code activity monitored through GitHub's analytical services:
 
 </div>
 
-## <img src="https://media.tenor.com/PZt9Snxgh6cAAAAM/batman.gif" width="34" height="34" align="center" alt="Bat" /> CONTRIBUTION PATROL
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> CONTRIBUTION PATROL // VIGILANTE CADENCE
 
 <div align="center">
 
-<img src="./assets/bat-contribution-snake.svg?v=1788862924" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
+<img src="./assets/bat-contribution-snake.svg?v=1788863665" width="95%" alt="Gotham Bat Vigilante Contribution Patrol Snake" style="border-radius: 8px; border: 1px solid #eab30833;" />
 
 </div>
 
-## <img src="https://media.tenor.com/TFwI6UOfhB0AAAAM/batman-gotham-knight-gothamknight.gif" width="34" height="34" align="center" alt="Bat" /> 2026 MISSION DIRECTIVES
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> 2026 MISSION DIRECTIVES // ROADMAP
 
 Operative milestones scheduled across the 2026 tactical deployment roadmap:
 
@@ -429,7 +426,7 @@ Operative milestones scheduled across the 2026 tactical deployment roadmap:
 - [ ] 📈 **1,000 Sustained Contributions**: Maintain consistent open-source engineering cadence and commits.
 - [ ] 🤖 **Deploy End-to-End AI SaaS**: Architect and launch a multi-tenant applied AI product solving real problems.
 
-## <img src="https://media.tenor.com/SU3l1PF5_YcAAAAM/batman-beyond-power.gif" width="34" height="34" align="center" alt="Bat" /> TROPHY ROOM
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> TROPHY ROOM // GOTHAM ACCOLADES
 
 <div align="center">
 
@@ -439,11 +436,11 @@ Operative milestones scheduled across the 2026 tactical deployment roadmap:
 
 </div>
 
-## <img src="https://media.tenor.com/rQg6E7wBo6QAAAAM/the-batman-bruce-wayne.gif" width="34" height="34" align="center" alt="Bat" /> THE DARK KNIGHT'S CODE
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> THE DARK KNIGHT'S CODE // CORE PROTOCOL
 
 > **"It's not who I am underneath, but what I do that defines me."**
 
-## <img src="https://media.tenor.com/JjLa1-uyF_cAAAAM/batman-signal-aura-dark.gif" width="34" height="34" align="center" alt="Bat" /> BATCAVE COMMS
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> BATCAVE COMMS // SECURE CHANNELS
 
 Connect across developer networks and platforms:
 
@@ -493,7 +490,7 @@ Connect across developer networks and platforms:
 
 </div>
 
-## <img src="https://media.tenor.com/yN7BX6R5mawAAAAM/batman-bat.gif" width="34" height="34" align="center" alt="Bat" /> BATCAVE TERMINAL
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> BATCAVE TERMINAL // COMMAND SHELL
 
 ```bash
 ┌──(batcave㉿gotham)-[~]
@@ -525,7 +522,7 @@ See you in Gotham. 🦇
 <br><br>
 
 <p align="center">
-  <img src="./assets/batcave-divider-animated.svg?v=1788862924" width="100%" alt="Batcave Divider" />
+  <img src="./assets/batcave-divider-animated.svg?v=1788863665" width="100%" alt="Batcave Divider" />
 </p>
 
 </div>

@@ -92,7 +92,7 @@ def generate_problem_solving_svg(lc_stats, lc_totals, cw_stats):
 
     # Gauge geometry (r=36 -> circ ~ 226.2)
     # Milestone base of 50
-    dash_val = max(10, min(220, int((lc_total / 50.0) * 226.2)))
+    dash_val = max(10, min(220, int((total_solved_hero / 50.0) * 226.2)))
     dash_rest = 226 - dash_val
 
     # Tier bar widths (max width 115)
@@ -258,7 +258,7 @@ def generate_problem_solving_svg(lc_stats, lc_totals, cw_stats):
 
     <!-- ================= LEFT COLUMN: LEETCODE BREAKDOWN ================= -->
     <a href="https://leetcode.com/u/anjanshetty/" target="_blank" style="cursor: pointer;">
-      <text x="25" y="65" font-family="'Orbitron', sans-serif" font-size="10.5px" font-weight="700" fill="#facc15" letter-spacing="1px">LEETCODE // @ANJANSHETTY</text>
+      <text x="25" y="65" font-family="'Orbitron', sans-serif" font-size="10px" font-weight="700" fill="#facc15" letter-spacing="1px">TOTAL PROBLEMS // @ANJANSHETTY</text>
 
       <!-- LeetCode Progress Ring (cx=76, cy=138) -->
       <g transform="translate(76, 138)">
@@ -268,8 +268,8 @@ def generate_problem_solving_svg(lc_stats, lc_totals, cw_stats):
         <!-- Rotating outer dashed orbit -->
         <circle cx="0" cy="0" r="42" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="4 8" class="rotate-ring" opacity="0.6" />
 
-        <text x="0" y="5" text-anchor="middle" class="lc-total-num">{lc_total}</text>
-        <text x="0" y="19" text-anchor="middle" class="lc-total-sub">SOLVED</text>
+        <text x="0" y="5" text-anchor="middle" class="lc-total-num">{total_solved_hero}</text>
+        <text x="0" y="19" text-anchor="middle" class="lc-total-sub">TOTAL PROBLEMS</text>
       </g>
     </a>
 
@@ -301,7 +301,7 @@ def generate_problem_solving_svg(lc_stats, lc_totals, cw_stats):
     <!-- ================= RIGHT COLUMN: PLATFORM METRICS ================= -->
     <g transform="translate(365, 80)">
       <text x="0" y="0" text-anchor="middle" class="hero-total">{total_solved_hero}+</text>
-      <text x="0" y="18" text-anchor="middle" class="hero-label">VERIFIED PROBLEMS SOLVED</text>
+      <text x="0" y="18" text-anchor="middle" class="hero-label">TOTAL PROBLEMS SOLVED</text>
     </g>
 
     <!-- Platform Badges -->

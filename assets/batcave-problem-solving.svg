@@ -156,18 +156,18 @@
 
     <!-- ================= LEFT COLUMN: LEETCODE BREAKDOWN ================= -->
     <a href="https://leetcode.com/u/anjanshetty/" target="_blank" style="cursor: pointer;">
-      <text x="25" y="65" font-family="'Orbitron', sans-serif" font-size="10.5px" font-weight="700" fill="#facc15" letter-spacing="1px">LEETCODE // @ANJANSHETTY</text>
+      <text x="25" y="65" font-family="'Orbitron', sans-serif" font-size="10px" font-weight="700" fill="#facc15" letter-spacing="1px">TOTAL PROBLEMS // @ANJANSHETTY</text>
 
       <!-- LeetCode Progress Ring (cx=76, cy=138) -->
       <g transform="translate(76, 138)">
         <circle cx="0" cy="0" r="36" fill="none" stroke="#161e2e" stroke-width="5.5" />
         <!-- Active Gauge Ring -->
-        <circle cx="0" cy="0" r="36" fill="none" stroke="url(#lcGoldRing)" stroke-width="5.5" stroke-dasharray="31 195" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
+        <circle cx="0" cy="0" r="36" fill="none" stroke="url(#lcGoldRing)" stroke-width="5.5" stroke-dasharray="76 150" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
         <!-- Rotating outer dashed orbit -->
         <circle cx="0" cy="0" r="42" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="4 8" class="rotate-ring" opacity="0.6" />
 
-        <text x="0" y="5" text-anchor="middle" class="lc-total-num">7</text>
-        <text x="0" y="19" text-anchor="middle" class="lc-total-sub">SOLVED</text>
+        <text x="0" y="5" text-anchor="middle" class="lc-total-num">17</text>
+        <text x="0" y="19" text-anchor="middle" class="lc-total-sub">TOTAL PROBLEMS</text>
       </g>
     </a>
 
@@ -199,7 +199,7 @@
     <!-- ================= RIGHT COLUMN: PLATFORM METRICS ================= -->
     <g transform="translate(365, 80)">
       <text x="0" y="0" text-anchor="middle" class="hero-total">17+</text>
-      <text x="0" y="18" text-anchor="middle" class="hero-label">VERIFIED PROBLEMS SOLVED</text>
+      <text x="0" y="18" text-anchor="middle" class="hero-label">TOTAL PROBLEMS SOLVED</text>
     </g>
 
     <!-- Platform Badges -->
