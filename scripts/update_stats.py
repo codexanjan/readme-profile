@@ -123,10 +123,10 @@ def generate_problem_solving_svg(lc_stats, lc_totals, cw_stats):
       }}
       .lc-total-sub {{
         font-family: 'JetBrains Mono', monospace;
-        font-size: 8px;
+        font-size: 6.5px;
         font-weight: 800;
         fill: #facc15;
-        letter-spacing: 1.2px;
+        letter-spacing: 0.3px;
       }}
       .tier-label {{
         font-size: 11px;
