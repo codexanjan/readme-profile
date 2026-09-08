@@ -42,7 +42,7 @@ Whether architecting full-stack web applications or automating complex developer
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&pause=1000&color=FACC15&center=true&vCenter=true&width=900&lines=FULL+STACK+DEVELOPER;AI+%7C+ML+ENTHUSIAST;OPEN+SOURCE+CONTRIBUTOR;BUILD.+CREATE.+INNOVATE.;WELCOME+TO+THE+BATCAVE" alt="Typing SVG" />
 </div>
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> ABOUT ME // OPERATIVE DOSSIER
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> ABOUT ME 
 
 > *"Somewhere between an idea and a working product, there is a lot of debugging."*
 
@@ -86,7 +86,7 @@ Operative Creed:
 </tr>
 </table>
 
-## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> TACTICAL PROFILE // DEVELOPER LEVEL
+## <img src="https://media.tenor.com/3wnHJvbg344AAAAM/batman-symbol.gif" width="32" height="32" align="center" alt="Bat" /> TACTICAL PROFILE 
 
 Real-time operative progression, algorithmic telemetry, and problem-solving readiness:
 
