@@ -162,11 +162,11 @@
       <g transform="translate(76, 138)">
         <circle cx="0" cy="0" r="36" fill="none" stroke="#161e2e" stroke-width="5.5" />
         <!-- Active Gauge Ring -->
-        <circle cx="0" cy="0" r="36" fill="none" stroke="url(#lcGoldRing)" stroke-width="5.5" stroke-dasharray="76 150" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
+        <circle cx="0" cy="0" r="36" fill="none" stroke="url(#lcGoldRing)" stroke-width="5.5" stroke-dasharray="81 145" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
         <!-- Rotating outer dashed orbit -->
         <circle cx="0" cy="0" r="42" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="4 8" class="rotate-ring" opacity="0.6" />
 
-        <text x="0" y="5" text-anchor="middle" class="lc-total-num">17</text>
+        <text x="0" y="5" text-anchor="middle" class="lc-total-num">18</text>
         <text x="0" y="19" text-anchor="middle" class="lc-total-sub">TOTAL PROBLEMS</text>
       </g>
     </a>
@@ -175,7 +175,7 @@
     <!-- Easy -->
     <g transform="translate(132, 102)">
       <text x="0" y="0" fill="#22c55e" class="tier-label">Easy</text>
-      <text x="115" y="0" text-anchor="end" class="tier-val">5 / 963</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">6 / 963</text>
       <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
       <rect x="0" y="6" width="8" height="5.5" rx="2.5" fill="#22c55e" />
     </g>
@@ -198,7 +198,7 @@
 
     <!-- ================= RIGHT COLUMN: PLATFORM METRICS ================= -->
     <g transform="translate(365, 80)">
-      <text x="0" y="0" text-anchor="middle" class="hero-total">17+</text>
+      <text x="0" y="0" text-anchor="middle" class="hero-total">18+</text>
       <text x="0" y="18" text-anchor="middle" class="hero-label">TOTAL PROBLEMS SOLVED</text>
     </g>
 
@@ -219,7 +219,7 @@
         <rect x="0" y="0" width="180" height="23" rx="5" fill="#161e2e" stroke="rgba(250, 204, 21, 0.45)" stroke-width="1" />
         <circle cx="12" cy="11.5" r="4.5" fill="#facc15" />
         <text x="24" y="15" fill="#cbd5e1" font-size="10.5px" font-weight="600">LeetCode</text>
-        <text x="170" y="15" text-anchor="end" class="badge-text" fill="#facc15">7 Solved</text>
+        <text x="170" y="15" text-anchor="end" class="badge-text" fill="#facc15">8 Solved</text>
       </g>
     </a>
 
