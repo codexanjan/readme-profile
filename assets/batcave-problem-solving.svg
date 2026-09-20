@@ -175,7 +175,7 @@
     <!-- Easy -->
     <g transform="translate(132, 102)">
       <text x="0" y="0" fill="#22c55e" class="tier-label">Easy</text>
-      <text x="115" y="0" text-anchor="end" class="tier-val">6 / 965</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">6 / 966</text>
       <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
       <rect x="0" y="6" width="8" height="5.5" rx="2.5" fill="#22c55e" />
     </g>
@@ -183,7 +183,7 @@
     <!-- Medium -->
     <g transform="translate(132, 136)">
       <text x="0" y="0" fill="#eab308" class="tier-label">Medium</text>
-      <text x="115" y="0" text-anchor="end" class="tier-val">1 / 2115</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">1 / 2117</text>
       <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
       <rect x="0" y="6" width="4" height="5.5" rx="2.5" fill="#eab308" />
     </g>
@@ -191,7 +191,7 @@
     <!-- Hard -->
     <g transform="translate(132, 170)">
       <text x="0" y="0" fill="#ef4444" class="tier-label">Hard</text>
-      <text x="115" y="0" text-anchor="end" class="tier-val">1 / 975</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">1 / 976</text>
       <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
       <rect x="0" y="6" width="1" height="5.5" rx="2.5" fill="#ef4444" />
     </g>
