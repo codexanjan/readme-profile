@@ -147,7 +147,7 @@
     <g transform="translate(25, 28)">
       <circle cx="0" cy="-3" r="5" fill="#facc15" class="radar-blip" />
       <circle cx="0" cy="-3" r="8" fill="none" stroke="#facc15" stroke-width="1" stroke-opacity="0.4" class="radar-blip" />
-      <text x="16" y="0" class="card-title">DEVELOPER LEVEL 24</text>
+      <text x="16" y="0" class="card-title">DEVELOPER LEVEL 27</text>
     </g>
 
     <!-- Top Right Mini Batman Logo Badge -->
@@ -204,21 +204,21 @@
       <!-- Track Ring -->
       <circle cx="0" cy="0" r="42" fill="none" stroke="#161e2e" stroke-width="6" />
       <!-- Active XP Ring -->
-      <circle cx="0" cy="0" r="42" fill="none" stroke="url(#goldRing)" stroke-width="6" stroke-dasharray="225 38" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
+      <circle cx="0" cy="0" r="42" fill="none" stroke="url(#goldRing)" stroke-width="6" stroke-dasharray="237 26" stroke-linecap="round" class="pulse-glow" transform="rotate(-90)" />
       <!-- Rotating Outer Dashed Orbit Ring -->
       <circle cx="0" cy="0" r="48" fill="none" stroke="#facc15" stroke-width="1.2" stroke-dasharray="5 9" class="rotate-ring" opacity="0.6" />
 
       <!-- Inner Level Text -->
-      <text x="0" y="6" text-anchor="middle" class="level-num">24</text>
+      <text x="0" y="6" text-anchor="middle" class="level-num">27</text>
       <text x="0" y="21" text-anchor="middle" class="level-label">LEVEL</text>
     </g>
 
     <!-- XP Bar & Count -->
     <g transform="translate(382, 168)">
-      <text x="0" y="0" text-anchor="middle" class="xp-text">12,810 / 15,000 XP</text>
+      <text x="0" y="0" text-anchor="middle" class="xp-text">13,485 / 15,000 XP</text>
       <!-- Mini XP Bar Background -->
       <rect x="-70" y="7" width="140" height="5" rx="2.5" fill="#161e2e" />
-      <rect x="-70" y="7" width="119" height="5" rx="2.5" fill="url(#goldRing)" class="xp-bar-glow" />
+      <rect x="-70" y="7" width="125" height="5" rx="2.5" fill="url(#goldRing)" class="xp-bar-glow" />
     </g>
 
     <!-- Rank Badge Pill -->
