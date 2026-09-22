@@ -191,7 +191,7 @@
     <!-- Hard -->
     <g transform="translate(132, 170)">
       <text x="0" y="0" fill="#ef4444" class="tier-label">Hard</text>
-      <text x="115" y="0" text-anchor="end" class="tier-val">1 / 976</text>
+      <text x="115" y="0" text-anchor="end" class="tier-val">1 / 977</text>
       <rect x="0" y="6" width="115" height="5.5" rx="2.5" fill="#161e2e" />
       <rect x="0" y="6" width="1" height="5.5" rx="2.5" fill="#ef4444" />
     </g>
